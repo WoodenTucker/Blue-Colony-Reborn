@@ -2339,6 +2339,7 @@
 #include "code\modules\modular_computers\file_system\programs\generic\wordprocessor.dm"
 #include "code\modules\modular_computers\file_system\programs\government\candidate_registration.dm"
 #include "code\modules\modular_computers\file_system\programs\government\govportal.dm"
+#include "code\modules\modular_computers\file_system\programs\government\party_manager.dm"
 #include "code\modules\modular_computers\file_system\programs\housing\landlord_management.dm"
 #include "code\modules\modular_computers\file_system\programs\internet\loc_browser.dm"
 #include "code\modules\modular_computers\file_system\programs\internet\nt_explorer.dm"

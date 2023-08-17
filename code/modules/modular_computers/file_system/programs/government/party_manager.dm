@@ -3,7 +3,7 @@
 	filedesc = "Official Party Management"
 	extended_desc = "This program allows you to create an official party and also manage and view existing parties."
 	requires_ntnet = 1
-	available_on_ntnet = 0
+	available_on_ntnet = 1
 
 	size = 3
 	nanomodule_path = /datum/nano_module/program/party_manager/
@@ -26,7 +26,7 @@
 	var/p_name = " "
 	var/p_slogan = " "
 	var/p_desc = " "
-
+	var/party_email = " "
 	var/acc_no
 	var/acc_pin
 
@@ -40,7 +40,7 @@
 
 	data["index"] = index
 	data["page_msg"] = page_msg
-//	data["parties"] = political_parties
+	data["parties"] = political_parties
 
 
 	var/obj/item/weapon/card/id/I = user.GetIdCard()
@@ -54,14 +54,14 @@
 		can_login = 1
 		user_uid = H.client.prefs.unique_id
 		data["user_uid"] = user_uid
-//		data["party_leader"] = I.registered_name
+		data["party_leader"] = I.registered_name
 
 
 
 	if(current_party)
 		party_announcement = current_party.party_message
-//		data["is_leader"] = is_party_leader(user_uid, current_party)
-//		data["current_party_name"] = current_party.name
+		data["is_leader"] = is_party_leader(user_uid, current_party)
+		data["current_party_name"] = current_party.name
 		data["current_party"] = current_party
 		data["party_announcement"] = party_announcement
 
@@ -78,7 +78,7 @@
 	data["p_desc"] = p_desc
 	data["acc_no"] = acc_no
 	data["acc_pin"] = acc_pin
-//	data["party_email"] = party_email
+	data["party_email"] = party_email
 	data["reg_error"] = reg_error
 	data["party_pass"] = party_pass
 
@@ -151,14 +151,13 @@
 		p_desc = sanitize(copytext(input(usr, "Enter your party's description (200 chars max)", "Picket Message", null)  as message,1,200))
 		if(!p_desc)
 			return
-/*
 
 	if(href_list["set_party_email"])
 		. = 1
 		p_name = sanitize(copytext(input(usr, "Enter your party's email", "Party Manager", null)  as text,1,60))
 		if(!p_name)
 			return
-*/
+
 	if(href_list["set_party_pass"])
 		. = 1
 		party_pass = sanitize(copytext(input(usr, "Enter the password your party will use. (15 characters max)", "Party Manager", null)  as text,1,15))
