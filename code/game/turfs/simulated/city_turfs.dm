@@ -32,7 +32,8 @@
 	icon_state = "brick_paving"
 	initial_flooring = /decl/flooring/pavement/brick_paving
 
-
+/turf/simulated/floor/pavement/empty/indoors
+	outdoors = 0
 
 
 /turf/simulated/floor/road

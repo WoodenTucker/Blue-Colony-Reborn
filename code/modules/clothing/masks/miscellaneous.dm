@@ -167,6 +167,15 @@
 	siemens_coefficient = 0.9
 	body_parts_covered = HEAD|FACE|EYES
 
+/obj/item/clothing/mask/stone
+	name = "stone mask"
+	desc = "An ancient finely chiseled stone mask depicting a masculine face with fangs."
+	icon_state = "stone_mask"
+	flags_inv = HIDEFACE
+	w_class = ITEMSIZE_SMALL
+	siemens_coefficient = 0.9
+	body_parts_covered = HEAD|FACE|EYES
+
 /obj/item/clothing/mask/demon
 	name = "demon mask"
 	desc = "A rubber demon mask."
