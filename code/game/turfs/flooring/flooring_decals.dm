@@ -1195,3 +1195,15 @@ var/list/floor_decals = list()
 /obj/effect/floor_decal/pavement_grit/rough_edged
 	name = "rough edged pavement grit"
 	icon_state = "pavement_grit4"
+
+//Kiel
+
+/obj/effect/floor_decal/maglev_track
+	name = "maglev track"
+	icon = 'icons/obj/traintracks.dmi'
+	icon_state = "maglev"
+
+/obj/effect/floor_decal/floodwater
+	name = "flood water"
+	icon = 'icons/turf/outdoors.dmi'
+	icon_state = "water_shallow"

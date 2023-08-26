@@ -20,3 +20,7 @@ config/admin_ranks.txt
 !/config/*/*
 config/config.txt
 config/admins.txt
+maps/geminus_kiel/backup/geminus_neue-1.dmm
+maps/geminus_kiel/backup/geminus_neue-2.dmm
+maps/geminus_kiel/backup/geminus_neue-4.dmm
+maps/geminus_kiel/backup/geminus_neue-3.dmm
