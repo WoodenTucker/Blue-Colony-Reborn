@@ -1,0 +1,6 @@
+// Put ckey first, then - and the role. Example johnmcguard - security guard
+WoodenTucker - PDSI Agent
+Sosike - PDSI Agent
+Gilbert Boungainviella - Judge
+DarkIncarnate - Judge
+Oprime - PDSI Agent
