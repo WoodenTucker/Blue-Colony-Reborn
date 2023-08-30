@@ -51,13 +51,6 @@
 	r_hand = /obj/item/weapon/clipboard
 	id_pda_assignment = "Minister"
 
-/decl/hierarchy/outfit/job/nanotrasen/governor
-	name = "Governor"
-	uniform = /obj/item/clothing/under/suit_jacket/charcoal
-	belt = /obj/item/weapon/gun/energy/pulse_rifle/M1911
-	l_hand = /obj/item/weapon/paper
-	r_hand = /obj/item/weapon/clipboard
-	id_pda_assignment = "Governor"
 
 /decl/hierarchy/outfit/job/nanotrasen/vpresident
 	name = OUTFIT_JOB_NAME("Vice President")
@@ -99,15 +92,6 @@
 	suit = /obj/item/clothing/suit/dress/expedition
 	head = /obj/item/clothing/head/dress/expedition
 	id_pda_assignment = "Nanotrasen Officer"
-
-/decl/hierarchy/outfit/job/nanotrasen/ceo
-	name = "NanoTrasen CEO" //Name subject to change depending on what lore nerds think fits
-	uniform = /obj/item/clothing/under/suit_jacket/really_black
-	suit = /obj/item/clothing/suit/storage/toggle/dress/fleet/command
-	head = /obj/item/clothing/head/beret/centcom/captain
-	belt = /obj/item/weapon/gun/energy/toxgun //Fancy gun for bosses that like melting the insides of people
-	id_pda_assignment = "Nanotrasen CEO"
-	id_type = /obj/item/weapon/card/id/nanotrasen/ceo
 
 /decl/hierarchy/outfit/job/nanotrasen/pdsi
 	name = "Nanotrasen PDSI Agent"
