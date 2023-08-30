@@ -44,15 +44,14 @@
 /datum/job/nanotrasen/get_job_email()	// whatever this is set to will be the job's communal email. should be persistent.
 	return using_map.rep_email
 
-/datum/job/nanotrasen/president
-	title = "President"
-	flag = PRESIDENT
+/datum/job/nanotrasen/governor // Renamed president to "governor"
+	title = "Governor"
+	flag = GOVERNOR
 	department_flag = GOVLAW
 	faction = "City"
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "NanoTrasen"
-	subordinates = "the Governor"
 
 	selection_color = "#1D1D4F"
 	idtype = /obj/item/weapon/card/id/nanotrasen/president
@@ -74,85 +73,6 @@
 
 /datum/job/nanotrasen/president/get_job_email()	// whatever this is set to will be the job's communal email. should be persistent.
 	return using_map.president_email
-
-
-/datum/job/nanotrasen/vice
-	title = "Vice President"
-	total_positions = 1
-	spawn_positions = 1
-	flag = VICEPRESIDENT
-	wage = 5000
-	outfit_type = /decl/hierarchy/outfit/job/nanotrasen/vpresident
-	idtype = /obj/item/weapon/card/id/nanotrasen/ceo
-	access = list(access_vice_president, access_cent_general, access_cent_thunder, access_cent_medical, access_cent_living, access_cent_storage, access_cent_teleporter) 			//See get_access()
-	minimal_access = list(access_cent_general, access_vice_president, access_cent_living, access_cent_storage)
-
-	description = "As vice president, your duty is to patiently wait in line for the president to be killed so you can succeed them. Otherwise you're \
-	there to help president do his daily tasks."
-
-	portal_whitelist = "cabinet_vice"
-
-/datum/job/nanotrasen/ceo
-	title = "Nanotrasen CEO"
-	total_positions = 1
-	spawn_positions = 1
-	flag = CEO
-	wage = 9000
-	outfit_type = /decl/hierarchy/outfit/job/nanotrasen/ceo
-	idtype = /obj/item/weapon/card/id/nanotrasen/ceo
-
-	description = "As vice president, your duty is to patiently wait in line for the president to be killed so you can succeed them. Otherwise you're \
-	there to help president do his daily tasks."
-
-	portal_whitelist = "cabinet_ceo"
-	access = list(access_ceo, access_advisor, access_cent_general, access_cent_thunder, access_cent_medical, access_cent_living, access_cent_storage, access_cent_teleporter) 			//See get_access()
-	minimal_access = list(access_ceo, access_advisor, access_cent_general, access_cent_thunder, access_cent_medical, access_cent_living, access_cent_storage, access_cent_teleporter) 	//See get_access()
-
-
-
-/datum/job/nanotrasen/ceo/get_access()
-	return get_all_centcom_access()+get_all_station_access()
-
-/datum/job/nanotrasen/ceo/get_job_email()	// whatever this is set to will be the job's communal email. should be persistent.
-	return using_map.director_email
-
-/datum/job/nanotrasen/governor
-	title = "Governor"
-	total_positions = 2
-	spawn_positions = 2
-	flag = GOVERNOR
-	wage = 4500
-	outfit_type = /decl/hierarchy/outfit/job/nanotrasen/governor
-	idtype = /obj/item/weapon/card/id/nanotrasen/governor
-
-	access = list(access_cent_general, access_governor)
-	minimal_access = list(access_cent_general, access_governor)
-
-
-	description = "As governor, you act as a bridge between the president and the colony. You'd be assigned your own continent, in this case - \
-	Blue Colony."
-
-	duties = list("Drain colony funds", "Pretend to be important", "Go home and roll in your money")
-
-	portal_whitelist = "cabinet_governor"
-
-
-/datum/job/nanotrasen/supreme_justice
-	title = "Supreme Justice"
-	total_positions = 1
-	spawn_positions = 1
-	flag = SUPREMEJUSTICE
-	wage = 4500
-	outfit_type = /decl/hierarchy/outfit/job/nanotrasen/justice
-	idtype = /obj/item/weapon/card/id/nanotrasen/justice
-	access = list(access_cent_general)
-	minimal_access = list(access_cent_general)
-
-	description = "As supreme justice you control the supreme court, the ultimate judicial body of this colony."
-
-	portal_whitelist = "cabinet_supremejustice"
-
-
 
 /datum/job/nanotrasen/pdsi
 	title = "PDSI Agent"
@@ -199,16 +119,6 @@
 	alt_titles = list()
 	wage = 500
 	description = "As an advisor, your goal is to advise the president. Yep, that's it."
-
-/datum/job/nanotrasen/advisor/defense
-	title = "Advisor of Defense"
-	total_positions = 1
-	spawn_positions = 1
-	flag = ADVISORDEFENSE
-	faction = "City"
-	alt_titles = list("Advisor of Defense")
-
-	portal_whitelist = "cabinet_defense"
 
 /datum/job/nanotrasen/advisor/justice
 	title = "Advisor of Justice"
