@@ -82,7 +82,7 @@
 	head_position = 0
 	department_flag = GOVLAW
 	faction = "City"
-	total_positions = 2
+	total_positions = 3
 	spawn_positions = 2
 	supervisors = "the PDSI Director"
 
