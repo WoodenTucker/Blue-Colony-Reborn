@@ -4,18 +4,18 @@
 #define Z_LEVEL_FOURTH_GEMINUS					4
 
 /datum/map/geminus_neue
-	name = "Ophelia"
-	full_name = "Ophelia City"
-	path = "Ophelia"
+	name = "Kiel"
+	full_name = "Kiel"
+	path = "Kiel"
 
 	lobby_icon = 'icons/misc/title.dmi'
 	lobby_screens = list("bluecolony")
 
 	zlevel_datum_type = /datum/map_z_level/geminus_neue
 
-	station_name  = "Ophelia City"
-	station_short = "Ophelia"
-	dock_name     = "Ophelia City Airbus"
+	station_name  = "Kiel"
+	station_short = "Kiel"
+	dock_name     = "Kiel City Airbus"
 	boss_name     = "Central Polluxian Government"
 	boss_short    = "Pollux Gov"
 	company_name  = "Nanotrasen"
@@ -56,7 +56,7 @@
 //							NETWORK_INTERROGATION
 							)
 
-	council_email = "city-council@Ophelia.nt"
+	council_email = "city-council@Kiel.nt"
 
 // For making the 6-in-1 holomap, we calculate some offsets
 #define GEMINUS_MAP_SIZE 332 // Width and height of compiled in Southern Cross z levels.
@@ -85,7 +85,7 @@
 
 /datum/map_z_level/geminus_neue/second
 	z = Z_LEVEL_SECOND_GEMINUS
-	name = "Ophelia City"
+	name = "Kiel City"
 	flags = MAP_LEVEL_STATION|MAP_LEVEL_CONTACT|MAP_LEVEL_PLAYER|MAP_LEVEL_SEALED
 	transit_chance = 50
 	base_turf = /turf/simulated/floor/outdoors/dirt
@@ -118,9 +118,9 @@
 
 /datum/map/geminus_neue/get_map_info()
 	. = list()
-	. +=  "[full_name] is a very well-known metropolitan city in Blue Colony located on the planet Pollux.<br>"
+	. +=  "[full_name] is a very well-known metropolitan city in Ocral Spax B located on the planet Pollux.<br>"
 	. +=  "Pollux exists in the Vetra star system which is entirely monopolized by NanoTrasen acting as a quasi-corporate government."
-	. +=  "Being the next major city and initially a mining city, Ophelia has a rich history that is yet to be discovered.<br> "
+	. +=  "Located at the foot of Ocral Spax B's orbital Elevator, Kiel is a city with a long history of trade and commerce, importing goods from all over human space to ship all across Pollux.<br> "
 	. +=  "There's a definite class struggle, as working class Geminians feel pushed out by the richer colonists who wish to further gentrify the city and make it... <i>more profitable, more corporate, more <b>chic</b></i>."
 	return jointext(., "<br>")
 
