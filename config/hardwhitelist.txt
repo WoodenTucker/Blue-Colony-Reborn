@@ -1,6 +1,16 @@
 // Put ckey first, then - and the role. Example johnmcguard - security guard
 WoodenTucker - PDSI Agent
 Sosike - PDSI Agent
-Gilbert Boungainviella - Judge
-DarkIncarnate - Judge
 Oprime - PDSI Agent
+YellowRoseFromTexas - City Clerk
+Nope63 - Chief Of Police
+Nope63 - City Clerk
+darkincarnate - City Clerk
+Gilbert Boungainviella - City Clerk
+Gilbert Boungainviella - Judge
+hako01 - Research Director
+Redfield5 - Chief Of Police
+Redfield5 - Mayor
+Assautwithbattery - Mayor
+DarkIncarnate - Judge
+
