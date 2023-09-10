@@ -26,6 +26,7 @@
 	minimum_character_age = 30
 	minimal_player_age = 10
 	ideal_character_age = 50
+	hard_whitelisted = 1
 
 	clean_record_required = TRUE
 	allows_synths = FALSE

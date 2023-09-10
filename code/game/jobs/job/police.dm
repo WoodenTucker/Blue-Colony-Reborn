@@ -22,6 +22,7 @@
 			            access_heads, access_hos, access_RC_announce, access_keycard_auth, access_gateway, access_external_airlocks)
 	minimum_character_age = 30
 	minimal_player_age = 14
+	hard_whitelisted = 1
 
 
 	outfit_type = /decl/hierarchy/outfit/job/security/hos

@@ -9,6 +9,7 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 	faction = "City"
 	total_positions = 1
 	spawn_positions = 1
+	hard_whitelisted = 1
 
 	supervisors = "government officials and the president"
 	subordinates = "the City Council"
@@ -58,8 +59,9 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 	head_position = 1
 	department_flag = CIVILIAN
 	faction = "City"
-	total_positions = 1
+	total_positions = 2
 	spawn_positions = 1
+	hard_whitelisted = 1
 
 	supervisors = "the Mayor"
 	subordinates = "the city hall staff"

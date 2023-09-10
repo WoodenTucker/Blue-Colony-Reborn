@@ -160,6 +160,7 @@
 	minimal_access = list(access_maint_tunnels, access_mailsorting, access_cargo, access_cargo_bot, access_qm, access_mining, access_mining_station)
 	minimum_character_age = 20
 	ideal_character_age = 35
+	hard_whitelisted = 1
 
 	allows_synths = FALSE
 

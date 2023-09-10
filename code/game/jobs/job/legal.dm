@@ -8,6 +8,7 @@
 	spawn_positions = 2
 	department_flag = CIVILIAN
 	req_admin_notify = 1
+	hard_whitelisted = 1
 
 	supervisors = "government officials and the president"
 	selection_color = "#1D1D4F"
