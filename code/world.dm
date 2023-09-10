@@ -567,7 +567,7 @@ var/world_topic_spam_protect_time = world.timeofday
 	if (config && config.server_name)
 		s += "<b>[config.server_name]</b> &#8212; "
 
-	s += "<b>Reborn | Roleplaying</b>";
+	s += "<b> An Entire Persistant City | High Roleplay | Try it out</b>";
 	s += " | Persistent money, partial map saving, elections."
 
 	s += "(<a href=\"https://discord.gg/EHBNwuGhFN\">" //Change this to wherever you want the hub to link to.
