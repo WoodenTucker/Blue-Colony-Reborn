@@ -1178,6 +1178,18 @@
 /obj/machinery/vending/wallmed1/gcch
 	vendor_department = DEPT_HEALTHCARE
 
+/obj/machinery/vending/wallmed1/research
+	name = "Research NanoMed"
+	desc = "A wall-mounted version of the NanoMed, this one appears to be a research department variant."
+	product_ads = "Go save some lives!;The best stuff for your research lab.;Only the finest tools.;Natural chemicals!;This stuff saves lives.;Don't you want some?"
+	icon_state = "wallmedr"
+	icon_deny = "wallmedr-deny"
+
+	vendor_department = DEPT_RESEARCH
+	charge_free_department = DEPT_RESEARCH
+	charge_paid_department = DEPT_RESEARCH
+	req_access = list(access_research)
+
 /obj/machinery/vending/wallmed2
 	name = "NanoMed"
 	desc = "A wall-mounted version of the NanoMed, containing only vital first aid equipment."
