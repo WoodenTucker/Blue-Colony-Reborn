@@ -42,7 +42,7 @@
 "aaP" = (/obj/machinery/light/colored/purple{dir = 1},/turf/simulated/floor/tiled/kafel_full/gray,/area/rnd/lab)
 "aaQ" = (/obj/structure/curtain/medical{dir = 4},/turf/simulated/floor/tiled/kafel_full/gray,/area/rnd/lab)
 "aaR" = (/turf/simulated/floor/tiled/white,/area/rnd/lab)
-"aaS" = (/obj/machinery/vending/wallmed1{dir = 8; name = "NanoTrasen-Provided Emergency Medical Dispenser"; pixel_x = 21; pixel_y = 0},/turf/simulated/floor/tiled/white,/area/rnd/lab)
+"aaS" = (/obj/machinery/vending/wallmed1/research{dir = 8; icon_state = "wallmedr"; pixel_x = 28},/turf/simulated/floor/tiled/white,/area/rnd/lab)
 "aaT" = (/obj/effect/floor_decal/corner/purple/full{dir = 8; icon_state = "corner_white_full"},/obj/machinery/light/colored/purple{dir = 4},/turf/simulated/floor/tiled/dark,/area/rnd/lab)
 "aaU" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/structure/extinguisher_cabinet{pixel_x = 31},/turf/simulated/floor,/area/maintenance/fpmaint)
 "aaV" = (/obj/effect/floor_decal/corner/purple{dir = 5},/obj/structure/table/glass/white,/obj/machinery/recharger,/turf/simulated/floor/tiled/dark,/area/rnd/lab)
