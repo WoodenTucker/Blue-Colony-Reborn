@@ -317,7 +317,7 @@
 "ge" = (/turf/simulated/wall/plastic/science{color = ""},/area/planets/Geminus/outdoor/north)
 "gf" = (/obj/machinery/newscaster{pixel_y = -32},/turf/simulated/floor/tiled/kafel_full/gray,/area/rnd/research_foyer)
 "gg" = (/obj/structure/closet,/turf/simulated/floor/tiled/techfloor/grid,/area/security/evidence_storage)
-"gh" = (/obj/machinery/newscaster{pixel_y = -32},/turf/simulated/floor/tiled/techfloor,/area/server)
+"gh" = (/obj/machinery/newscaster{pixel_y = -32},/obj/machinery/ntnet_relay,/turf/simulated/floor/tiled/techfloor,/area/server)
 "gi" = (/obj/effect/wallframe_spawn,/turf/simulated/floor/tiled/dark,/area/pdsi_offices)
 "gj" = (/turf/simulated/open,/area/lots/business/business_lot_twelve)
 "gk" = (/obj/effect/floor_decal/rust,/obj/machinery/light/small,/turf/simulated/floor/plating,/area/maintenance/asmaint)
