@@ -93,7 +93,7 @@
 
 	outfit_type = /decl/hierarchy/outfit/job/nanotrasen/pdsi
 
-	wage = 2000
+	wage = 250
 	minimum_character_age = 25 // Pushing it I guess, but possible
 	ideal_character_age = 37
 	req_admin_notify = 1
