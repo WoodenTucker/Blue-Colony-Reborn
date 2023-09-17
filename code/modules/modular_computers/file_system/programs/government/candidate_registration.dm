@@ -74,10 +74,10 @@
 	if(index == 8)
 		page_msg = "According to the current law, you are not eligible to register as a candidate, you must be of the minimum age and have the same criteria of the general voting rights to become a president. See law book for details."
 
-		var/datum/job/presjob = SSjobs.GetJob("President")
+		var/datum/job/presjob = SSjobs.GetJob("Governor")
 
 		page_msg += "<br><br><b><u>Current Critera:</u></b>"
-		page_msg += "<br><b>Minimum President age:</b> [presjob.minimum_character_age]"
+		page_msg += "<br><b>Minimum Governor age:</b> [presjob.minimum_character_age]"
 		page_msg += "<br><b>Synthetics:</b> [SSpersistent_options.get_persistent_option_value("voting_nonnational") ? "Can Vote" : "Cannot Vote"]"
 		page_msg += "<br><b>Non-[using_map.starsys_name] Citizens:</b> [SSpersistent_options.get_persistent_option_value("voting_synthetic") ? "Can Vote" : "Cannot Vote"]"
 
