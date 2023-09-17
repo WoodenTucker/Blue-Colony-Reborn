@@ -6,12 +6,6 @@
 	max_list_items = 1
 	portal_grouping = "Government"
 
-/datum/persistent_option/select_person/cabinet/ceo
-	name = "Nanotrasen CEO"
-	id = "cabinet_ceo"
-
-	required_access_edit = access_ceo
-
 /datum/persistent_option/select_person/cabinet/govrep
 	name = "Government Representative"
 	id = "cabinet_govrep"
@@ -24,21 +18,9 @@
 
 	required_access_edit = access_ceo
 
-/datum/persistent_option/select_person/cabinet/vice
-	name = "Vice President"
-	id = "cabinet_vice"
-
-/datum/persistent_option/select_person/cabinet/governor
-	name = "Governor"
-	id = "cabinet_governor"
-
 /datum/persistent_option/select_person/cabinet/supreme_justice
 	name = "Supreme Justice"
 	id = "cabinet_supremejustice"
-
-/datum/persistent_option/select_person/cabinet/defense
-	name = "Advisor of Defense"
-	id = "cabinet_defense"
 
 /datum/persistent_option/select_person/cabinet/justice
 	name = "Advisor of Justice"
