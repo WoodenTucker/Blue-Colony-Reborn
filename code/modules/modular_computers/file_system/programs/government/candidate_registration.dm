@@ -1,13 +1,13 @@
 /datum/computer_file/program/candidate_registration
 	filename = "candidate_reg"
-	filedesc = "Presidential Candidate Registration"
-	extended_desc = "Allows you to register as a candidate for the presidential elections."
+	filedesc = "Governor Candidate Registration"
+	extended_desc = "Allows you to register as a candidate for the governorship elections."
 	requires_ntnet = 1
 	size = 3
 	nanomodule_path = /datum/nano_module/program/candidate_registration/
 
 /datum/nano_module/program/candidate_registration/
-	name = "Presidential Candidate Registration"
+	name = "Governor Candidate Registration"
 
 	var/full_name
 	var/unique_id
