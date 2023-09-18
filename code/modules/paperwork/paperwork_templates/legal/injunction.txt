@@ -1,10 +1,10 @@
-[center]Geminus City High Court
+[center]Kiel City High Court
 [small][b]Court Injunction[/b][/center][br]
 [hr]
 Date: [field]
 Index: [field]
 
-This form permits the enforcement of the following orders by the employees of the Police Department, and other authorized peace officers, onto the concerned 'Citizen' who shall be legally obligated to abide by and fufill said order(s).
+This form permits the enforcement of the following orders by the employees of the Police Department, and other authorized peace officers, onto the concerned 'Citizen' who shall be legally obligated to abide by and fulfill said order(s).
 
 Citizen(s) Concerned: [field]
 
