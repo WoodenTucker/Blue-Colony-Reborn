@@ -247,7 +247,7 @@
 		var/old_enough = 0
 		if(ishuman(usr))
 			var/mob/living/carbon/human/H = usr
-			var/datum/job/presjob = SSjobs.GetJob("President")
+			var/datum/job/presjob = SSjobs.GetJob("Governer")
 			if(H.age > presjob.minimum_character_age - 1)
 				old_enough = 1
 		if(is_voting_ineligible(usr) || !old_enough)
