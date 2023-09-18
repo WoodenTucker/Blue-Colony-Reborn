@@ -1,4 +1,4 @@
-[small][center]Geminus City Hall
+[small][center]Kiel City Hall
 Weapon Permit Application Form[/center][hr]
 [b]Applicant Information[/b]
 Name: [field]
@@ -10,7 +10,7 @@ Reason for Permit Application:
 [field]
 
 [b]Permit Information[/b]
-*[i]Pursuant to the Permit Structuring Act, permits are purchased sequentially. To receieve a Tier 2 Permit, you must also purchase or already have a Tier 0 and Tier 1.[/i]
+*[i]Pursuant to the Permit Structuring Act, permits are purchased sequentially. To receive a Tier 2 Permit, you must also purchase or already have a Tier 0 and Tier 1.[/i]
 Permit(s) Requested:
 [[field]] Tier 0
 [[field]] Tier 1
@@ -21,7 +21,7 @@ Permit(s) Requested:
 [i]If requesting a Tier 1 to 4 Permit, please fill out the 'Additional Requirements' Section of this form.[/i]
 
 [b]Additional Requirements[/b]
-*[i]Pursuant to the Civil Code, there may be additional requirements for achieving a Tier 1, Tier 2, Tier 3 or Tier 4 Permit. Please consult the civil code for further information.[/i]
+*[i]Pursuant to the Civil Code, there may be additional requirements for achieving a Tier 1, Tier 2, Tier 3, or Tier 4 Permit. Please consult the civil code for further information.[/i]
 
 Attached Supporting Documents:[i] *Submitted documents must be signed and stamped by the issuing persons[/i]
 [[field]] Positive Psychological Assessment

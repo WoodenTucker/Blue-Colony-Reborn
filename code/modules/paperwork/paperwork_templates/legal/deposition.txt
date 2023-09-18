@@ -1,4 +1,4 @@
-[center]Geminus City
+[center]Kiel City
 High Court[small][br]
 [b]Witness Deposition[/b][/center]
 [hr]
@@ -14,4 +14,4 @@ Date: [date]
 [hr]
 [center][b]Affirmation[/b][/center]
 
-[i]I, [field], do affirm that the information above is true and correct to the best of my knowledge and transcribed to the best of my ability. By signing below, I hereby acknowledge that I may be held guilty of Obstruction of Justice under Pollux Criminal Code i223.[/small]
+[i]I, [field], do affirm that the information above is true and correct to the best of my knowledge and transcribed to the best of my ability. By signing below, I hereby acknowledge that I may be held guilty of Obstruction of Justice under Kiel Criminal Code i223.[/small]
