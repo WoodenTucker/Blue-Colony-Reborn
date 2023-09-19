@@ -297,7 +297,7 @@
 "fK" = (/obj/machinery/vending/dinnerware,/turf/simulated/floor/tiled/techfloor,/area/crew_quarters/fitness)
 "fL" = (/obj/effect/floor_decal/corner/red{dir = 6},/turf/simulated/floor/tiled/steel,/area/security/main)
 "fM" = (/obj/structure/flora/ausbushes/lavendergrass,/turf/simulated/floor/outdoors/dirt/pollux/planetuse,/area/planets/Geminus/outdoor/north)
-"fN" = (/obj/effect/floor_decal/corner/white/border,/obj/structure/table/reinforced,/obj/machinery/modular_computer/console/preset/security,/turf/simulated/floor/tiled/dark,/area/security/main)
+"fN" = (/obj/machinery/modular_computer/console/preset/security{dir = 2},/obj/effect/floor_decal/corner/red{dir = 5},/obj/machinery/status_display/money_display/police,/turf/simulated/floor/tiled/dark,/area/security/main)
 "fO" = (/turf/simulated/floor/wood/walnut,/area/lots/office/office_lot_one)
 "fP" = (/obj/effect/floor_decal/corner/red{dir = 9},/obj/machinery/light/colored/red{tag = "icon-red1 (EAST)"; icon_state = "red1"; dir = 4},/turf/simulated/floor/tiled/steel,/area/security/main)
 "fQ" = (/obj/effect/floor_decal/corner/red{dir = 6},/obj/machinery/light/colored/red{tag = "icon-red1 (WEST)"; icon_state = "red1"; dir = 8},/turf/simulated/floor/tiled/steel,/area/security/main)
@@ -321,7 +321,7 @@
 "gi" = (/obj/effect/wallframe_spawn,/turf/simulated/floor/tiled/dark,/area/pdsi_offices)
 "gj" = (/turf/simulated/open,/area/lots/business/business_lot_twelve)
 "gk" = (/obj/effect/floor_decal/rust,/obj/machinery/light/small,/turf/simulated/floor/plating,/area/maintenance/asmaint)
-"gl" = (/obj/structure/table/wooden_reinforced,/obj/machinery/light/colored/purple,/obj/machinery/newscaster{pixel_y = -32},/turf/simulated/floor/wood/ebony,/area/crew_quarters/heads/hor)
+"gl" = (/obj/structure/table/wooden_reinforced,/obj/machinery/light/colored/purple,/obj/machinery/status_display/money_display/rnd{pixel_y = -32},/turf/simulated/floor/wood/ebony,/area/crew_quarters/heads/hor)
 "gm" = (/obj/effect/floor_decal/corner/white/border,/turf/simulated/floor/tiled/kafel_full/gray,/area/rnd/research_foyer)
 "gn" = (/turf/simulated/mineral/floor/pollux,/area/mine/unexplored)
 "go" = (/obj/effect/floor_decal/corner/white/border{dir = 8},/obj/machinery/newscaster{pixel_x = 32; pixel_y = 0},/turf/simulated/floor/tiled/dark,/area/planets/Geminus/outdoor/north)
@@ -337,7 +337,7 @@
 "gy" = (/obj/effect/floor_decal/rust,/obj/structure/loot_pile/maint/trash,/turf/simulated/floor/plating,/area/maintenance/asmaint)
 "gz" = (/obj/structure/table/standard,/obj/machinery/computer/security/telescreen/entertainment{icon_state = "frame"; pixel_x = 0; pixel_y = 32},/turf/simulated/floor/padded,/area/medical/psych/psychroom2)
 "gA" = (/obj/machinery/light,/turf/simulated/floor/tiled/dark,/area/lots/business/business_lot_seven)
-"gB" = (/obj/effect/floor_decal/corner/paleblue/diagonal,/obj/machinery/newscaster{pixel_y = 32},/turf/simulated/floor/tiled/white,/area/crew_quarters/heads/cmo)
+"gB" = (/obj/effect/floor_decal/corner/paleblue/diagonal,/obj/machinery/light/colored/blue{dir = 1; icon_state = "blue1"; tag = "icon-blue1 (NORTH)"},/obj/machinery/status_display/money_display/hospital{pixel_y = 32},/turf/simulated/floor/tiled/white,/area/crew_quarters/heads/cmo)
 "gC" = (/obj/structure/disposalpipe/junction{dir = 4; icon_state = "pipe-j2"},/turf/simulated/floor/tiled/monotile,/area/security/main)
 "gD" = (/turf/simulated/floor/tiled/steel,/area/crew_quarters/heads/hor)
 "gE" = (/obj/structure/railing{icon_state = "railing0"; dir = 1},/turf/simulated/floor/tiled/external,/area/planets/Geminus/outdoor/north)
@@ -519,7 +519,7 @@
 "jY" = (/obj/structure/flora/ausbushes/fullgrass,/obj/structure/railing{icon_state = "railing0"; dir = 1},/turf/simulated/floor/outdoors/grass/pollux/planetuse,/area/planets/Geminus/outdoor/north)
 "jZ" = (/obj/machinery/light/colored/blue{tag = "icon-blue1 (EAST)"; icon_state = "blue1"; dir = 4},/turf/simulated/floor/tiled/monotile,/area/security/main)
 "ka" = (/obj/effect/floor_decal/corner/white/border{dir = 4},/turf/simulated/floor/tiled/kafel_full/gray,/area/rnd/research_foyer)
-"kb" = (/obj/effect/floor_decal/corner/paleblue/diagonal,/obj/machinery/light/colored/blue{dir = 1; icon_state = "blue1"; tag = "icon-blue1 (NORTH)"},/turf/simulated/floor/tiled/white,/area/crew_quarters/heads/cmo)
+"kb" = (/obj/effect/floor_decal/corner/paleblue/diagonal,/obj/structure/bookcase/metal,/obj/machinery/newscaster{pixel_y = 32},/turf/simulated/floor/tiled/white,/area/crew_quarters/heads/cmo)
 "kc" = (/obj/structure/table/standard,/obj/machinery/modular_computer/console/preset/civilian{dir = 4; icon_state = "console"},/obj/machinery/light/colored/purple{dir = 4; icon_state = "purple1"; tag = "icon-purple1 (EAST)"},/turf/simulated/floor/tiled/kafel_full/gray,/area/rnd/research_breakroom)
 "kd" = (/obj/structure/bed/chair/frilly/blue{dir = 8},/turf/simulated/floor/tiled/kafel_full/gray,/area/rnd/research_breakroom)
 "ke" = (/obj/structure/table/standard,/obj/machinery/photocopier/faxmachine,/turf/simulated/floor/tiled/kafel_full/gray,/area/rnd/research_breakroom)
@@ -717,7 +717,7 @@
 "nO" = (/obj/structure/bed/chair/office/light{dir = 1},/turf/simulated/floor/tiled/monotile,/area/security/main)
 "nP" = (/turf/simulated/wall/iron,/area/lots/shopping/shopping_lot_thirteen)
 "nQ" = (/obj/structure/disposalpipe/segment{dir = 2; icon_state = "pipe-c"},/turf/simulated/floor/wood/walnut,/area/security/main)
-"nR" = (/obj/machinery/modular_computer/console/preset/security{dir = 2},/obj/effect/floor_decal/corner/red{dir = 5},/turf/simulated/floor/tiled/dark,/area/security/main)
+"nR" = (/obj/machinery/papershredder,/obj/effect/floor_decal/corner/red{dir = 5},/turf/simulated/floor/tiled/dark,/area/security/main)
 "nS" = (/obj/structure/flora/tree/jungle_small,/obj/structure/flora/ausbushes/fullgrass,/turf/simulated/floor/outdoors/dirt/pollux/planetuse,/area/planets/Geminus/outdoor/park)
 "nT" = (/turf/simulated/wall/iron/pink,/area/crew_quarters)
 "nU" = (/obj/structure/disposalpipe/segment,/turf/simulated/floor/tiled/white,/area/security/main)
@@ -789,9 +789,11 @@
 "pi" = (/obj/effect/floor_decal/corner/red/full{dir = 1},/obj/machinery/light/colored/red{dir = 1},/turf/simulated/floor/tiled/steel,/area/security/main)
 "pj" = (/turf/simulated/open,/area/planets/Geminus/outdoor/sky)
 "pk" = (/obj/structure/table/standard,/obj/structure/noticeboard{dir = 1},/turf/simulated/floor/tiled/dark,/area/security/main)
+"pl" = (/obj/effect/floor_decal/corner/red{dir = 6},/obj/machinery/light/colored/red{tag = "icon-red1 (WEST)"; icon_state = "red1"; dir = 8},/obj/structure/closet/secure_closet/wall{pixel_x = 30; pixel_y = 0; req_access = list(3)},/turf/simulated/floor/tiled/dark,/area/security/main)
 "pm" = (/obj/effect/floor_decal/corner/white/border{dir = 6},/obj/machinery/modular_computer/console/preset/security{dir = 1},/turf/simulated/floor/tiled/dark,/area/security/main)
 "pn" = (/obj/machinery/door/airlock{dir = 4; name = "Janitorial Storage"},/turf/simulated/floor/tiled/kafel_full/gray,/area/rnd/research_breakroom)
 "po" = (/turf/simulated/wall/iron,/area/planets/Geminus/indoor/panicbunker)
+"pp" = (/obj/effect/floor_decal/corner/white/border,/obj/structure/table/reinforced,/obj/machinery/modular_computer/console/preset/security,/obj/machinery/status_display/money_display/police,/turf/simulated/floor/tiled/dark,/area/security/main)
 "pq" = (/obj/machinery/door/airlock/glass_medical{name = "Bathroom Stall 1"; req_access = list(5)},/obj/effect/floor_decal/corner_techfloor_gray/diagonal,/turf/simulated/floor/tiled/white,/area/medical/medbay2)
 "pr" = (/turf/simulated/floor/tiled/paleblue,/area/planets/Geminus/outdoor/south)
 "px" = (/obj/structure/fence/corner{dir = 5},/turf/simulated/floor/pavement/empty,/area/planets/Geminus/outdoor/west)
@@ -976,7 +978,6 @@
 "va" = (/obj/vehicle/boat{dir = 4},/turf/simulated/floor/water,/area/planets/Geminus/outdoor/park)
 "vc" = (/obj/structure/bed/chair/bosschair/purp,/turf/simulated/floor/bluegeo_contrast,/area/centcom/president_office)
 "vd" = (/obj/structure/catwalk,/obj/structure/bed/chair/sofa/brown/right,/turf/simulated/floor/plating,/area/maintenance/asmaint)
-"ve" = (/obj/machinery/papershredder,/obj/structure/closet/secure_closet/wall{pixel_y = 28; req_access = list(3)},/obj/effect/floor_decal/corner/red{dir = 5},/turf/simulated/floor/tiled/dark,/area/security/main)
 "vg" = (/obj/structure/bed/chair{dir = 4},/turf/simulated/floor/tiled/dark,/area/security/main)
 "vh" = (/obj/structure/bed/chair/office/dark{dir = 8},/turf/simulated/floor/tiled/red,/area/lots/farm/farm_lot_one)
 "vj" = (/obj/effect/landmark/lotsign,/turf/simulated/wall/disco,/area/lots/shopping/shopping_lot_eleven)
@@ -1056,7 +1057,6 @@
 "xh" = (/obj/machinery/light/colored/purple{dir = 4; icon_state = "purple1"; tag = "icon-purple1 (EAST)"},/turf/simulated/floor/tiled,/area/planets/Geminus/outdoor/north)
 "xi" = (/obj/effect/floor_decal/rust,/obj/machinery/light/small{dir = 4; pixel_y = 0},/turf/simulated/floor/plating,/area/maintenance/asmaint)
 "xj" = (/obj/effect/floor_decal/corner/white{dir = 5; icon_state = "corner_white"; tag = "icon-corner_white (NORTH)"},/turf/simulated/floor/tiled/paleblue,/area/planets/Geminus/outdoor/south)
-"xk" = (/obj/effect/floor_decal/corner/paleblue/diagonal,/obj/structure/bookcase/metal,/turf/simulated/floor/tiled/white,/area/crew_quarters/heads/cmo)
 "xl" = (/turf/simulated/floor/tiled{color = ""; name = "exterior tiles"; outdoors = 1},/area/planets/Geminus/outdoor/west)
 "xm" = (/obj/machinery/light{dir = 1; icon_state = "tube1"},/obj/effect/floor_decal/corner/red/border{dir = 1},/turf/simulated/floor/tiled/dark,/area/medical/psych)
 "xo" = (/obj/structure/sink{pixel_y = 10},/obj/structure/mirror{pixel_y = 32},/turf/simulated/floor/tiled/white,/area/crew_quarters/fitness)
@@ -1529,7 +1529,6 @@
 "Lg" = (/obj/structure/closet/cabinet,/obj/effect/floor_decal/spline/fancy/wood{dir = 4},/turf/simulated/floor/wood/walnut,/area/crew_quarters)
 "Lh" = (/obj/effect/floor_decal/corner/green{dir = 5},/turf/simulated/floor/tiled,/area/security/prison)
 "Li" = (/obj/machinery/door/airlock/glass_civilian{dir = 8},/turf/simulated/floor/tiled/external,/area/lots/shopping/shopping_lot_eleven)
-"Lj" = (/obj/effect/floor_decal/corner/red{dir = 6},/obj/machinery/light/colored/red{tag = "icon-red1 (WEST)"; icon_state = "red1"; dir = 8},/turf/simulated/floor/tiled/dark,/area/security/main)
 "Lk" = (/obj/structure/table/standard,/obj/machinery/computer/security/telescreen/entertainment{icon_state = "frame"; pixel_x = 0; pixel_y = -32},/turf/simulated/floor/padded,/area/medical/psych/psychroom4)
 "Ll" = (/obj/structure/bed/chair/wood{dir = 4; icon_state = "wooden_chair"},/turf/simulated/floor/wood/bamboo,/area/pdsi_offices)
 "Lm" = (/turf/simulated/wall/plastic/science{color = ""},/area/crew_quarters/heads/hor)
@@ -2047,8 +2046,8 @@ hDnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsNYAGAGAGAGAGAGNYAGAGNYNYNYeeAGAGAG
 hDnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsNYAGAGAGAGAGAGNYrANYNYpjpjeeAGAGAGAGeeAGAGeeeeeeeeeeeeAGAGAGNYpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjaaXUgNlAmHgNgNgNgNlAmHgNgNgNmHlAgNgNgNmHlAgNXUmhUOUOUOUOUOUOXmXmXmXmXmpjpjpjpjpjpjpjpjpjdyfvadadfvYDfMyTIBfMhYiaiaiaiaiaiaiaiaiaiaVKiavsgjgjiaiaxMiaiaiaiaiaaCiaaCiahYpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
 hDnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsNYAGAGAGpOAGAGAGAGNYpjpjpjeeAGudAGAGeeAGAGxqAGAGzsAGAGAGAGAGNYpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjXmlHlJlJlHlKXUXUXUXUXUXUXUXUXUXUXUXUXUXUXUXUXUXmmQUOjIlyUOUOUOXmzqzqXmpjpjpjpjpjpjqsMvMvfvfvadadfvYDrqjDQXmphYiaiaiaiaiaiaiaiaiaiaVKiavsgjgjiaiaxMiaiaiaiaiaiaiaiaiarTpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
 hDnsnsnsnsnsnsnsgngngnnsnsnsnsnsnsnsnsnsnsnsnsNYNYNYNYNYNYNYNYNYNYpjpjpjeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeNYpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjXmXmagagXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmXmdBUOUOKjdRpDUOVkzqzqXmpjpjpjpjpjpjWQadadadadadadfvJNgEgEgEgEhYqoiaiaiaiaiaiaiaiaAAhYqoiahXhXiaAAhYqoiaiaiaiaiaiaiaiarTpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
-hDnsnsnsnsnsnsgngngngngnnsnsnsnsnsnsnsnsnsnsnspjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjEkaHaHaHyQzXTQMkgdkXaiajaoaqWsnRverHXmXmbRXmTRTRTRXmXmXmXmXmpjpjpjpjpjpjWQIbdedededeIbfvfvadadadfvhYiaiaiaHliaiaHliaiaiahYiaHliaiaHliahYiaiaiaiaHliaiaHliahYpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
-hDnsnsnsnsnsnsgngngngngngngnnsnsnsnsnsnsnsnsnspjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjEkYvwEDyFixJyCXyxUYlaxaBaBaDUuherELjEkkCkCmRaBaBaTEkmVaXaYEkpjpjpjpjpjpjWQaddenpnpdeadfvfvadadadfvhYhYhYhYhYhYhYhYhYhYhYhYhYhYZUZUhYhYhYhYhYhYhYhYZUZUhYhYhYpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
+hDnsnsnsnsnsnsgngngngngnnsnsnsnsnsnsnsnsnsnsnspjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjEkaHaHaHyQzXTQMkgdkXaiajaoaqWsfNnRrHXmXmbRXmTRTRTRXmXmXmXmXmpjpjpjpjpjpjWQIbdedededeIbfvfvadadadfvhYiaiaiaHliaiaHliaiaiahYiaHliaiaHliahYiaiaiaiaHliaiaHliahYpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
+hDnsnsnsnsnsnsgngngngngngngnnsnsnsnsnsnsnsnsnspjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjEkYvwEDyFixJyCXyxUYlaxaBaBaDUuherEplEkkCkCmRaBaBaTEkmVaXaYEkpjpjpjpjpjpjWQaddenpnpdeadfvfvadadadfvhYhYhYhYhYhYhYhYhYhYhYhYhYhYZUZUhYhYhYhYhYhYhYhYZUZUhYhYhYpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
 hDnsnsnsnsnsgngngngngngngngngnnsnsnsnsnsnsnspjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjEkouGYEkRpYvYvYvYvwokCkCkCaDEkBebncQEkUqkCaBaBaBdkEkaBaBaBTypjpjpjpjpjpjWQaddenpnpdeadfvfvadadadfvfvfvfvfvfvfvfvfvfvfvfvhYiaKeiaiaKeiaiaiaEvhYiaiaiaiaiaiahYpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
 hDnsnsnsnsnsnsgngngngngngngngnnsnsnsnsnsnsnspjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjEkouwzvTJQlzlzlzlzwokCkCdwiceTofgRlPEkfekCkCkCkCoslqicnkbbTypjpjpjpjpjpjWQaddedededeadadadadadadadadadadadadadadadadadfvhYiaiaiaiaiaiaiaiaiahYqoiaiaiaiaAAhYpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
 hDnsnsnsnsnsnsnsgngngngngngnnsnsnsnsnsnsnspjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjEkouYvkVqZqZqJqJqJFgaxaBbsaDEkEkEkEkEkkCkCaBaBaBaBEkbgbsbhEkpjpjpjpjpjpjWQadadadadadadadadadIbadadadadadIbadadadadIbadfvhYiaiaiaiaiaiaiaiaiahYiaiaiaiaiaiarTpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
@@ -2079,7 +2078,7 @@ hDJknsnsNYYYqKNYnsNYXwAGAGZEAGGANYnsnsNYYYStNYnsnsnspjpjpjpjpjpjpjoKoKYqYqYqYqoK
 hDJknsnsNYYYLwNYnsNYRKAGTANYNYNYNYNYNYNYcOLwNYnsnsnspjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjdXEkojCwetEkEkEkPEaxbsaDEkeleoepesEkGfotokvgpkMMFJQwEkpjpjpjpjpjpjWQadfvhdzKzKzKzKssIrIrIrIrIrIrIrIrIrIrIrIrIrIrIrsskyIrIrIrIrhdpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
 hDJknsnsNYYYZENYnsNYFhFhAGxqLwZEvdebFhNYLwLwNYnsnsnspjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjdXEkEkEkEkEkEkEkEkbAbsbtEkEkEkEkEkEkEkEkEkEkEkEkEkEkEkpjpjpjpjpjpjWQadfvsszKzKzKzKssIrIrIrIrIrIrIrIrIrIrvnIrIrIrIrssIrIrIrIrIrsspjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
 hDJknsnsNYYYhONYnsNYNYNYNYNYAGLwLwAGZExqZEFhNYnsnsnspjpjpjpjpjpjpjfBfBfBfBfBfBfBfBfBfBfBfBfBfBfBfBfBfBORORORORfBfBfBfBfBfBfBfBpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjEkEkEkEkEkEkEkEkEkEkewoneyEkEkEkEkEkEkEkEkEkMfaeXKmpMLYDpjpjpjpjpjpjWQadfvsssssssssssssshdhdsssssshdhdhdsssssshdhdsssssssssssssssspjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
-hDJknsnsNYAGjwNYnsnsnsnsnsNYVtYYAGudLwNYNYNYNYpjpjpjpjpjpjpjpjpjpjfBXnXnXnXnXnXnXnzUXnBJfBIhioIhPSfBIoQEIhIhIhBGfBxoxofBPoYmfBpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjEkTWTWPBTWTWEkTWfaEkaxbsaDEkooorBAhufNzPIJEkMfkqmpXKmpYDpjpjpjpjpjpjWQIbfvYDDMMzLYMzlllnMzDMlllnllVbVbllllVbMzDMllXxlngepjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
+hDJknsnsNYAGjwNYnsnsnsnsnsNYVtYYAGudLwNYNYNYNYpjpjpjpjpjpjpjpjpjpjfBXnXnXnXnXnXnXnzUXnBJfBIhioIhPSfBIoQEIhIhIhBGfBxoxofBPoYmfBpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjEkTWTWPBTWTWEkTWfaEkaxbsaDEkooorBAhuppzPIJEkMfkqmpXKmpYDpjpjpjpjpjpjWQIbfvYDDMMzLYMzlllnMzDMlllnllVbVbllllVbMzDMllXxlngepjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
 hDJknsnsNYXrLwNYNYNYNYNYNYNYNYNYrANYNYNYnsnsnspjpjpjpjpjpjpjpjpjpjfBHjXnXnXnXnXnXnXnXnXntYIhIhIhVVfBIhIhIhIhIhIhfBNMmzmzmzmzfBpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjEkTWTWTWTWTWTWTWTWTyaxbsaDIjaJbskCPknOmIAgTyMfkvMBYXrqYDpjpjpjpjpjpjWQadfvYDVbDMVbVbLYllllNHMzDMlllnlltjVbVbrhjFMzDMyDgepjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
 hDJknsnsNYZELwQRAGAGAGcvAGYYYYFhAGAGYjNYnsnsnspjpjpjpjpjpjpjpjpjpjfBXnXnXnXnXnXnXnXnXnBJfBIhIhIhOpfByVbZbZFMfjjnAzmzmzmzmzZufBpjpjpjpjpjpjpjpjpjpjpjpjEkEkEkEkTWTWTWTWTWTWTWTWTyaxbsaDmjXtbskCARkCkCAgTyMfkxIBBbyTfvMvMvMvMvMvMvfvadfvYDDMMzVbNHDMVbDMXxVbMzVbllllMzDMVbrQlnDMNHlngepjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
 hDJknsnsNYxKHALwFhYYYYLwZEZEQRAGAGgyAGNYnsnsnspjpjpjpjpjpjpjpjpjpjlxXnXnXnXnXnXnXnXnXnXnORGBIhIhIhfBtLIhYLhRgMrMfBvtfBoHfBxvfBpjpjpjpjpjpjpjpjpjpjpjpjpjEkgsEkEkTWTWTWTWTWTWTWTyaxbsbtEkpmbsSyEkYrkCHVEkMfkqadadadadadadadIbadadadadfvYDMzNHMzVbVbVbmfVbVbVbDMllVbNHDMVbllVbVbllllgepjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
@@ -2107,7 +2106,7 @@ hDJknsnsNYAGNYnsNYZEFhNYNYNYNYNYNYNYnsnsnsnsnsnspjpjpjpjpjpjpjpjpjNkpfpfpfpfpfpf
 hDJknsnsNYFhNYNYNYZEQRAGFhFhgbLwuzNYnsnsnsnsnsnsnspjpjpjpjpjpjpjpjNkpfpfpfpfpfpfVoJoRqjxkkJoJoJoJokuKAdNJoJoinfBcKGpJPfBZEfBpjpjpjpjpjpjpjpjpjpjpjpjpjWmnpnpadadadadfvfvfvfvfvfvfvJNadfvnPRmRmRmRmnPRmRmRmRmnPpjpjpjpjpjpjpjpjpjyHtppbrururuaLAtjrrRjqjHfgfgfgfgjMjrrRjqWpkokokokolGDXzQTKTKuPAtpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
 hDJknsnsNYTvAGZENYAGZELwAGZEXQolubNYnsnsnsnsnsnsnspjpjpjpjpjpjpjpjuDpfSXpfuDpfpfuDySbybybeJoJoJobGJoJoJoJobGcnfBTAAGAGxaAGfBpjpjpjpjpjpjpjpjpjpjpjpjpjWmMvMvfvadGDGDfvDBDBDBDBDBDBfvadfvnPRmRmRmRmBvRmRmRmRmnPpjpjpjpjpjpjpjpjpjyHLAtptptpLAXEAtjrrRjqjHfgfgfgfgjMjrrRjqWpkokokokolGuSzQzQmatdAtpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
 hDJknsnsNYhyFhAGxqLwqrAGLwxzZEAGFhNYnsnsnsnsnsnsnspjpjpjpjpjpjpjpjuDuDuDuDuDuDuDuDjxjxjxjxkkzRuHJohgANpTJoJoLIfBJPAGZEfBmMfBpjpjbjbjbjbjFqFqiFiFiFFqboboBLBLboboBLBLbobobdgvdGacDBfvadfvnPRmRmRmRmnPnPnPEZnPnPpjpjpjpjpjpjpjpjpjcMwqwqwqtptpXEAtjrrRjqjHfgfgfgfgjMjrrRjqWpkokokokolGkmmagfOYhsAtpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
-hDJknsnsNYNYNYNYNYLwLwWYAGLwZEQRFhNYnsnsnsnsnsnspjpjpjpjpjpjpjpjpjPcPcPcPcPcPcPcPcjxjxjxjxkkLINZJordoqRFJoJoLIfBAGgyTAfBmMfBpjpjbjYAHDUvFqIPYPYPYPFrboRdwABfkbgBQrQrxkboygsUsUsUBDadIbfvnPRmRmRmRmnPRmRmRmnPpjpjpjpjpjpjpjpjpjpjpjpjpjdqpjpjdqAtjrjgjBjHfgfgfgfgjMjPjmjqAtAtAtAtAtAtAtAtAtAtAtAtpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
+hDJknsnsNYNYNYNYNYLwLwWYAGLwZEQRFhNYnsnsnsnsnsnspjpjpjpjpjpjpjpjpjPcPcPcPcPcPcPcPcjxjxjxjxkkLINZJordoqRFJoJoLIfBAGgyTAfBmMfBpjpjbjYAHDUvFqIPYPYPYPFrboRdwABfgBQrQrQrkbboygsUsUsUBDadIbfvnPRmRmRmRmnPRmRmRmnPpjpjpjpjpjpjpjpjpjpjpjpjpjdqpjpjdqAtjrjgjBjHfgfgfgfgjMjPjmjqAtAtAtAtAtAtAtAtAtAtAtAtpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
 hDJknsnsnsNYZEZEAGAGFhaMKmAGAGFhhyNYnsnsnsnsnsnspjpjpjpjpjpjpjpjpjPcFDkYukGSGSnjPcjxjxjxjxkkoZdNbGJoJoJoJobGtyfBZEfBfBfBmMfBldmcBtTIKRZjFqZiYPYPUofnboNpBfBfQrvWCMugbfboKysUsUSgDBfvfvfvnPnPnPEZnPnPRmRmRmnPpjpjpjpjpjpjpjpjpjpjpjpjpjdqpjpjdqAtjAjqSRmgmgmgmgmgmgSRjrjvEwHIGUEuLpHIgwEwpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
 hDJknsnsnsNYZENYNYNYNYNYNYNYNYNYNYNYnsnsnsnsnsnsnspjpjpjpjpjpjpjpjPcFDnjnjHaHanjPcjxjxjxjxkkJoJoJosHJssDJoJoyBfBxifBeVlVUvGamMmMlMywUrXlFqvvyATwweIZbomtBfBfDWakDZBfatbowksUlXUPDBDBDBDBDBnPRmRmRmRmRmRmRmoQpjpjpjpjpjpjpjpjpjpjpjpjpjdqdqdqdqAtjrjqLSKJKJKJKJKJKJLSjrjqmGQHQHklHzQHVgEwpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
 hDJknsnsnsNYFhNYnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnspjpjpjpjpjpjpjpjPcFDnjnjpdnjnjPcPcPcPcPcPcPcsDJoyBavavIAIAavavAGfBIyUvfsfBmMmMbjUvywFEFqhihALNcBLNbommBfBfQrPXEnQkwybojhsUVmeADBpCDBpCDBnPRmRmRmRmRmRmRmoQpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjAtjQjRLmKJyLqRnxQsKJLmjWjREwjuQHmZkMQHSSEwpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
