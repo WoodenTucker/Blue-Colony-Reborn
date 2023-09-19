@@ -172,7 +172,7 @@
 
 	if(menu_items == MED)
 		for(var/datum/medical_bill/M in medical_bills)
-			if(M.cost)
+			if(M.portal_id)
 				dat += "<a href='?src=\ref[src];choice=add_menu;menuitem=\ref[M]'>[M.name]</a><br>"
 
 	if(menu_items == COR)
