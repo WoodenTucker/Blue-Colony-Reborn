@@ -244,6 +244,7 @@
 
 /material/wood/generate_recipes()
 	..()
+	recipes += new/datum/stack_recipe("ore box", /obj/structure/ore_box, 25, time = 10)
 	recipes += new/datum/stack_recipe("oar", /obj/item/weapon/oar, 2, time = 30, supplied_material = "[name]")
 	recipes += new/datum/stack_recipe("boat", /obj/vehicle/boat, 20, time = 10 SECONDS, supplied_material = "[name]")
 	recipes += new/datum/stack_recipe("dragon boat", /obj/vehicle/boat/dragon, 50, time = 30 SECONDS, supplied_material = "[name]")
