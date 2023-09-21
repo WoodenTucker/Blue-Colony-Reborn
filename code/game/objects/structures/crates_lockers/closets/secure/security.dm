@@ -112,21 +112,21 @@
 
 	New()
 		..()
-		
+
 		if(prob(50))
 			new /obj/item/weapon/storage/backpack/security{dont_save = 1}(src)
 		else
 			new /obj/item/weapon/storage/backpack/satchel/sec{dont_save = 1}(src)
 		if(prob(50))
 			new /obj/item/weapon/storage/backpack/dufflebag/sec{dont_save = 1}(src)
-			
+
 		var/list/items_to_spawn = list(
 			 /obj/item/clothing/head/helmet/police,
 			 /obj/item/clothing/under/rank/policechiefalt,
 			 /obj/item/clothing/head/police/policechiefcap,
 			 /obj/item/clothing/head/soft/policechief,
 			 /obj/item/clothing/head/beret/policegold,
-			 /obj/item/clothing/suit/armor/pcarrier/medium/police,	
+			 /obj/item/clothing/suit/armor/pcarrier/medium/police,
 			 /obj/item/clothing/head/helmet/dermal,
 			 /obj/item/clothing/suit/storage/toggle/policejacket,
 			 /obj/item/weapon/cartridge/hos,
@@ -176,7 +176,7 @@
 			new /obj/item/weapon/storage/backpack/satchel/sec(src)
 		if(prob(50))
 			new	/obj/item/weapon/storage/backpack/dufflebag/sec(src)
-			
+
 		var/list/items_to_spawn = list(
 			/obj/item/clothing/suit/armor/pcarrier/medium/police,
 			/obj/item/clothing/head/beret/policegold,
@@ -238,7 +238,7 @@
 			new /obj/item/clothing/accessory/badge/holo(src)
 		else
 			new /obj/item/clothing/accessory/badge/holo/cord(src)
-			
+
 		var/list/items_to_spawn = list(
 			 /obj/item/clothing/suit/storage/vest/officer,
 			 /obj/item/clothing/head/helmet,
@@ -319,7 +319,7 @@
 		..()
 
 		var/list/items_to_spawn = list(
-			/obj/item/clothing/accessory/armband/medblue
+			/obj/item/clothing/accessory/armband/medblue,
 			/obj/item/device/encryptionkey/headset_med
 		)
 		for(var/item_type in items_to_spawn)
@@ -385,8 +385,8 @@
 		..()
 
 		var/list/items_to_spawn = list(
-			/obj/item/weapon/reagent_containers/syringe/ld50_syringe/choral(src)
-			/obj/item/weapon/reagent_containers/syringe/ld50_syringe/choral(src)
+			/obj/item/weapon/reagent_containers/syringe/ld50_syringe/choral,
+			/obj/item/weapon/reagent_containers/syringe/ld50_syringe/choral
 		)
 		for(var/item_type in items_to_spawn)
 			var/obj/item/I = new item_type(src)
@@ -405,7 +405,7 @@
 		..()
 
 		var/list/items_to_spawn = list(
-			/obj/item/clothing/under/color/orange
+			/obj/item/clothing/under/color/orange,
 			/obj/item/clothing/shoes/orange
 		)
 		for(var/item_type in items_to_spawn)
