@@ -10,18 +10,22 @@
 
 	New()
 		..()
-		new /obj/item/weapon/storage/backpack/dufflebag/captain(src)
-		new /obj/item/clothing/head/helmet(src)
-		new /obj/item/clothing/suit/storage/vest(src)
-		new /obj/item/weapon/cartridge/captain(src)
-		new /obj/item/weapon/storage/lockbox/medal(src)
-		new /obj/item/device/radio/headset/heads/captain(src)
-		new /obj/item/device/radio/headset/heads/captain/alt(src)
-		new /obj/item/weapon/gun/energy/gun(src)
-		new /obj/item/weapon/melee/telebaton(src)
-		new /obj/item/device/flash(src)
-		new /obj/item/weapon/storage/box/ids(src)
-		return
+		var/list/items_to_spawn = list(
+		 	/obj/item/weapon/storage/backpack/dufflebag/captain,
+			/obj/item/clothing/head/helmet,
+			/obj/item/clothing/suit/storage/vest,
+			/obj/item/weapon/cartridge/captain,
+			/obj/item/weapon/storage/lockbox/medal,
+			/obj/item/device/radio/headset/heads/captain,
+			/obj/item/device/radio/headset/heads/captain/alt,
+			/obj/item/weapon/gun/energy/gun,
+			/obj/item/weapon/melee/telebaton,
+			/obj/item/device/flash,
+			/obj/item/weapon/storage/box/ids
+		)
+		for(var/item_type in items_to_spawn)
+			var/obj/item/I = new item_type(src)
+			I.dont_save = 1
 
 
 
@@ -37,21 +41,25 @@
 
 	New()
 		..()
-		new /obj/item/clothing/suit/storage/vest(src)
-		new /obj/item/clothing/head/helmet(src)
-		new /obj/item/weapon/cartridge/hop(src)
-		new /obj/item/device/radio/headset/heads/hop(src)
-		new /obj/item/device/radio/headset/heads/hop/alt(src)
-		new /obj/item/weapon/storage/box/ids(src)
-		new /obj/item/weapon/storage/box/ids( src )
-		new /obj/item/weapon/gun/energy/gun(src)
-		new /obj/item/weapon/gun/projectile/sec/flash(src)
-		new /obj/item/device/flash(src)
-		new /obj/item/weapon/storage/box/gun_permits(src)
-		new /obj/item/weapon/storage/box/social_service_cards(src)
-		new /obj/item/weapon/storage/box/social_service_cards( src )
-		new /obj/item/weapon/storage/lockbox/passport(src)
-		return
+		var/list/items_to_spawn = list(
+		 	/obj/item/clothing/suit/storage/vest,
+			/obj/item/clothing/head/helmet,
+			/obj/item/weapon/cartridge/hop,
+			/obj/item/device/radio/headset/heads/hop,
+			/obj/item/device/radio/headset/heads/hop/alt,
+			/obj/item/weapon/storage/box/ids,
+			/obj/item/weapon/storage/box/ids,
+			/obj/item/weapon/gun/energy/gun,
+			/obj/item/weapon/gun/projectile/sec/flash,
+			/obj/item/device/flash,
+			/obj/item/weapon/storage/box/gun_permits,
+			/obj/item/weapon/storage/box/social_service_cards,
+			/obj/item/weapon/storage/box/social_service_cards,
+			/obj/item/weapon/storage/lockbox/passport
+		)
+		for(var/item_type in items_to_spawn)
+			var/obj/item/I = new item_type(src)
+			I.dont_save = 1
 
 /obj/structure/closet/secure_closet/hop2
 	name = "city clerk's attire"
@@ -65,25 +73,29 @@
 
 	New()
 		..()
-		new /obj/item/clothing/under/rank/head_of_personnel(src)
-		new /obj/item/clothing/under/dress/dress_hop(src)
-		new /obj/item/clothing/under/dress/dress_hr(src)
-		new /obj/item/clothing/under/lawyer/female(src)
-		new /obj/item/clothing/under/lawyer/black(src)
-		new /obj/item/clothing/under/lawyer/black/skirt(src)
-		new /obj/item/clothing/under/lawyer/red(src)
-		new /obj/item/clothing/under/lawyer/red/skirt(src)
-		new /obj/item/clothing/under/lawyer/oldman(src)
-		new /obj/item/clothing/shoes/brown(src)
-		new /obj/item/clothing/shoes/black(src)
-		new /obj/item/clothing/shoes/leather(src)
-		new /obj/item/clothing/shoes/white(src)
-		new /obj/item/clothing/under/rank/head_of_personnel_whimsy(src)
-		new /obj/item/clothing/head/caphat/hop(src)
-		new /obj/item/clothing/under/gimmick/rank/head_of_personnel/suit(src)
-		new /obj/item/clothing/under/gimmick/rank/head_of_personnel/suit/skirt(src)
-		new /obj/item/clothing/glasses/sunglasses(src)
-		return
+		var/list/items_to_spawn = list(
+			 /obj/item/clothing/under/rank/head_of_personnel,
+			 /obj/item/clothing/under/dress/dress_hop,
+			 /obj/item/clothing/under/dress/dress_hr,
+			 /obj/item/clothing/under/lawyer/female,
+			 /obj/item/clothing/under/lawyer/black,
+			 /obj/item/clothing/under/lawyer/black/skirt,
+			 /obj/item/clothing/under/lawyer/red,
+			 /obj/item/clothing/under/lawyer/red/skirt,
+			 /obj/item/clothing/under/lawyer/oldman,
+			 /obj/item/clothing/shoes/brown,
+			 /obj/item/clothing/shoes/black,
+			 /obj/item/clothing/shoes/leather,
+			 /obj/item/clothing/shoes/white,
+			 /obj/item/clothing/under/rank/head_of_personnel_whimsy,
+			 /obj/item/clothing/head/caphat/hop,
+			 /obj/item/clothing/under/gimmick/rank/head_of_personnel/suit,
+			 /obj/item/clothing/under/gimmick/rank/head_of_personnel/suit/skirt,
+			 /obj/item/clothing/glasses/sunglasses
+		)
+		for(var/item_type in items_to_spawn)
+			var/obj/item/I = new item_type(src)
+			I.dont_save = 1
 
 
 
@@ -100,47 +112,51 @@
 
 	New()
 		..()
+		
 		if(prob(50))
-			new /obj/item/weapon/storage/backpack/security(src)
+			new /obj/item/weapon/storage/backpack/security{dont_save = 1}(src)
 		else
-			new /obj/item/weapon/storage/backpack/satchel/sec(src)
+			new /obj/item/weapon/storage/backpack/satchel/sec{dont_save = 1}(src)
 		if(prob(50))
-			new /obj/item/weapon/storage/backpack/dufflebag/sec(src)
-		new /obj/item/clothing/head/helmet/police(src)
-		new /obj/item/clothing/under/rank/policechiefalt(src)
-		new /obj/item/clothing/head/police/policechiefcap(src)
-		new /obj/item/clothing/head/soft/policechief(src)
-		new /obj/item/clothing/head/beret/policegold(src)
-		new /obj/item/clothing/suit/armor/pcarrier/medium/police(src)	
-		new /obj/item/clothing/head/helmet/dermal(src)
-		new /obj/item/clothing/suit/storage/toggle/policejacket(src)
-		new /obj/item/weapon/cartridge/hos(src)
-		new /obj/item/weapon/gun/projectile/police(src)
-		new /obj/item/device/radio/headset/heads/hos(src)
-		new /obj/item/device/radio/headset/heads/hos/alt(src)
-		new /obj/item/clothing/glasses/sunglasses/sechud(src)
-		new /obj/item/taperoll/police(src)
-		new /obj/item/weapon/bodycam(src)
-		new /obj/item/weapon/shield/riot(src)
-		new /obj/item/weapon/shield/riot/tele(src)
-		new /obj/item/weapon/storage/box/holobadge/hos(src)
-		new /obj/item/clothing/accessory/badge/holo/hos(src)
-		new /obj/item/weapon/reagent_containers/spray/pepper(src)
-		new /obj/item/weapon/storage/belt/security(src)
-		new /obj/item/device/flash(src)
-		new /obj/item/weapon/melee/baton/loaded(src)
-		new /obj/item/weapon/gun/energy/gun(src)
-		new /obj/item/weapon/cell/device/weapon(src)
-		new /obj/item/clothing/accessory/holster/waist(src)
-		new /obj/item/weapon/melee/telebaton(src)
-		new /obj/item/clothing/head/beret/sec/corporate/hos(src)
-		new /obj/item/clothing/suit/storage/hooded/wintercoat/security(src)
-		new /obj/item/clothing/shoes/boots/winter/security(src)
-		new /obj/item/device/flashlight/maglight(src)
-		new /obj/item/weapon/stamp/hos(src)
-		return
-
-
+			new /obj/item/weapon/storage/backpack/dufflebag/sec{dont_save = 1}(src)
+			
+		var/list/items_to_spawn = list(
+			 /obj/item/clothing/head/helmet/police,
+			 /obj/item/clothing/under/rank/policechiefalt,
+			 /obj/item/clothing/head/police/policechiefcap,
+			 /obj/item/clothing/head/soft/policechief,
+			 /obj/item/clothing/head/beret/policegold,
+			 /obj/item/clothing/suit/armor/pcarrier/medium/police,	
+			 /obj/item/clothing/head/helmet/dermal,
+			 /obj/item/clothing/suit/storage/toggle/policejacket,
+			 /obj/item/weapon/cartridge/hos,
+			 /obj/item/weapon/gun/projectile/police,
+			 /obj/item/device/radio/headset/heads/hos,
+			 /obj/item/device/radio/headset/heads/hos/alt,
+			 /obj/item/clothing/glasses/sunglasses/sechud,
+			 /obj/item/taperoll/police,
+			 /obj/item/weapon/bodycam,
+			 /obj/item/weapon/shield/riot,
+			 /obj/item/weapon/shield/riot/tele,
+			 /obj/item/weapon/storage/box/holobadge/hos,
+			 /obj/item/clothing/accessory/badge/holo/hos,
+			 /obj/item/weapon/reagent_containers/spray/pepper,
+			 /obj/item/weapon/storage/belt/security,
+			 /obj/item/device/flash,
+			 /obj/item/weapon/melee/baton/loaded,
+			 /obj/item/weapon/gun/energy/gun,
+			 /obj/item/weapon/cell/device/weapon,
+			 /obj/item/clothing/accessory/holster/waist,
+			 /obj/item/weapon/melee/telebaton,
+			 /obj/item/clothing/head/beret/sec/corporate/hos,
+			 /obj/item/clothing/suit/storage/hooded/wintercoat/security,
+			 /obj/item/clothing/shoes/boots/winter/security,
+			 /obj/item/device/flashlight/maglight,
+			 /obj/item/weapon/stamp/hos
+		)
+		for(var/item_type in items_to_spawn)
+			var/obj/item/I = new item_type(src)
+			I.dont_save = 1
 
 /obj/structure/closet/secure_closet/warden
 	name = "prison warden's locker"
@@ -152,7 +168,6 @@
 	icon_broken = "wardensecurebroken"
 	icon_off = "wardensecureoff"
 
-
 	New()
 		..()
 		if(prob(50))
@@ -160,38 +175,44 @@
 		else
 			new /obj/item/weapon/storage/backpack/satchel/sec(src)
 		if(prob(50))
-			new /obj/item/weapon/storage/backpack/dufflebag/sec(src)
-		new /obj/item/clothing/suit/armor/pcarrier/medium/police(src)
-		new /obj/item/clothing/head/beret/policegold(src)
-		new /obj/item/clothing/head/soft/policewarden(src)
-		new /obj/item/clothing/head/police/policewardencap(src)
-		new /obj/item/clothing/under/rank/wardenalt(src)
-		new /obj/item/clothing/suit/storage/vest/wardencoat(src)
-		new /obj/item/clothing/suit/storage/vest/wardencoat/alt(src)
-		new /obj/item/clothing/suit/storage/toggle/policejacket(src)
-		new /obj/item/clothing/head/helmet/dermal(src)
-		new /obj/item/clothing/head/helmet/police(src)
-		new /obj/item/weapon/cartridge/security(src)
-		new /obj/item/device/radio/headset/headset_sec(src)
-		new /obj/item/device/radio/headset/headset_sec/alt(src)
-		new /obj/item/clothing/glasses/sunglasses/sechud(src)
-		new /obj/item/taperoll/police(src)
-		new /obj/item/weapon/bodycam(src)
-		new /obj/item/clothing/accessory/badge/holo/warden(src)
-		new /obj/item/weapon/storage/box/flashbangs(src)
-		new /obj/item/weapon/storage/belt/security(src)
-		new /obj/item/weapon/reagent_containers/spray/pepper(src)
-		new /obj/item/weapon/melee/baton/loaded(src)
-		new /obj/item/weapon/gun/energy/gun(src)
-		new /obj/item/weapon/cell/device/weapon(src)
-		new /obj/item/weapon/storage/box/holobadge(src)
-		new /obj/item/clothing/shoes/boots/winter/security(src)
-		new /obj/item/device/flashlight/maglight(src)
-		new /obj/item/device/megaphone(src)
-		new /obj/item/clothing/mask/gas/half(src)
-		new /obj/item/weapon/grenade/flashbang/clusterbang/geminus(src)
-		new /obj/item/weapon/grenade/flashbang/clusterbang/geminus(src)
-		return
+			new	/obj/item/weapon/storage/backpack/dufflebag/sec(src)
+			
+		var/list/items_to_spawn = list(
+			/obj/item/clothing/suit/armor/pcarrier/medium/police,
+			/obj/item/clothing/head/beret/policegold,
+			/obj/item/clothing/head/soft/policewarden,
+			/obj/item/clothing/head/police/policewardencap,
+			/obj/item/clothing/under/rank/wardenalt,
+			/obj/item/clothing/suit/storage/vest/wardencoat,
+			/obj/item/clothing/suit/storage/vest/wardencoat/alt,
+			/obj/item/clothing/suit/storage/toggle/policejacket,
+			/obj/item/clothing/head/helmet/dermal,
+			/obj/item/clothing/head/helmet/police,
+			/obj/item/weapon/cartridge/security,
+			/obj/item/device/radio/headset/headset_sec,
+			/obj/item/device/radio/headset/headset_sec/alt,
+			/obj/item/clothing/glasses/sunglasses/sechud,
+			/obj/item/taperoll/police,
+			/obj/item/weapon/bodycam,
+			/obj/item/clothing/accessory/badge/holo/warden,
+			/obj/item/weapon/storage/box/flashbangs,
+			/obj/item/weapon/storage/belt/security,
+			/obj/item/weapon/reagent_containers/spray/pepper,
+			/obj/item/weapon/melee/baton/loaded,
+			/obj/item/weapon/gun/energy/gun,
+			/obj/item/weapon/cell/device/weapon,
+			/obj/item/weapon/storage/box/holobadge,
+			/obj/item/clothing/shoes/boots/winter/security,
+			/obj/item/device/flashlight/maglight,
+			/obj/item/device/megaphone,
+			/obj/item/clothing/mask/gas/half,
+			/obj/item/weapon/grenade/flashbang/clusterbang/geminus,
+			/obj/item/weapon/grenade/flashbang/clusterbang/geminus
+		)
+		for(var/item_type in items_to_spawn)
+			var/obj/item/I = new item_type(src)
+			I.dont_save = 1
+
 
 
 
@@ -217,68 +238,93 @@
 			new /obj/item/clothing/accessory/badge/holo(src)
 		else
 			new /obj/item/clothing/accessory/badge/holo/cord(src)
-		new /obj/item/clothing/suit/storage/vest/officer(src)
-		new /obj/item/clothing/head/helmet(src)
-		new /obj/item/weapon/cartridge/security(src)
-		new /obj/item/device/radio/headset/headset_sec(src)
-		new /obj/item/device/radio/headset/headset_sec/alt(src)
-		new /obj/item/weapon/storage/belt/security(src)
-		new /obj/item/device/flash(src)
-		new /obj/item/weapon/reagent_containers/spray/pepper(src)
-//		new /obj/item/weapon/grenade/flashbang(src) // Get it from vending or armory
-		new /obj/item/weapon/melee/baton/loaded(src)
-		new /obj/item/clothing/glasses/sunglasses/sechud(src)
-		new /obj/item/taperoll/police(src)
-		new /obj/item/device/hailer(src)
-		new /obj/item/weapon/bodycam(src)
-		new /obj/item/device/flashlight/flare(src)
-		new /obj/item/clothing/accessory/storage/black_vest(src)
-		new /obj/item/clothing/head/soft/sec(src)
-		new /obj/item/clothing/head/soft/sec/corp(src)
-		new /obj/item/clothing/under/rank/security/corp(src)
-//		new /obj/item/weapon/gun/projectile/police(src) //added to armory instead.
-//		new /obj/item/ammo_magazine/m45(src)
-//		new /obj/item/ammo_magazine/m45(src)
-		new /obj/item/weapon/cell/device/weapon(src)
-		new /obj/item/clothing/suit/storage/hooded/wintercoat/security(src)
-		new /obj/item/clothing/shoes/boots/winter/security(src)
-		new /obj/item/device/flashlight/maglight(src)
-		new /obj/item/weapon/gun/energy/taser(src)
-		new /obj/item/device/holowarrant(src)
-		return
+			
+		var/list/items_to_spawn = list(
+			 /obj/item/clothing/suit/storage/vest/officer,
+			 /obj/item/clothing/head/helmet,
+			 /obj/item/weapon/cartridge/security,
+			 /obj/item/device/radio/headset/headset_sec,
+			 /obj/item/device/radio/headset/headset_sec/alt,
+			 /obj/item/weapon/storage/belt/security,
+			 /obj/item/device/flash,
+			 /obj/item/weapon/reagent_containers/spray/pepper,
+	// 		 /obj/item/weapon/grenade/flashbang, // Get it from vending or armory
+			 /obj/item/weapon/melee/baton/loaded,
+			 /obj/item/clothing/glasses/sunglasses/sechud,
+			 /obj/item/taperoll/police,
+			 /obj/item/device/hailer,
+			 /obj/item/weapon/bodycam,
+			 /obj/item/device/flashlight/flare,
+			 /obj/item/clothing/accessory/storage/black_vest,
+			 /obj/item/clothing/head/soft/sec,
+			 /obj/item/clothing/head/soft/sec/corp,
+			 /obj/item/clothing/under/rank/security/corp,
+	//		 /obj/item/weapon/gun/projectile/police, //added to armory instead.
+	//		 /obj/item/ammo_magazine/m45,
+	//		 /obj/item/ammo_magazine/m45,
+			 /obj/item/weapon/cell/device/weapon,
+			 /obj/item/clothing/suit/storage/hooded/wintercoat/security,
+			 /obj/item/clothing/shoes/boots/winter/security,
+			 /obj/item/device/flashlight/maglight,
+			 /obj/item/weapon/gun/energy/taser,
+			 /obj/item/device/holowarrant
+		)
+		for(var/item_type in items_to_spawn)
+			var/obj/item/I = new item_type(src)
+			I.dont_save = 1
 
 
 /obj/structure/closet/secure_closet/security/cargo
 
 	New()
 		..()
-		new /obj/item/clothing/accessory/armband/cargo(src)
-		new /obj/item/device/encryptionkey/headset_cargo(src)
-		return
+
+		var/list/items_to_spawn = list(
+			/obj/item/clothing/accessory/armband/cargo(src)
+			/obj/item/device/encryptionkey/headset_cargo(src)
+		)
+		for(var/item_type in items_to_spawn)
+			var/obj/item/I = new item_type(src)
+			I.dont_save = 1
 
 /obj/structure/closet/secure_closet/security/engine
 
 	New()
 		..()
-		new /obj/item/clothing/accessory/armband/engine(src)
-		new /obj/item/device/encryptionkey/headset_eng(src)
-		return
+
+		var/list/items_to_spawn = list(
+			/obj/item/clothing/accessory/armband/engine
+			/obj/item/device/encryptionkey/headset_eng
+		)
+		for(var/item_type in items_to_spawn)
+			var/obj/item/I = new item_type(src)
+			I.dont_save = 1
 
 /obj/structure/closet/secure_closet/security/science
 
 	New()
 		..()
-		new /obj/item/clothing/accessory/armband/science(src)
-		new /obj/item/device/encryptionkey/headset_sci(src)
-		return
+
+		var/list/items_to_spawn = list(
+			/obj/item/clothing/accessory/armband/science
+			/obj/item/device/encryptionkey/headset_sci
+		)
+		for(var/item_type in items_to_spawn)
+			var/obj/item/I = new item_type(src)
+			I.dont_save = 1
 
 /obj/structure/closet/secure_closet/security/med
 
 	New()
 		..()
-		new /obj/item/clothing/accessory/armband/medblue(src)
-		new /obj/item/device/encryptionkey/headset_med(src)
-		return
+
+		var/list/items_to_spawn = list(
+			/obj/item/clothing/accessory/armband/medblue
+			/obj/item/device/encryptionkey/headset_med
+		)
+		for(var/item_type in items_to_spawn)
+			var/obj/item/I = new item_type(src)
+			I.dont_save = 1
 
 
 /obj/structure/closet/secure_closet/detective
@@ -293,26 +339,31 @@
 
 	New()
 		..()
-		new /obj/item/clothing/accessory/badge/holo/detective(src)
-		new /obj/item/clothing/gloves/black(src)
-		new /obj/item/weapon/gun/projectile/revolver/deckard/rubber(src)
-		new /obj/item/ammo_magazine/s38(src)
-		new /obj/item/ammo_magazine/s38(src)
-		new /obj/item/weapon/storage/belt/detective(src)
-		new /obj/item/weapon/storage/box/evidence(src)
-		new /obj/item/device/radio/headset/headset_sec(src)
-		new /obj/item/device/radio/headset/headset_sec/alt(src)
-		new /obj/item/clothing/suit/storage/vest/detective(src)
-		new /obj/item/taperoll/police(src)
-		new /obj/item/clothing/accessory/holster/armpit(src)
-		new /obj/item/device/flashlight/maglight(src)
-		new /obj/item/weapon/reagent_containers/food/drinks/flask/detflask(src)
-		new /obj/item/weapon/storage/briefcase/crimekit(src)
-		new /obj/item/weapon/storage/box/csi_markers(src)
-		new /obj/item/device/taperecorder(src)
-		new /obj/item/device/tape/random(src)
-		new /obj/item/device/tape/random(src)
-		return
+
+		var/list/items_to_spawn = list(
+		 	/obj/item/clothing/accessory/badge/holo/detective,
+			/obj/item/clothing/gloves/black,
+			/obj/item/weapon/gun/projectile/revolver/deckard/rubber,
+		 	/obj/item/ammo_magazine/s38,
+		 	/obj/item/ammo_magazine/s38,
+		 	/obj/item/weapon/storage/belt/detective,
+		 	/obj/item/weapon/storage/box/evidence,
+		 	/obj/item/device/radio/headset/headset_sec,
+		 	/obj/item/device/radio/headset/headset_sec/alt,
+		 	/obj/item/clothing/suit/storage/vest/detective,
+		 	/obj/item/taperoll/police,
+		 	/obj/item/clothing/accessory/holster/armpit,
+		 	/obj/item/device/flashlight/maglight,
+		 	/obj/item/weapon/reagent_containers/food/drinks/flask/detflask,
+		 	/obj/item/weapon/storage/briefcase/crimekit,
+			/obj/item/weapon/storage/box/csi_markers,
+		 	/obj/item/device/taperecorder,
+		 	/obj/item/device/tape/random,
+		 	/obj/item/device/tape/random
+		)
+		for(var/item_type in items_to_spawn)
+			var/obj/item/I = new item_type(src)
+			I.dont_save = 1
 
 /obj/structure/closet/secure_closet/detective/update_icon()
 	if(broken)
@@ -330,12 +381,17 @@
 	name = "lethal injections locker"
 	req_access = list(access_captain)
 
-
 	New()
 		..()
-		new /obj/item/weapon/reagent_containers/syringe/ld50_syringe/choral(src)
-		new /obj/item/weapon/reagent_containers/syringe/ld50_syringe/choral(src)
-		return
+
+		var/list/items_to_spawn = list(
+			/obj/item/weapon/reagent_containers/syringe/ld50_syringe/choral(src)
+			/obj/item/weapon/reagent_containers/syringe/ld50_syringe/choral(src)
+		)
+		for(var/item_type in items_to_spawn)
+			var/obj/item/I = new item_type(src)
+			I.dont_save = 1
+
 
 
 
@@ -347,9 +403,14 @@
 
 	New()
 		..()
-		new /obj/item/clothing/under/color/orange( src )
-		new /obj/item/clothing/shoes/orange( src )
-		return
+
+		var/list/items_to_spawn = list(
+			/obj/item/clothing/under/color/orange
+			/obj/item/clothing/shoes/orange
+		)
+		for(var/item_type in items_to_spawn)
+			var/obj/item/I = new item_type(src)
+			I.dont_save = 1
 
 
 
@@ -359,15 +420,20 @@
 
 	New()
 		..()
-		new /obj/item/clothing/shoes/brown(src)
-		new /obj/item/weapon/paper/Court (src)
-		new /obj/item/weapon/paper/Court (src)
-		new /obj/item/weapon/paper/Court (src)
-		new /obj/item/weapon/pen (src)
-		new /obj/item/clothing/suit/judgerobe (src)
-		new /obj/item/clothing/head/powdered_wig (src)
-		new /obj/item/weapon/storage/briefcase(src)
-		return
+
+		var/list/items_to_spawn = list(
+			 /obj/item/clothing/shoes/brown,
+			 /obj/item/weapon/paper/Court,
+			 /obj/item/weapon/paper/Court,
+			 /obj/item/weapon/paper/Court,
+			 /obj/item/weapon/pen,
+			 /obj/item/clothing/suit/judgerobe,
+			 /obj/item/clothing/head/powdered_wig,
+			 /obj/item/weapon/storage/briefcase
+		)
+		for(var/item_type in items_to_spawn)
+			var/obj/item/I = new item_type(src)
+			I.dont_save = 1
 
 /obj/structure/closet/secure_closet/wall
 	name = "wall locker"
