@@ -280,8 +280,8 @@
 		..()
 
 		var/list/items_to_spawn = list(
-			/obj/item/clothing/accessory/armband/cargo(src)
-			/obj/item/device/encryptionkey/headset_cargo(src)
+			/obj/item/clothing/accessory/armband/cargo,
+			/obj/item/device/encryptionkey/headset_cargo
 		)
 		for(var/item_type in items_to_spawn)
 			var/obj/item/I = new item_type(src)
