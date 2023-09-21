@@ -306,7 +306,7 @@
 		..()
 
 		var/list/items_to_spawn = list(
-			/obj/item/clothing/accessory/armband/science
+			/obj/item/clothing/accessory/armband/science,
 			/obj/item/device/encryptionkey/headset_sci
 		)
 		for(var/item_type in items_to_spawn)
