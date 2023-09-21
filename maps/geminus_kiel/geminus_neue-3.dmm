@@ -39,7 +39,7 @@
 "aM" = (/obj/structure/catwalk,/obj/random/trash,/turf/simulated/floor/plating,/area/maintenance/asmaint)
 "aN" = (/obj/machinery/vending/snack,/turf/simulated/floor/tiled,/area/security/prison)
 "aO" = (/obj/machinery/light/small{dir = 1; pixel_y = 0},/turf/simulated/floor,/area/maintenance/asmaint)
-"aP" = (/obj/structure/table/standard,/obj/item/weapon/circuitboard/teleporter,/obj/item/weapon/circuitboard/aicore{pixel_x = -2; pixel_y = 4},/turf/simulated/floor/tiled/neutral,/area/crew_quarters/heads/hor)
+"aP" = (/obj/structure/filingcabinet,/turf/simulated/floor/tiled/dark,/area/crew_quarters/heads/hor)
 "aQ" = (/turf/simulated/floor/tiled/steel,/area/lots/business/business_lot_five)
 "aR" = (/obj/structure/flora/rock,/turf/simulated/floor/outdoors/grass,/area/planets/Geminus/outdoor/west)
 "aS" = (/obj/structure/fence{dir = 1; icon_state = "straight"},/turf/simulated/floor/tiled/steel,/area/planets/Geminus/outdoor/west)
@@ -339,12 +339,12 @@
 "gA" = (/obj/machinery/light,/turf/simulated/floor/tiled/dark,/area/lots/business/business_lot_seven)
 "gB" = (/obj/structure/table/reinforced,/obj/item/weapon/reagent_containers/hypospray/vial,/obj/machinery/light/colored/blue{dir = 1},/turf/simulated/floor/tiled/steel,/area/crew_quarters/heads/cmo)
 "gC" = (/obj/structure/disposalpipe/junction{dir = 4; icon_state = "pipe-j2"},/turf/simulated/floor/tiled/monotile,/area/security/main)
-"gD" = (/turf/simulated/floor/tiled/steel,/area/crew_quarters/heads/hor)
+"gD" = (/obj/structure/filingcabinet,/obj/machinery/light/colored/purple{dir = 8},/turf/simulated/floor/tiled/dark,/area/crew_quarters/heads/hor)
 "gE" = (/obj/structure/railing{icon_state = "railing0"; dir = 1},/turf/simulated/floor/tiled/external,/area/planets/Geminus/outdoor/north)
 "gF" = (/obj/structure/table/reinforced,/obj/machinery/door/window/eastright{dir = 8; name = "Police Paperwork Office"; req_access = list(1,63)},/obj/machinery/door/window/eastright{dir = 4; name = "Police Paperwork Office"; req_access = list(1,63)},/turf/simulated/floor/tiled/steel,/area/security/main)
 "gG" = (/obj/effect/floor_decal/corner/paleblue{dir = 10},/obj/machinery/newscaster{pixel_y = -32},/turf/simulated/floor/tiled/white,/area/medical/medbay2)
 "gH" = (/obj/structure/flora/rock{icon_state = "lavarocks2"},/turf/simulated/floor/outdoors/dirt/pollux/planetuse,/area/planets/Geminus/outdoor/park)
-"gI" = (/obj/structure/filingcabinet,/obj/machinery/light/small{dir = 8; icon_state = "bulb1"},/turf/simulated/floor/tiled/steel,/area/crew_quarters/heads/hor)
+"gI" = (/obj/structure/filingcabinet,/obj/machinery/light/colored/purple{dir = 4; icon_state = "purple1"; tag = "icon-purple1 (EAST)"},/turf/simulated/floor/tiled/dark,/area/crew_quarters/heads/hor)
 "gJ" = (/obj/effect/floor_decal/corner/paleblue/full{dir = 4; icon_state = "corner_white_full"; tag = "icon-corner_white_full (EAST)"},/obj/machinery/newscaster{pixel_y = -32},/turf/simulated/floor/tiled/white,/area/medical/medbay2)
 "gK" = (/obj/machinery/newscaster{pixel_y = -32},/turf/simulated/floor/tiled/steel,/area/medical/morgue)
 "gL" = (/obj/structure/flora/ausbushes/lavendergrass,/obj/effect/overlay/palmtree_r,/turf/simulated/floor/outdoors/dirt/pollux/planetuse,/area/planets/Geminus/outdoor/park)
@@ -477,7 +477,7 @@
 "ji" = (/obj/machinery/light/colored/purple,/obj/effect/floor_decal/corner/purple/border,/turf/simulated/floor/tiled/dark,/area/rnd/research_foyer)
 "jj" = (/obj/effect/floor_decal/corner/purple/border,/turf/simulated/floor/tiled/dark,/area/rnd/research_foyer)
 "jk" = (/obj/structure/railing{tag = "icon-railing0 (EAST)"; icon_state = "railing0"; dir = 4},/turf/simulated/floor/tiled/white,/area/medical/medbay2)
-"jl" = (/obj/structure/filingcabinet,/turf/simulated/floor/tiled/steel,/area/crew_quarters/heads/hor)
+"jl" = (/obj/structure/table/standard,/obj/item/weapon/circuitboard/teleporter,/obj/item/weapon/circuitboard/aicore{pixel_x = -2; pixel_y = 4},/turf/simulated/floor/tiled/dark,/area/crew_quarters/heads/hor)
 "jm" = (/obj/effect/floor_decal/corner/purple/bordercorner{icon_state = "bordercolorcorner"; dir = 8},/turf/simulated/floor/tiled/dark,/area/rnd/research_foyer)
 "jn" = (/obj/effect/floor_decal/corner/white/border{dir = 1},/turf/simulated/floor/tiled/dark,/area/crew_quarters/fitness)
 "jo" = (/obj/structure/table/bench/standard,/turf/simulated/floor/tiled/monotile,/area/security/prison)
@@ -628,7 +628,7 @@
 "md" = (/obj/structure/bed/padded,/turf/simulated/floor/tiled/dark,/area/security/prison)
 "me" = (/obj/machinery/door/airlock/glass_security{dir = 1; name = "Prison Botany"},/turf/simulated/floor/tiled/monotile,/area/security/prison)
 "mf" = (/obj/structure/flora/rock,/turf/simulated/floor/outdoors/grass/pollux/planetuse,/area/planets/Geminus/outdoor/park)
-"mg" = (/obj/effect/wallframe_spawn/basic/blue/hospital,/turf/simulated/floor/tiled,/area/crew_quarters/heads/hor)
+"mg" = (/turf/simulated/floor/tiled/dark,/area/crew_quarters/heads/hor)
 "mh" = (/obj/machinery/door/airlock/glass_security{id_tag = "CellsFoyer"; name = "Courtyard"; req_access = list(1); dir = 8},/turf/simulated/floor/tiled/dark,/area/security/prison)
 "mi" = (/obj/structure/flora/ausbushes/fullgrass,/turf/simulated/floor/outdoors/dirt/pollux/planetuse,/area/planets/Geminus/outdoor/west)
 "mj" = (/obj/structure/table/reinforced,/obj/effect/floor_decal/corner/white/border{dir = 8},/obj/machinery/door/window/eastleft{name = "Police Archive Checkpoint"; req_access = list(63); dir = 8},/turf/simulated/floor/tiled/dark,/area/security/main)
@@ -797,7 +797,7 @@
 "pq" = (/obj/machinery/door/airlock/glass_medical{name = "Bathroom Stall 1"; req_access = list(5)},/obj/effect/floor_decal/corner_techfloor_gray/diagonal,/turf/simulated/floor/tiled/white,/area/medical/medbay2)
 "pr" = (/turf/simulated/floor/tiled/paleblue,/area/planets/Geminus/outdoor/south)
 "ps" = (/obj/structure/flora/naut4,/obj/machinery/light/colored/purple{dir = 4; icon_state = "purple1"; tag = "icon-purple1 (EAST)"},/turf/simulated/floor/wood/ebony,/area/crew_quarters/heads/hor)
-"pt" = (/obj/structure/table/wooden_reinforced,/obj/machinery/status_display/money_display/rnd{pixel_y = -32},/turf/simulated/floor/wood/ebony,/area/crew_quarters/heads/hor)
+"pt" = (/obj/machinery/status_display/money_display/rnd{pixel_y = -32},/obj/structure/table/standard,/turf/simulated/floor/wood/ebony,/area/crew_quarters/heads/hor)
 "pu" = (/obj/structure/flora/pottedplant/lily,/obj/machinery/light/colored/purple{dir = 8},/turf/simulated/floor/wood/ebony,/area/crew_quarters/heads/hor)
 "pv" = (/obj/structure/table/standard,/obj/machinery/modular_computer/laptop,/obj/machinery/door/window/northright{name = "RD's Office"; req_access = list(30)},/obj/effect/floor_decal/spline/fancy/wood{dir = 1; icon_state = "spline_fancy"},/turf/simulated/floor/carpet/purcarpet,/area/crew_quarters/heads/hor)
 "pw" = (/obj/structure/table/standard,/obj/item/weapon/paper_bin,/obj/item/weapon/pen,/obj/structure/window/reinforced{dir = 1; health = 1e+006},/obj/structure/window/reinforced{dir = 4},/obj/item/weapon/folder/white,/obj/effect/floor_decal/spline/fancy/wood{dir = 5; icon_state = "spline_fancy"},/turf/simulated/floor/carpet/purcarpet,/area/crew_quarters/heads/hor)
@@ -846,13 +846,18 @@
 "qn" = (/obj/structure/table/wooden_reinforced,/obj/machinery/light{dir = 4},/turf/simulated/floor/carpet/blue,/area/crew_quarters)
 "qo" = (/obj/machinery/light/colored{tag = "icon-yellow1 (EAST)"; icon_state = "yellow1"; dir = 4},/turf/simulated/floor/tiled/steel,/area/lots/business/business_lot_twelve)
 "qp" = (/obj/machinery/door/airlock/vault{dir = 4; req_access = list(47)},/turf/simulated/floor/tiled/kafel_full/gray,/area/rnd/research_foyer)
+"qq" = (/obj/effect/wallframe_spawn/reinforced/electric,/turf/simulated/floor/tiled/dark,/area/crew_quarters/heads/hor)
 "qr" = (/obj/effect/decal/cleanable/dirt,/obj/random/mob/mouse,/turf/simulated/floor/plating,/area/maintenance/asmaint)
 "qs" = (/obj/structure/railing{dir = 1; icon_state = "railing0"},/obj/structure/railing{dir = 8; icon_state = "railing0"; tag = "icon-railing0 (WEST)"},/turf/simulated/floor/tiled/external,/area/planets/Geminus/outdoor/north)
+"qt" = (/obj/machinery/door/airlock/research{name = "Research File Storage"; req_access = list(30); dir = 8},/turf/simulated/floor/tiled/dark,/area/crew_quarters/heads/hor)
 "qu" = (/obj/structure/barricade,/turf/simulated/floor/plating,/area/maintenance/asmaint)
 "qv" = (/obj/effect/floor_decal/borderfloor/corner{dir = 1; icon_state = "borderfloorcorner"},/turf/simulated/floor/tiled/steel,/area/crew_quarters)
+"qw" = (/obj/machinery/door/airlock/research{name = "Research Director's Office"; req_access = list(30); dir = 8},/turf/simulated/floor/tiled/dark,/area/crew_quarters/heads/hor)
 "qx" = (/obj/structure/catwalk,/obj/structure/bed/chair/general{dir = 4; icon_state = "chair_preview"},/turf/simulated/floor/plating,/area/maintenance/asmaint)
 "qy" = (/obj/structure/bed/chair/wood/ebony,/turf/simulated/floor/tiled/external,/area/crew_quarters/fitness)
+"qz" = (/obj/machinery/computer/security/telescreen/entertainment{icon_state = "frame"; pixel_x = -32},/turf/simulated/floor/wood/ebony,/area/crew_quarters/heads/hor)
 "qA" = (/obj/random/plushie,/turf/simulated/floor/plating,/area/maintenance/asmaint)
+"qB" = (/obj/machinery/newscaster{pixel_x = 32},/turf/simulated/floor/wood/ebony,/area/crew_quarters/heads/hor)
 "qD" = (/obj/effect/floor_decal/rust,/obj/structure/loot_pile/maint/junk,/turf/simulated/floor/plating,/area/maintenance/asmaint)
 "qF" = (/obj/machinery/door/airlock/glass_medical{name = "Bathroom Stall 2"; req_access = list(5)},/obj/effect/floor_decal/corner_techfloor_gray/diagonal,/turf/simulated/floor/tiled/white,/area/medical/medbay2)
 "qG" = (/obj/effect/floor_decal/borderfloor{dir = 5; icon_state = "borderfloor"},/turf/simulated/floor/tiled/steel,/area/crew_quarters)
@@ -947,7 +952,6 @@
 "tE" = (/obj/structure/flora/ausbushes/fullgrass,/turf/simulated/floor/outdoors/grass,/area/planets/Geminus/outdoor/west)
 "tF" = (/obj/structure/table/wooden_reinforced,/obj/structure/window/reinforced{dir = 1; health = 1e+006},/obj/structure/window/reinforced{dir = 8},/obj/machinery/photocopier/faxmachine,/obj/effect/floor_decal/borderfloor{dir = 9; icon_state = "borderfloor"},/turf/simulated/floor/tiled,/area/pdsi_offices)
 "tG" = (/obj/structure/railing{dir = 1; icon_state = "railing0"},/turf/simulated/floor/tiled/external,/area/lots/business/business_lot_eight)
-"tH" = (/obj/structure/filingcabinet,/turf/simulated/floor/tiled/neutral,/area/crew_quarters/heads/hor)
 "tI" = (/obj/machinery/light{dir = 4; icon_state = "tube1"},/turf/simulated/floor/tiled/external,/area/lots/shopping/shopping_lot_twelve)
 "tJ" = (/obj/structure/loot_pile/maint/boxfort,/turf/simulated/floor/plating,/area/maintenance/asmaint)
 "tK" = (/turf/simulated/wall/plastic/hospital,/area/medical/psych)
@@ -1154,8 +1158,6 @@
 "zs" = (/obj/machinery/light/small{dir = 1; pixel_y = 0},/turf/simulated/floor/plating,/area/maintenance/asmaint)
 "zu" = (/obj/effect/floor_decal/corner/red/border{dir = 6},/turf/simulated/floor/tiled/dark,/area/medical/psych)
 "zv" = (/obj/structure/flora/rock{icon_state = "lavarocks2"},/turf/simulated/floor/outdoors/grass/pollux/planetuse,/area/planets/Geminus/outdoor/park)
-"zw" = (/turf/simulated/floor/tiled/neutral,/area/crew_quarters/heads/hor)
-"zx" = (/obj/machinery/door/airlock/research{name = "Research File Storage"; req_access = list(30); dir = 8},/turf/simulated/floor/tiled/steel,/area/crew_quarters/heads/hor)
 "zA" = (/obj/structure/railing,/obj/structure/bed/chair/sofa/brown/right{dir = 1},/turf/simulated/floor/tiled/external,/area/planets/Geminus/outdoor/sky)
 "zB" = (/obj/structure/table/wooden_reinforced,/obj/item/weapon/pen,/obj/effect/floor_decal/corner/white/border{dir = 4},/turf/simulated/floor/tiled/dark,/area/planets/Geminus/indoor/panicbunker)
 "zD" = (/obj/effect/floor_decal/corner/green,/obj/effect/floor_decal/corner/red{dir = 8},/turf/simulated/floor/tiled,/area/security/prison)
@@ -1163,7 +1165,6 @@
 "zI" = (/obj/machinery/porta_turret,/obj/machinery/light/small{dir = 4},/turf/simulated/floor/tiled,/area/planets/Geminus/indoor/panicbunker)
 "zK" = (/turf/simulated/open,/area/lots/business/business_lot_one)
 "zM" = (/obj/structure/toilet{icon_state = "toilet00"; dir = 8},/obj/machinery/light/small{dir = 4; pixel_y = 0},/turf/simulated/floor/tiled/white,/area/security/main)
-"zN" = (/obj/machinery/light/small{dir = 4},/turf/simulated/floor/tiled/neutral,/area/crew_quarters/heads/hor)
 "zO" = (/turf/simulated/floor/pavement/brick_paving,/area/planets/Geminus/outdoor/west)
 "zP" = (/obj/effect/floor_decal/corner/white/border,/obj/structure/table/reinforced,/obj/machinery/light/colored/blue{dir = 1},/obj/item/weapon/storage/box/evidence,/obj/item/clothing/gloves/sterile/nitrile,/turf/simulated/floor/tiled/dark,/area/security/main)
 "zQ" = (/turf/simulated/floor/tiled/kafel_full/gray,/area/rnd/research_foyer)
@@ -1589,7 +1590,6 @@
 "MM" = (/obj/structure/bed/chair{dir = 8},/turf/simulated/floor/tiled/dark,/area/security/main)
 "MP" = (/obj/effect/landmark/lotsign,/turf/simulated/wall/iron,/area/lots/office/office_lot_two)
 "MQ" = (/turf/simulated/floor/tiled/white,/area/medical/morgue)
-"MV" = (/obj/machinery/door/airlock/research{name = "Research Director's Office"; req_access = list(30); dir = 8},/turf/simulated/floor/tiled/neutral,/area/crew_quarters/heads/hor)
 "MX" = (/obj/structure/fence{dir = 8; icon_state = "straight"},/turf/simulated/floor/pavement/empty,/area/planets/Geminus/outdoor/park)
 "MZ" = (/obj/machinery/light{icon_state = "tube1"; dir = 8},/turf/simulated/floor/tiled/dark,/area/lots/business/business_lot_nine)
 "Na" = (/obj/effect/floor_decal/rust,/obj/structure/bed/chair/sofa/yellow/left,/turf/simulated/floor/plating,/area/maintenance/asmaint)
@@ -2112,15 +2112,15 @@ hDJknsnsNYFhNYNYNYZEQRAGFhFhgbLwuzNYnsnsnsnsnsnsnspjpjpjpjpjpjpjpjNkpfpfpfpfpfpf
 hDJknsnsNYTvAGZENYAGZELwAGZEXQolubNYnsnsnsnsnsnsnspjpjpjpjpjpjpjpjuDpfSXpfuDpfpfuDySbybybeJoJoJobGJoJoJoJobGcnfBTAAGAGxaAGfBpjpjpjpjpjpjpjpjpjpjpjpjpjWmMvMvfvadGDGDfvDBDBDBDBDBDBfvadfvnPRmRmRmRmBvRmRmRmRmnPpjpjpjpjpjpjpjpjpjyHLAtptptpLAXEAtjrrRjqjHfgfgfgfgjMjrrRjqWpkokokokolGuSzQzQmatdAtpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
 hDJknsnsNYhyFhAGxqLwqrAGLwxzZEAGFhNYnsnsnsnsnsnsnspjpjpjpjpjpjpjpjuDuDuDuDuDuDuDuDjxjxjxjxkkzRuHJohgANpTJoJoLIfBJPAGZEfBmMfBpjpjbjbjbjbjFqFqiFiFiFFqboboBLBLboboBLBLbobobdgvdGacDBfvadfvnPRmRmRmRmnPnPnPEZnPnPpjpjpjpjpjpjpjpjpjcMwqwqwqtptpXEAtjrrRjqjHfgfgfgfgjMjrrRjqWpkokokokolGkmmagfOYhsAtpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
 hDJknsnsNYNYNYNYNYLwLwWYAGLwZEQRFhNYnsnsnsnsnsnspjpjpjpjpjpjpjpjpjPcPcPcPcPcPcPcPcjxjxjxjxkkLINZJordoqRFJoJoLIfBAGgyTAfBmMfBpjpjbjYAHDUvFqIPYPYPYPFrbogBwABfkbQrQrQrpWboygsUsUsUksadIbfvnPRmRmRmRmnPRmRmRmnPpjpjpjpjpjpjpjpjpjpjpjpjpjdqpjpjdqAtjrjgjBjHfgfgfgfgjMjPjmjqAtAtAtAtAtAtAtAtAtAtAtAtpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
-hDJknsnsnsNYZEZEAGAGFhaMKmAGAGFhhyNYnsnsnsnsnsnspjpjpjpjpjpjpjpjpjPcFDkYukGSGSnjPcjxjxjxjxkkoZdNbGJoJoJoJobGtyfBZEfBfBfBmMfBldmcBtTIKRZjFqZiYPYPUofnboNpBfBfQrvWCMugbfboKysUsUSgDBfvfvfvnPnPnPEZnPnPRmRmRmnPpjpjpjpjpjpjpjpjpjpjpjpjpjdqpjpjdqAtjAjqSRmgmgmgmgmgmgSRjrjvEwHIGUEuLpHIgwEwpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
+hDJknsnsnsNYZEZEAGAGFhaMKmAGAGFhhyNYnsnsnsnsnsnspjpjpjpjpjpjpjpjpjPcFDkYukGSGSnjPcjxjxjxjxkkoZdNbGJoJoJoJobGtyfBZEfBfBfBmMfBldmcBtTIKRZjFqZiYPYPUofnboNpBfBfQrvWCMugbfboKysUsUSgDBfvfvfvnPnPnPEZnPnPRmRmRmnPpjpjpjpjpjpjpjpjpjpjpjpjpjdqpjpjdqAtjAjqSRqqqqqqqqqqqqSRjrjvEwHIGUEuLpHIgwEwpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
 hDJknsnsnsNYZENYNYNYNYNYNYNYNYNYNYNYnsnsnsnsnsnsnspjpjpjpjpjpjpjpjPcFDnjnjHaHanjPcjxjxjxjxkkJoJoJosHJssDJoJoyBfBxifBeVlVUvGamMmMlMywUrXlFqvvyATwweIZbomtBfBfDWakDZBfatbowksUlXUPDBDBDBDBDBnPRmRmRmRmRmRmRmoQpjpjpjpjpjpjpjpjpjpjpjpjpjdqdqdqdqAtjrjqLSKJKJKJKJKJKJLSjrjqmGQHQHklHzQHVgEwpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
 hDJknsnsnsNYFhNYnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnsnspjpjpjpjpjpjpjpjPcFDnjnjpdnjnjPcPcPcPcPcPcPcsDJoyBavavIAIAavavAGfBIyUvfsfBmMmMbjUvywFEFqhihALNcBLNbommBfBfQrPXEnQkwybojhsUVmeADBpCDBpCDBnPRmRmRmRmRmRmRmoQpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjAtjQjRLmKJnxoEpvpwKJLmjWjREwjuQHmZkMQHSSEwpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
 hDJknsnsnsNYVeNYNYNYNYNYNYNYNYNYNYNYnsnsnsnsnsnsnspjpjpjpjpjpjpjpjPcPcDdPcPcPcPcPcFDFDoYFDFDPcEAJoWravsdsdsdsdavAGwNwNwNwNwNEyEyEyEyEyiMFqFqFqLNLNaWborJpXBffuQrQrQrQrbouMsUkFJjDBpqDBqFDBnPRmRmRmRmRmRmRmoQpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjLmLmLmLmglpyDxZDpzifLmLmLmLmKcQHwHkMQHwiEwpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
-hDJknsnsnsNYUQHAZEZEFhFhFhaMRALwZENYnsnsnsnsnsnspjpjpjpjpjpjpjpjpjPcFDnjFDguFDFDPcFDnjnjnjFDhoUJJoyBavRgsdsdPtavxvwNMDgzZbJREydldfbTITiMoytwFqWALNQWbobobowYboscscscboboGZsUsUUiDBJUJUJUDBnPRmRmRmRmRmRmRmnPpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjLmjlgDLmKJpFwJDxpGKJLmtHaPLmryQHkMkMQHsAEwpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
-hDJknsnsnsNYiYNYNYNYNYNYNYNYNYZENYNYnsnsnsnspjpjpjpjpjpjpjpjpjpjpjItFDnjnjnjnjFDPcFDnjnjnjnjzFJoJoyBavsdsdsdsdavAGwNovFjeSRYEyPdyeSOFKiMENYPQSLNLNLNDBerGLEQQjGLGLGLEpDBKYsUsUsUhSJUJUVTDBnPRmRmRmRmRmRmRmnPpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjLmjlgDzxKJpIpJpJpMKJMVzwzNLmVnQHkMNzQHEfEwpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
-hDJknsnsnsNYHANYnsnsnsnsnsnsNYyqNYnsnsnspjpjpjpjpjpjpjpjpjpjpjpjpjItFDnjnjnjnjnjHtnjnjnjnjFDPcsDJoyBavsdsdsdsdavAGwNeSeSeSeSEySOSOSOSOiMFqFqFqLNJyTNDBydEQEQRZRZEQEQEQpUsUvzIsJTDBafTCafDBnPnPnPnPEZnPnPnPnPpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjLmgIgDLmKJKJKJKJKJKJLmzwzwLmQHQHqhghvyQHEwpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
-hDJknsnsnsNYiYNYnsnsnsnsnsnsNYZENYnsnspjpjpjpjpjpjpjpjpjpjpjpjpjpjItFDnjFDVDFDFDPcFDFDeJFDFDPcWGJoyBavavriavavavZEwNZebaZeZeEyRBJzRBRBEyFqFqFqEYmumuDBTDEQjkaKaKkwEQnuDBDBDBxNxNxNxNxNxNxNnPRmnPRmRmRmRmRmnPpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjLmjlgDLmpsZSptOiAZpuLmtHtHLmEwEwEwEwEwEwEwpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
-hDJknsnsnsNYXFNYnsnsnsnsnsnsNYbmNYnsnspjpjpjpjpjpjpjpjpjpjpjpjpjpjPcFDnjFDPcItItPcPcPcPcPcPcPcEAJokuvjsdsdsdsdavZEgrhEOWWDWDxmWDOWWDwvtKABoSGLEQGLGLpYDtEQjkaKaKkwEQKgpYGLCNxNRfYRvpopBwxNnPRmRmRmRmRmRmRmoQpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjLmLmLmLmmgmgLmLmmgmgLmLmLmLmfgfgfgfgfgfgAtpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
+hDJknsnsnsNYUQHAZEZEFhFhFhaMRALwZENYnsnsnsnsnsnspjpjpjpjpjpjpjpjpjPcFDnjFDguFDFDPcFDnjnjnjFDhoUJJoyBavRgsdsdPtavxvwNMDgzZbJREydldfbTITiMoytwFqWALNQWbobobowYboscscscboboGZsUsUUiDBJUJUJUDBnPRmRmRmRmRmRmRmnPpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjLmaPgDLmKJpFwJDxpGKJLmgIjlLmryQHkMkMQHsAEwpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
+hDJknsnsnsNYiYNYNYNYNYNYNYNYNYZENYNYnsnsnsnspjpjpjpjpjpjpjpjpjpjpjItFDnjnjnjnjFDPcFDnjnjnjnjzFJoJoyBavsdsdsdsdavAGwNovFjeSRYEyPdyeSOFKiMENYPQSLNLNLNDBerGLEQQjGLGLGLEpDBKYsUsUsUhSJUJUVTDBnPRmRmRmRmRmRmRmnPpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjLmmgmgqtKJpIpJpJpMKJqwmgmgLmVnQHkMNzQHEfEwpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
+hDJknsnsnsNYHANYnsnsnsnsnsnsNYyqNYnsnsnspjpjpjpjpjpjpjpjpjpjpjpjpjItFDnjnjnjnjnjHtnjnjnjnjFDPcsDJoyBavsdsdsdsdavAGwNeSeSeSeSEySOSOSOSOiMFqFqFqLNJyTNDBydEQEQRZRZEQEQEQpUsUvzIsJTDBafTCafDBnPnPnPnPEZnPnPnPnPpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjLmmgmgLmqzKJKJKJKJqBLmmgmgLmQHQHqhghvyQHEwpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
+hDJknsnsnsNYiYNYnsnsnsnsnsnsNYZENYnsnspjpjpjpjpjpjpjpjpjpjpjpjpjpjItFDnjFDVDFDFDPcFDFDeJFDFDPcWGJoyBavavriavavavZEwNZebaZeZeEyRBJzRBRBEyFqFqFqEYmumuDBTDEQjkaKaKkwEQnuDBDBDBxNxNxNxNxNxNxNnPRmnPRmRmRmRmRmnPpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjLmaPgDLmpsZSptOiAZpuLmgIaPLmEwEwEwEwEwEwEwpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
+hDJknsnsnsNYXFNYnsnsnsnsnsnsNYbmNYnsnspjpjpjpjpjpjpjpjpjpjpjpjpjpjPcFDnjFDPcItItPcPcPcPcPcPcPcEAJokuvjsdsdsdsdavZEgrhEOWWDWDxmWDOWWDwvtKABoSGLEQGLGLpYDtEQjkaKaKkwEQKgpYGLCNxNRfYRvpopBwxNnPRmRmRmRmRmRmRmoQpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjLmLmLmLmqqqqLmLmqqqqLmLmLmLmfgfgfgfgfgfgAtpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
 hDJknsnsnsNYDUNYnsnsnsnsnsnsNYVeNYnspjpjpjpjpjpjpjpjpjpjpjpjpjpjpjPcFDnjFDguFDFDPcFDFDSfFDFDPcEAJoJoLisdsdsdsdavFhgrPhOWOWOWOWOWOWOWOWuAEQEQEQEQEQEQEQEQEQjkuIuIkwEQEQEQEQEQRLlIlIapMQMxxNnPRmRmRmRmRmRmRmoQpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjAtfgfgfgfgfgfgfgfgfgAtfgfgfgfgfgfgfgfgfgAtpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
 hDJknsnsnsNYWLNYnsnsnsnsXeXeXezOeXwjwjropjpjpjpjpjpjpjpjpjpjpjpjpjPcrrnjnjnjnjnjHtnjnjnjnjFDPcEAJosHavRgsdsdPtavFhgrhHOWcFcFrZcFOWcFzutKrNEQEQQCgGWSiyoAQaQCIqVaQCQaWSiyoAgJxNPVlIapMQCpxNnPRmRmRmRmRmRmRmoQpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjAtfgfgfgfgfgfgfgfgfgAtfgfgfgfgfgfgfgfgfgAtpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
 hDJknsnsnsNYXFNYnsnsnsnsXezOzOzOzOzOzOyypjpjpjpjpjpjpjpjpjpjpjpjpjPcFDFDFDFDFDFDPcFDFDVDFDFDPcEAJoyBavsdsdsdsdavUtoLHTQhHTHToLNsljNsNsDfNcEMMiDBDBjfjfjfDBDBrNXGDBDBjfjfjfDBxNFwYtvIMQJXxNnPRmRmRmRmRmRmRmnPpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjAtfgfgfgfgfgfgfgfgfgAtfgfgfgfgfgfgfgfgfgAtpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
