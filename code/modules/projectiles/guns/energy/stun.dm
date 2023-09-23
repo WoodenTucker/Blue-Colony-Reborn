@@ -4,7 +4,7 @@
 	icon_state = "taser"
 	item_state = null	//so the human update icon uses the icon_state instead.
 	projectile_type = /obj/item/projectile/nonlethal
-	price_tag = 500
+	price_tag = 250
 
 /obj/item/weapon/gun/energy/taser/carbine
 	name = "taser carbine"
