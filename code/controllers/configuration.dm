@@ -83,7 +83,7 @@ var/list/gamemode_cache = list()
 	var/automute_on = 0					//enables automuting/spam prevention
 	var/jobs_have_minimal_access = 0		//determines whether jobs use minimal access or expanded access.
 
-	var/allow_exports = 0				//allow factory exports?
+	var/allow_exports = 1				//allow factory exports?
 
 	var/cult_ghostwriter = 1                //Allows ghosts to write in blood in cult rounds...
 	var/cult_ghostwriter_req_cultists = 10  //...so long as this many cultists are active.
