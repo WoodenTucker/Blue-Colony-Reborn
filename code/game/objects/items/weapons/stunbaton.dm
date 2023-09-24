@@ -209,6 +209,20 @@
 		bcell.emp_act(severity)	//let's not duplicate code everywhere if we don't have to please.
 	..()
 
+//obj/item/weapon/melee/baton/phoronstaff
+	name = "phoron stun-staff"
+	desc = "A stun staff for incapacitating groups with ease."
+	icon_state = "phoronstaff"
+	item_state = "phoronstaff"
+	slot_flags = SLOT_BELT
+	force = 25
+	sharp = 0
+	edge = 0
+	throwforce = 7
+	w_class = ITEMSIZE_NORMAL
+	origin_tech = list(TECH_COMBAT = 5, TECH_MATERIAL = 4, TECH_ENGINEERING = 4)
+	attack_verb = list("shocked")
+
 //secborg stun baton module
 /obj/item/weapon/melee/baton/robot
 	hitcost = 500

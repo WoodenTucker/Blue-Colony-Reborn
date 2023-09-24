@@ -1272,3 +1272,7 @@ Uniforms and stuff
 	icon_state = "disheveled"
 	index = 1
 
+/obj/item/clothing/under/browntunic
+	name = "brown tunic"
+	desc = "A strange looking tunic."
+	icon_state = "brown_tunic"

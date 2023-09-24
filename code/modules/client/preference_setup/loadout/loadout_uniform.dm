@@ -154,6 +154,10 @@
 	path = /obj/item/clothing/under/rank/scientist/skirt
 	allowed_roles = list("Research Director","Scientist", "Xenobiologist")
 
+/datum/gear/uniform/browntunic
+	display_name = "brown tunic"
+	path = /obj/item/clothing/under/browntunic
+
 /datum/gear/uniform/job_skirt/cargo
 	display_name = "skirt, cargo"
 	path = /obj/item/clothing/under/rank/cargotech/skirt
