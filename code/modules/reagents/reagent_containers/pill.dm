@@ -13,7 +13,7 @@
 	possible_transfer_amounts = null
 	w_class = ITEMSIZE_TINY
 	slot_flags = SLOT_EARS
-	volume = 60
+	volume = 100
 
 
 
