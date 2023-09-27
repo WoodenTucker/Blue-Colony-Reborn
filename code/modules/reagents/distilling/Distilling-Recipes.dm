@@ -215,7 +215,8 @@
 
 	temp_range = list(T0C + 100, T0C + 150)
 
-/datum/chemical_reaction/distilling/necroxadone
+// Fuck you. No revival from 200+ toxin damage.
+/* /datum/chemical_reaction/distilling/necroxadone
 	name = "Distilling Necroxadone"
 	id = "distill_necroxadone"
 	result = "necroxadone"
@@ -226,4 +227,4 @@
 
 	reaction_rate = HALF_LIFE(20)
 
-	temp_range = list(T0C + 90, T0C + 95)
+	temp_range = list(T0C + 90, T0C + 95) */ 
