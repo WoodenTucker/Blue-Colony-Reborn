@@ -71,6 +71,12 @@
 	l_pocket = /obj/item/device/flash
 	id_type = /obj/item/weapon/card/id/security/officer
 	pda_type = /obj/item/device/pda/security
+	r_pocket = /obj/item/weapon/reagent_containers/spray/pepper
+	suit = /obj/item/clothing/suit/storage/vest/officer
+	belt = /obj/item/weapon/storage/belt/security
+	backpack_contents = list(/obj/item/weapon/handcuffs = 2,
+	/obj/item/clothing/accessory/permit/gun/tier_four = 1,
+	/obj/item/clothing/accessory/holster)
 
 /decl/hierarchy/outfit/job/security/traffic
 	name = OUTFIT_JOB_NAME("Traffic Warden")
