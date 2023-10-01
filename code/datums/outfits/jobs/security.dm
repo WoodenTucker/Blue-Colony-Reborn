@@ -76,7 +76,9 @@
 	belt = /obj/item/weapon/storage/belt/security
 	backpack_contents = list(/obj/item/weapon/handcuffs = 2,
 	/obj/item/clothing/accessory/permit/gun/tier_four = 1,
-	/obj/item/clothing/accessory/holster)
+	/obj/item/weapon/gun/energy/taser = 1,
+	/obj/item/weapon/cell/device/weapon = 2,
+	/obj/item/clothing/accessory/holster = 1)
 
 /decl/hierarchy/outfit/job/security/traffic
 	name = OUTFIT_JOB_NAME("Traffic Warden")
