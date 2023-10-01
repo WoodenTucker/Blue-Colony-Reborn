@@ -1897,7 +1897,7 @@ CIRCUITS BELOW
 	sort_string = "HABQB"
 	price = 300
 
-/datum/design/obj/item/device/xenoarch_multi_tool
+/datum/design/item/device/xenoarch_multi_tool
 	name = "xenoarcheology multitool"
 	id = "xenoarch_multitool"
 	req_tech = list(TECH_MAGNET = 3, TECH_ENGINEERING = 3, TECH_BLUESPACE = 3)
