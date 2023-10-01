@@ -2484,4 +2484,3 @@
 					/obj/item/weapon/material/fishing_net = 50
 					)
 	vendor_department = DEPT_PUBLIC
-
