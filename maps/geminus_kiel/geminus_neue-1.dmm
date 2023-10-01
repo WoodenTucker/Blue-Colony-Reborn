@@ -1183,7 +1183,7 @@
 "LB" = (/obj/effect/floor_decal/industrial/warning{dir = 1; icon_state = "warning"},/obj/effect/spider/stickyweb,/turf/simulated/floor/plating,/area/planets/Geminus/indoor/sewer/north)
 "LD" = (/obj/structure/flora/rock,/turf/simulated/mineral/floor/pollux,/area/planets/Geminus/indoor/sewer/south)
 "LJ" = (/obj/structure/bed/chair/office/dark{dir = 4},/turf/simulated/floor/tiled/dark,/area/planets/Geminus/indoor/arrivalbus)
-"LK" = (/obj/structure/loot_pile/maint,/turf/simulated/floor/tiled/steel_grid,/area/planets/Geminus/indoor/sewer/rooms)
+"LK" = (/obj/structure/loot_pile/maint/junk,/turf/simulated/floor/tiled/steel_grid,/area/planets/Geminus/indoor/sewer/rooms)
 "LL" = (/obj/structure/disposalpipe/segment,/turf/simulated/floor/tiled/steel_ridged,/area/rnd/xenobiology)
 "LN" = (/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plating,/area/maintenance/asmaint)
 "LR" = (/turf/simulated/floor/tiled/dark,/area/outpost/research/hallway)
