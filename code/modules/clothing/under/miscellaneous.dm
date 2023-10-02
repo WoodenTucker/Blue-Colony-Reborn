@@ -1272,3 +1272,22 @@ Uniforms and stuff
 	icon_state = "disheveled"
 	index = 1
 
+/obj/item/clothing/under/brown_tunic
+	name = "brown tunic"
+	desc = "A finely sown brown fabric tunic,it seems a bit modest."
+	icon_state = "brown_tunic"
+
+/obj/item/clothing/under/tan_tunic
+	name = "tan tunic"
+	desc = "A finely sown tan fabric tunic,it seems a bit rustic."
+	icon_state = "tan_tunic"
+
+/obj/item/clothing/under/grey_tunic
+	name = "grey tunic"
+	desc = "A finely sown grey fabric tunic,it seems a bit off."
+	icon_state = "grey_tunic"
+
+/obj/item/clothing/under/black_tunic
+	name = "black tunic"
+	desc = "A finely sown black fabric tunic,it seems a bit dark."
+	icon_state = "black_tunic"

@@ -16,7 +16,7 @@
 
 	access = list(access_morgue, access_chapel_office, access_crematorium, access_maint_tunnels)
 	minimal_access = list(access_chapel_office, access_crematorium)
-	alt_titles = list("Counselor", "Priest", "Preacher")
+	alt_titles = list("Counselor", "Priest", "Preacher", "Master")
 
 	outfit_type = /decl/hierarchy/outfit/job/civilian/chaplain
 

@@ -143,7 +143,7 @@
 
 /obj/item/weapon/melee/energy/sword/New()
 	if(random_color)
-		blade_color = pick("red","blue","green","purple")
+		blade_color = pick("red","blue","green","purple","gold","magenta","cyan")
 		lcolor = blade_color
 
 /obj/item/weapon/melee/energy/sword/green/New()
@@ -161,6 +161,18 @@
 /obj/item/weapon/melee/energy/sword/purple/New()
 	blade_color = "purple"
 	lcolor = "#800080"
+
+/obj/item/weapon/melee/energy/sword/gold/New()
+	blade_color = "gold"
+	lcolor = "#FFD700"
+
+/obj/item/weapon/melee/energy/sword/magenta/New()
+	blade_color = "magenta"
+	lcolor = "#FF00FF"
+
+/obj/item/weapon/melee/energy/sword/cyan/New()
+	blade_color = "cyan"
+	lcolor = "#00FFFF"
 
 /obj/item/weapon/melee/energy/sword/activate(mob/living/user)
     if(!active)
