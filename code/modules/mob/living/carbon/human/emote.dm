@@ -203,6 +203,10 @@
 			message = "drools."
 			m_type = 1
 
+		if ("twerk")
+			message = "bends over slightly, throwing [T.his] ass back, wiggling it like a californian girl on a friday night."
+			m_type = 1
+
 		if ("eyebrow")
 			message = "raises an eyebrow."
 			m_type = 1
@@ -577,13 +581,13 @@
 			if (!src.restrained())
 				message = "raises a hand."
 			m_type = 1
-			
+
 		if("crack")
 			if(!restrained())
 				message = "cracks [T.his] knuckles."
 				playsound(src, 'sound/voice/knuckles.ogg', 50, 1)
 				m_type = 1
-				
+
 		if("shake")
 			message = "shakes [T.his] head."
 			m_type = 1
