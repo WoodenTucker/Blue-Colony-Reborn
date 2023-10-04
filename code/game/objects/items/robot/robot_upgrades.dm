@@ -94,7 +94,7 @@
 	if(R.speed == -1)
 		return 0
 
-	R.speed--
+	R.speed -= 0.75
 	return 1
 
 
