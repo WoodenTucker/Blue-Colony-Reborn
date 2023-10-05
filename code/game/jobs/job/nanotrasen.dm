@@ -62,7 +62,7 @@
 	minimal_access = list(access_cent_general, access_president, access_vice_president, access_advisor, access_governor)
 	minimal_player_age = 14
 
-	wage = 9000
+	wage = 1250
 	alt_titles = list()
 
 	minimum_character_age = 30
@@ -117,7 +117,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/nanotrasen/advisor
 	idtype = /obj/item/weapon/card/id/nanotrasen/advisor
 	alt_titles = list()
-	wage = 500
+	wage = 600
 	description = "As an advisor, your goal is to advise the president. Yep, that's it."
 
 /datum/job/nanotrasen/advisor/justice
