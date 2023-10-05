@@ -55,7 +55,7 @@
 	access = list(access_security, access_bodyguard, access_warrant, access_eva, access_sec_doors, access_brig, access_armory, access_maint_tunnels, access_morgue, access_external_airlocks)
 	minimal_access = list(access_security, access_warrant, access_eva, access_sec_doors, access_brig, access_armory, access_maint_tunnels, access_external_airlocks)
 	minimal_player_age = 5
-	minimum_character_age = 28
+	minimum_character_age = 30
 
 	outfit_type = /decl/hierarchy/outfit/job/security/warden
 	alt_titles = list("Correctional Officer", "Brig Attendant", "Police Sergeant")
