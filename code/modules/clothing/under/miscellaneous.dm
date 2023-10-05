@@ -341,12 +341,12 @@
 	name = "maid uniform"
 	desc = "A simple maid uniform for housekeeping."
 	icon_state = "janimaid"
-
+/*
 /obj/item/clothing/under/dress/maid/sexy
 	name = "sexy maid costume"
 	desc = "You must be a bit risque teasing all of them in a maid uniform!"
 	icon_state = "sexymaid"
-
+*/
 /obj/item/clothing/under/dress/dress_fire
 	name = "flame dress"
 	desc = "A small black dress with blue flames print on it."
