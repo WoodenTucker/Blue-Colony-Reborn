@@ -3,7 +3,7 @@
 	var/datum/feed_channel/news_source
 
 /datum/website/news/geminus_standard
-	title = "Geminus Standard"
+	title = "Kiel Standard"
 	name = "geminus-standard.nt"
 
 /datum/website/news/geminus_standard/New()

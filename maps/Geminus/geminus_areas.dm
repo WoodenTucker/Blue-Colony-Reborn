@@ -412,11 +412,11 @@
 	name = "\improper Residential Area - Masonette Two"
 
 /area/centcom/president_office_geminus
-	name = "\improper President's Geminus City HQ" //Central Command Command totally isn't RAS Syndrome in action.
+	name = "\improper President's Kiel City HQ" //Central Command Command totally isn't RAS Syndrome in action.
 	icon_state = "centcom_command"
 
 /area/centcom/president_office_geminus/office
-	name = "\improper President's Office - Geminus" //Central Command Command totally isn't RAS Syndrome in action.
+	name = "\improper President's Office - Kiel" //Central Command Command totally isn't RAS Syndrome in action.
 	icon_state = "centcom_command"
 
 /area/redspace/outpost
