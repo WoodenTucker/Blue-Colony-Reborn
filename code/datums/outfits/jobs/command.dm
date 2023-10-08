@@ -57,7 +57,7 @@
 
 /decl/hierarchy/outfit/job/heads/secretary
 	name = OUTFIT_JOB_NAME("City Hall Guard")
-	l_ear = /obj/item/device/radio/headset/headset_com
+	l_ear = /obj/item/device/radio/headset/headset_comgrd
 	shoes = /obj/item/clothing/shoes/brown
 	id_type = /obj/item/weapon/card/id/silver/secretary
 	pda_type = /obj/item/device/pda/heads/hop
