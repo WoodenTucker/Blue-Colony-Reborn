@@ -119,7 +119,7 @@
 	glasses = /obj/item/clothing/glasses/sunglasses
 	uniform = /obj/item/clothing/under/rank/president
 	suit = /obj/item/clothing/suit/storage/toggle/presidential_jacket
-	l_ear = /obj/item/device/radio/headset/headset_com
+	l_ear = /obj/item/device/radio/headset/government
 	shoes = /obj/item/clothing/shoes/leather
 	belt = /obj/item/weapon/gun/energy/pulse_rifle/M1911
 	backpack = /obj/item/weapon/storage/backpack

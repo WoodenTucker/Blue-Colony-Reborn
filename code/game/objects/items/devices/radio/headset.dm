@@ -175,6 +175,17 @@
 	icon_state = "com_headset_alt"
 	ks2type = /obj/item/device/encryptionkey/headset_com
 
+/obj/item/device/radio/headset/headset_comgrd
+	name = "Cityhall bodyguard radio headset"
+	desc = "A headset for the emotionally distressed."
+	icon_state = "com_headset"
+	ks2type = /obj/item/device/encryptionkey/headset_comgrd
+
+/obj/item/device/radio/headset/headset_com/alt
+	name = "Cityhall bodyguard bowman headset"
+	desc = "A headset for the emotionally distressed."
+	icon_state = "com_headset_alt"
+	ks2type = /obj/item/device/encryptionkey/headset_comgrd
 
 /obj/item/device/radio/headset/heads/captain
 	name = "mayor's headset"
