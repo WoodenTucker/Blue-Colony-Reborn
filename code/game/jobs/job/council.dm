@@ -143,8 +143,8 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 	synth_wage = 60
 
 	minimum_character_age = 21
-	access = list(access_heads, access_bodyguard, access_keycard_auth, access_security, access_legal, access_medical, access_tox, access_sec_doors)
-	minimal_access = list(access_heads, access_bodyguard, access_keycard_auth, access_security, access_legal, access_medical, access_tox, access_sec_doors)
+	access = list(access_heads, access_bodyguard, access_keycard_auth, access_security, access_legal, access_medical, access_research, access_sec_doors)
+	minimal_access = list(access_heads, access_bodyguard, access_keycard_auth, access_security, access_legal, access_medical, access_research, access_sec_doors)
 
 	outfit_type = /decl/hierarchy/outfit/job/heads/secretary
 	alt_titles = list("Council Bodyguard", "City Hall Security", "Bailiff")
