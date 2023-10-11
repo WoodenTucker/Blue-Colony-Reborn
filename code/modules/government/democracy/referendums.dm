@@ -5,7 +5,7 @@ GLOBAL_LIST_EMPTY(all_voting_ballots)
 	var/name = "Vote Ballot"
 	var/desc = "This is a voting ballot."
 	var/id = ""
-	var/list/options = list("Yes", "No")
+	var/list/options = list("Yes, Change", "No, Do not Change")
 	var/list/ckeys_voted = list()
 	var/list/vote_log = list()
 
@@ -37,7 +37,7 @@ GLOBAL_LIST_EMPTY(all_voting_ballots)
 	var/datum/persistent_option/PO = get_persistent_option()
 	active = FALSE
 
-	if(check_winner() == "Yes")
+	if(check_winner() == "Yes, Change")
 		apply_ballot_outcome()
 		if(!silent && PO)
 			PO.sanitize_options()
