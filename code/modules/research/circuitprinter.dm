@@ -204,8 +204,17 @@ using metal and glass, it uses glass and reagents (usually sulphuric acid).
 		reagents.remove_reagent(C, D.chemicals[C] * mat_efficiency)
 
 	if(D.build_path)
-		var/obj/new_item = D.Fabricate(src, src)
-		new_item.loc = loc
+		var/obj/item/new_item = D.Fabricate(src, src)
+		new_item.tagged_price = D.price
+		if(D.protected)
+			var/obj/item/weapon/redemption_box/r_box = new /obj/item/weapon/redemption_box(loc)
+			r_box.receiving_department = DEPT_RESEARCH
+			if(LAZYLEN(new_item.origin_tech))
+				r_box.origin_tech = new_item.origin_tech
+				r_box.name += " ([new_item.name])"
+			new_item.forceMove(r_box)
+		else
+			new_item.loc = loc
 		if(mat_efficiency != 1) // No matter out of nowhere
 			if(new_item.matter && new_item.matter.len > 0)
 				for(var/i in new_item.matter)
