@@ -120,14 +120,10 @@ var/global/list/globalBlankCanvases[AMT_OF_CANVASES]
 	if(anchored)
 		return
 	
-	//usr << "Anchored [~anchored] | on_wall: [on_wall] | runs? [(!anchored) && on_wall]"
-	//usr << "is active hand null? [1 && usr.get_active_hand()]"
 	if((!anchored) && on_wall) // I'm sure this is a horrid way to do this (reset it's pixelshift when grabbed off a wall) - Wolf
 		on_wall = 0
 		pixel_x = 0
 		pixel_y = 0
-		//usr << "ran"
-	//usr << "end"
 
 	..()
 
