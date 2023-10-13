@@ -48,18 +48,19 @@
 
 #define AMT_OF_CANVASES	4 //Keep this up to date or shit will break.
 
-//To safe memory on making /icons we cache the blanks..
+//To save memory on making /icons we cache the blanks..
 var/global/list/globalBlankCanvases[AMT_OF_CANVASES]
 
 /obj/item/weapon/canvas
 	name = "11px by 11px canvas"
-	desc = "Draw out your soul on this canvas! Only crayons can draw on it. Examine it to focus on the canvas."
+	desc = "Draw out your soul on this canvas! Only crayons can draw on it." // removed " Examine it to focus on the canvas." cause that feature doesnt exist -wolf
 	icon = 'icons/obj/artstuff.dmi'
 	icon_state = "11x11"
 	var/whichGlobalBackup = 1 //List index
 
 	var/pixX			//last X of click
 	var/pixY			//last Y of click
+	var/on_wall			//Is canvas on wall? (made because I don't know a better way to do this) - Wolf
 
 	var/image_id
 
@@ -105,7 +106,6 @@ var/global/list/globalBlankCanvases[AMT_OF_CANVASES]
 
 
 /obj/item/weapon/canvas/Click(location, control, params)
-	..()
 	//Click info
 	var/list/mouse_control = params2list(params)
 
@@ -114,10 +114,20 @@ var/global/list/globalBlankCanvases[AMT_OF_CANVASES]
 
 	if(mouse_control["icon-y"])
 		pixY = text2num(mouse_control["icon-y"])
+	..()
 
 /obj/item/weapon/canvas/attack_hand(mob/user)
 	if(anchored)
 		return
+	
+	//usr << "Anchored [~anchored] | on_wall: [on_wall] | runs? [(!anchored) && on_wall]"
+	//usr << "is active hand null? [1 && usr.get_active_hand()]"
+	if((!anchored) && on_wall) // I'm sure this is a horrid way to do this (reset it's pixelshift when grabbed off a wall) - Wolf
+		on_wall = 0
+		pixel_x = 0
+		pixel_y = 0
+		//usr << "ran"
+	//usr << "end"
 
 	..()
 
@@ -145,6 +155,9 @@ var/global/list/globalBlankCanvases[AMT_OF_CANVASES]
 	var/icon/masterpiece = icon(icon,icon_state)
 	//Cleaning one pixel with a soap or rag
 	if(istype(I, /obj/item/weapon/soap) || istype(I, /obj/item/weapon/reagent_containers/glass/rag))
+		if(anchored) // I'm not sure how to do a AND without running the 'trigger_lot_security_system' - wolf
+			if(trigger_lot_security_system(user, /datum/lot_security_option/theft, "Attempted to erase [src] with \the [I].")) // no erasing people's paintings - wolf
+				return
 		//Pixel info created only when needed
 		var/thePix = masterpiece.GetPixel(pixX,pixY)
 		var/icon/Ico = getGlobalBackup()
@@ -160,6 +173,9 @@ var/global/list/globalBlankCanvases[AMT_OF_CANVASES]
 
 	//Drawing one pixel with a crayon
 	if(istype(I, /obj/item/weapon/pen/crayon))
+		if(anchored) // once again, no idea how to do an AND without running the proc - wolf
+			if(trigger_lot_security_system(user, /datum/lot_security_option/theft, "Attempted to draw on [src] with \the [I].")) // no drawing on people's paintings - wolf
+				return
 		var/obj/item/weapon/pen/crayon/C = I
 		if(masterpiece.GetPixel(pixX, pixY)) // if the located pixel isn't blank (null))
 			DrawPixelOn(C.shadeColour, pixX, pixY)
@@ -172,7 +188,7 @@ var/global/list/globalBlankCanvases[AMT_OF_CANVASES]
 /obj/item/weapon/canvas/attack_self(var/mob/user)
 	if(!user)
 		return
-	var/confirm = alert(src, "Would you like to clear the canvas?.", "Clear Canvas", "Yes", "No")
+	var/confirm = alert(usr, "Would you like to clear the canvas?", "Clear Canvas", "Yes", "No")
 	if(confirm != "Yes")
 		return
 
@@ -213,5 +229,6 @@ var/global/list/globalBlankCanvases[AMT_OF_CANVASES]
 					pixel_y += 32
 				else if(dir_offset & SOUTH)
 					pixel_y -= 32
+			on_wall = 1
 
 #undef AMT_OF_CANVASES
