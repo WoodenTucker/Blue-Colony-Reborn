@@ -82,7 +82,7 @@
 /area/lots/stall/five
 	name = "Stall 5"
 	lot_id = "stall5"
-
+/*
 /area/lots/stall/six
 	name = "Stall 6"
 	lot_id = "stall6"
@@ -90,7 +90,7 @@
 /area/lots/stall/seven
 	name = "Stall 7"
 	lot_id = "stall7"
-
+*/
 // Shopping mall lots
 
 /area/lots/shopping/shopping_lot_one
@@ -144,18 +144,18 @@
 /area/lots/shopping/shopping_lot_thirteen
 	name = "Shopping Lot13"
 	lot_id = "shoplot13"
-
+/*
 /area/lots/shopping/shopping_lot_fourteen
 	name = "Shopping Lot 14"
 	lot_id = "shoplot14"
-
+*/
 
 // Office Lot
-
+/*
 /area/lots/office/multi/office_complex_one
 	name = "Office Complex 1"
 	lot_id = "office_complex_1"
-
+*/
 /area/lots/office/office_lot_one
 	name = "Office Lot 1"
 	lot_id = "office1"

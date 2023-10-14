@@ -317,7 +317,7 @@
 "gf" = (/obj/machinery/newscaster{pixel_y = -32},/turf/simulated/floor/tiled/kafel_full/gray,/area/rnd/research_foyer)
 "gg" = (/obj/structure/closet{persistence_loaded = 1},/turf/simulated/floor/tiled/techfloor/grid,/area/security/main)
 "gh" = (/obj/machinery/newscaster{pixel_y = -32},/obj/machinery/ntnet_relay,/turf/simulated/floor/tiled/techfloor,/area/server)
-"gi" = (/obj/effect/wallframe_spawn,/turf/simulated/floor/tiled/dark,/area/pdsi_offices)
+"gi" = (/obj/structure/wall_frame,/obj/structure/grille/electric,/obj/structure/window/reinforced/polarized/full{id = "pdsifore"},/turf/simulated/floor/tiled/dark,/area/pdsi_offices)
 "gj" = (/turf/simulated/open,/area/lots/business/business_lot_twelve)
 "gk" = (/obj/effect/floor_decal/rust,/obj/machinery/light/small,/turf/simulated/floor/plating,/area/maintenance/asmaint)
 "gl" = (/obj/machinery/light/colored/purple{dir = 4; icon_state = "purple1"; tag = "icon-purple1 (EAST)"},/turf/simulated/floor/wood/ebony,/area/crew_quarters/heads/hor)
@@ -439,7 +439,7 @@
 "ix" = (/obj/effect/floor_decal/corner/paleblue/diagonal,/obj/machinery/vending/security/gcpd,/obj/machinery/light/colored/blue{dir = 8},/turf/simulated/floor/tiled/dark,/area/security/main)
 "iy" = (/obj/effect/floor_decal/corner/paleblue{dir = 10},/obj/structure/table/standard,/turf/simulated/floor/tiled/white,/area/medical/medbay2)
 "iz" = (/obj/structure/fence,/turf/simulated/floor/pavement/empty,/area/planets/Geminus/outdoor/park)
-"iA" = (/obj/structure/closet/secure_closet/guncabinet{name = "secure cabinet"; req_access = list(21); req_one_access = newlist()},/obj/machinery/light/small{brightness_color = "#DA0205"; brightness_power = 1; brightness_range = 5; dir = 8},/obj/item/clothing/head/helmet/nt,/obj/item/clothing/head/helmet/nt,/obj/item/clothing/suit/armor/pcarrier/medium/nt,/obj/item/clothing/suit/armor/pcarrier/medium/nt,/turf/simulated/floor/tiled/dark,/area/pdsi_offices)
+"iA" = (/obj/structure/closet/secure_closet/guncabinet{name = "secure cabinet"; req_access = list(21); req_one_access = newlist()},/obj/machinery/light/small{brightness_color = "#DA0205"; brightness_power = 1; brightness_range = 5; dir = 8},/obj/item/clothing/head/helmet/nt{dont_save = 1},/obj/item/clothing/head/helmet/nt{dont_save = 1},/obj/item/clothing/suit/armor/pcarrier/medium/nt{dont_save = 1},/obj/item/clothing/suit/armor/pcarrier/medium/nt{dont_save = 1},/turf/simulated/floor/tiled/dark,/area/pdsi_offices)
 "iB" = (/obj/structure/railing{dir = 4; icon_state = "railing0"; tag = "icon-railing0 (EAST)"},/turf/simulated/floor/tiled/monotile,/area/planets/Geminus/outdoor/north)
 "iC" = (/obj/machinery/newscaster{pixel_y = 32},/turf/simulated/floor/tiled/kafel_full/gray,/area/rnd/research_breakroom)
 "iD" = (/obj/structure/bed/chair/general{dir = 1; icon_state = "chair_preview"},/obj/structure/window/reinforced,/turf/simulated/floor/pavement/brick_paving,/area/planets/Geminus/outdoor/west)
@@ -547,7 +547,7 @@
 "kB" = (/obj/structure/flora/rock{icon_state = "basalt3"},/turf/simulated/floor/outdoors/dirt/pollux/planetuse,/area/planets/Geminus/outdoor/park)
 "kC" = (/turf/simulated/floor/tiled/monotile,/area/security/main)
 "kD" = (/obj/effect/floor_decal/corner/white/bordercorner,/turf/simulated/floor/tiled/dark,/area/security/main)
-"kE" = (/obj/effect/floor_decal/industrial/outline/grey,/obj/machinery/flasher/portable,/turf/simulated/floor/tiled/techfloor,/area/security/main)
+"kE" = (/obj/effect/floor_decal/industrial/outline/grey,/obj/machinery/flasher/portable{dont_save = 1},/turf/simulated/floor/tiled/techfloor,/area/security/main)
 "kF" = (/obj/structure/bed/chair/comfy/lime{dir = 1},/obj/effect/floor_decal/corner/lime,/turf/simulated/floor/tiled/steel,/area/medical/medbay2)
 "kG" = (/obj/structure/flora/rock{icon_state = "lavarocks1"},/obj/structure/railing{dir = 8; icon_state = "railing0"; tag = "icon-railing0 (WEST)"},/turf/simulated/floor/outdoors/grass/pollux/planetuse,/area/planets/Geminus/outdoor/north)
 "kH" = (/obj/effect/floor_decal/borderfloorblack/corner{dir = 1},/turf/simulated/floor/tiled,/area/planets/Geminus/outdoor/south)
@@ -562,7 +562,7 @@
 "kQ" = (/obj/machinery/door/airlock/glass_civilian{dir = 8},/turf/simulated/floor/tiled/dark,/area/lots/business/business_lot_seven)
 "kR" = (/obj/machinery/light{dir = 8; icon_state = "tube1"},/turf/simulated/floor/tiled/dark,/area/lots/business/business_lot_seven)
 "kS" = (/obj/machinery/door/airlock/command{name = "Maintenance"; req_access = list(21)},/turf/simulated/floor/plating,/area/pdsi_offices)
-"kT" = (/obj/structure/closet/secure_closet/guncabinet{name = "secure cabinet"; req_access = list(21); req_one_access = newlist()},/obj/item/clothing/head/helmet/nt,/obj/item/clothing/head/helmet/nt,/obj/item/clothing/suit/armor/pcarrier/medium/nt,/obj/item/clothing/suit/armor/pcarrier/medium/nt,/turf/simulated/floor/tiled/dark,/area/pdsi_offices)
+"kT" = (/obj/structure/closet/secure_closet/guncabinet{name = "secure cabinet"; req_access = list(21); req_one_access = newlist()},/obj/item/clothing/head/helmet/nt{dont_save = 1},/obj/item/clothing/head/helmet/nt{dont_save = 1},/obj/item/clothing/suit/armor/pcarrier/medium/nt{dont_save = 1},/obj/item/clothing/suit/armor/pcarrier/medium/nt{dont_save = 1},/turf/simulated/floor/tiled/dark,/area/pdsi_offices)
 "kU" = (/obj/effect/floor_decal/corner/pink/diagonal,/obj/structure/fireplace,/turf/simulated/floor/tiled/red,/area/crew_quarters)
 "kV" = (/obj/effect/floor_decal/industrial/warning{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/security/main)
 "kW" = (/obj/machinery/door/airlock/centcom{name = "Governer's Office"; opacity = 1; req_access = list(110)},/obj/effect/floor_decal/corner/white/border{dir = 1},/turf/simulated/floor/diamond,/area/centcom/president_office)
@@ -639,7 +639,7 @@
 "mp" = (/turf/simulated/floor/outdoors/grass/pollux/planetuse,/area/planets/Geminus/outdoor/north)
 "mq" = (/obj/machinery/light{dir = 1; icon_state = "tube1"},/turf/simulated/floor/pavement/empty,/area/planets/Geminus/outdoor/south)
 "mr" = (/obj/machinery/light{icon_state = "tube1"; dir = 8},/turf/simulated/floor/pavement/empty,/area/planets/Geminus/outdoor/south)
-"ms" = (/obj/effect/wallframe_spawn/basic,/turf/simulated/floor/tiled/dark,/area/pdsi_offices)
+"ms" = (/obj/effect/wingrille_spawn/reinforced/electric,/turf/simulated/floor/tiled/dark,/area/pdsi_offices)
 "mt" = (/obj/structure/table/reinforced,/obj/machinery/photocopier,/obj/machinery/light/colored/blue{dir = 4; icon_state = "blue1"; tag = "icon-blue1 (EAST)"},/turf/simulated/floor/tiled/steel,/area/crew_quarters/heads/cmo)
 "mu" = (/obj/effect/wingrille_spawn/reinforced/electric,/obj/machinery/door/blast/shutters{dir = 2; id = "psychshutters"; name = "Psychiatrist Privacy Shutters"},/turf/simulated/floor/wood/walnut,/area/medical/psych/psychoffice)
 "mv" = (/turf/simulated/floor/bluegeo,/area/planets/Geminus/indoor/panicbunker)
@@ -729,7 +729,7 @@
 "ob" = (/obj/structure/toilet{icon_state = "toilet00"; dir = 8},/obj/machinery/light/small/flicker{dir = 4},/turf/simulated/floor/tiled/white,/area/security/main)
 "oc" = (/obj/effect/floor_decal/corner/paleblue/border{dir = 4; icon_state = "bordercolor"; tag = "icon-bordercolor (EAST)"},/obj/machinery/door/airlock/glass_security{id_tag = null; name = "Break Room"; req_access = list(1); dir = 4},/obj/structure/disposalpipe/segment{dir = 4},/turf/simulated/floor/tiled/monotile,/area/security/main)
 "od" = (/obj/structure/flora/pottedplant/brownsakura,/turf/simulated/floor/wood/ebony,/area/centcom/president_office)
-"oe" = (/obj/machinery/deployable/barrier,/obj/effect/floor_decal/industrial/outline/grey,/obj/machinery/light/floor,/turf/simulated/floor/tiled/dark,/area/security/main)
+"oe" = (/obj/machinery/deployable/barrier{dont_save = 1},/obj/effect/floor_decal/industrial/outline/grey,/obj/machinery/light/floor,/turf/simulated/floor/tiled/dark,/area/security/main)
 "of" = (/obj/structure/disposalpipe/segment{dir = 4},/turf/simulated/floor/tiled/dark,/area/security/main)
 "og" = (/obj/structure/table/standard,/obj/item/weapon/storage/fancy/vials,/obj/machinery/light/colored,/turf/simulated/floor/tiled/white,/area/pdsi_offices)
 "oh" = (/obj/structure/disposalpipe/segment{dir = 2; icon_state = "pipe-c"},/turf/simulated/floor/tiled/dark,/area/security/main)
@@ -864,7 +864,7 @@
 "qG" = (/obj/effect/floor_decal/borderfloor{dir = 5; icon_state = "borderfloor"},/turf/simulated/floor/tiled/steel,/area/crew_quarters)
 "qH" = (/obj/effect/floor_decal/corner/white/border,/obj/structure/noticeboard{pixel_y = 32},/turf/simulated/floor/tiled/dark,/area/security/main)
 "qI" = (/obj/structure/table/standard,/obj/machinery/photocopier,/obj/effect/floor_decal/corner/red/full{dir = 1},/obj/structure/noticeboard{pixel_y = 32},/turf/simulated/floor/tiled/dark,/area/security/main)
-"qJ" = (/obj/machinery/deployable/barrier,/obj/effect/floor_decal/industrial/outline/grey,/turf/simulated/floor/tiled/dark,/area/security/main)
+"qJ" = (/obj/machinery/deployable/barrier{dont_save = 1},/obj/effect/floor_decal/industrial/outline/grey,/turf/simulated/floor/tiled/dark,/area/security/main)
 "qK" = (/obj/structure/reagent_dispensers/watertank,/turf/simulated/floor/plating,/area/maintenance/asmaint)
 "qL" = (/obj/effect/floor_decal/corner/paleblue{dir = 9},/obj/structure/noticeboard{dir = 4; icon_state = "nboard00"; pixel_x = -32},/turf/simulated/floor/tiled/steel,/area/security/main)
 "qM" = (/turf/simulated/wall/iron,/area/planets/Geminus/outdoor/north)
@@ -956,14 +956,14 @@
 "su" = (/obj/structure/railing{tag = "icon-railing0 (WEST)"; icon_state = "railing0"; dir = 8},/turf/simulated/floor/tiled/monotile,/area/space)
 "sv" = (/obj/structure/closet/secure_closet/personal/cabinet{anchored = 1},/obj/item/clothing/accessory/holster/waist{dont_save = 1},/obj/item/device/taperecorder{dont_save = 1},/obj/item/device/tape/random,/obj/item/clothing/gloves/forensic{dont_save = 1},/obj/item/clothing/under/suit_jacket/charcoal,/obj/item/clothing/under/suit_jacket/navy/skirt,/obj/item/clothing/under/suit_jacket/charcoal/skirt,/obj/item/weapon/handcuffs,/obj/item/device/flash,/obj/item/weapon/gun/projectile/p92x/large{dont_save = 1},/obj/item/ammo_magazine/m9mm/large{dont_save = 1},/obj/item/ammo_magazine/m9mm/large{dont_save = 1},/obj/item/clothing/suit/storage/det_trench,/obj/item/clothing/suit/storage/det_trench/grey,/obj/item/weapon/storage/secure/briefcase/pdsi{dont_save = 1},/obj/structure/window/reinforced{dir = 1},/turf/simulated/floor/tiled,/area/pdsi_offices)
 "sw" = (/obj/structure/ladder/updown,/obj/structure/railing{dir = 4; icon_state = "railing0"; tag = "icon-railing0 (EAST)"},/turf/simulated/floor/tiled/monotile,/area/planets/Geminus/outdoor/north)
-"sx" = (/obj/structure/flora/ausbushes/leafybush,/obj/structure/flora/ausbushes/ywflowers,/obj/structure/window/basic{dir = 4},/turf/simulated/floor/outdoors/grass,/area/planets/Geminus/indoor/panicbunker)
+"sx" = (/obj/structure/flora/ausbushes/leafybush,/obj/structure/flora/ausbushes/ywflowers,/obj/structure/window/basic{dir = 4},/turf/simulated/floor/grass,/area/planets/Geminus/indoor/panicbunker)
 "sy" = (/obj/structure/fence{dir = 4; icon_state = "straight"},/turf/simulated/floor/pavement/empty,/area/planets/Geminus/outdoor/park)
-"sz" = (/obj/structure/flora/ausbushes/leafybush,/obj/structure/flora/ausbushes/ppflowers,/obj/structure/window/basic{dir = 4},/turf/simulated/floor/outdoors/grass,/area/planets/Geminus/indoor/panicbunker)
+"sz" = (/obj/structure/flora/ausbushes/leafybush,/obj/structure/flora/ausbushes/ppflowers,/obj/structure/window/basic{dir = 4},/turf/simulated/floor/grass,/area/planets/Geminus/indoor/panicbunker)
 "sA" = (/obj/structure/window/reinforced{dir = 8},/obj/machinery/atmospherics/unary/freezer,/turf/simulated/floor/bluegrid{name = "Server Base"; temperature = 80},/area/server)
-"sB" = (/obj/structure/window/basic{dir = 4},/obj/structure/flora/ausbushes/palebush,/obj/structure/flora/ausbushes/brflowers,/turf/simulated/floor/outdoors/grass,/area/planets/Geminus/indoor/panicbunker)
+"sB" = (/obj/structure/window/basic{dir = 4},/obj/structure/flora/ausbushes/palebush,/obj/structure/flora/ausbushes/brflowers,/turf/simulated/floor/grass,/area/planets/Geminus/indoor/panicbunker)
 "sC" = (/obj/structure/table/wooden_reinforced,/obj/machinery/light{icon_state = "tube1"; dir = 8},/turf/simulated/floor/tiled/dark,/area/planets/Geminus/indoor/panicbunker)
 "sD" = (/obj/effect/floor_decal/corner/beige/border{icon_state = "bordercolor"; dir = 5},/turf/simulated/floor/tiled/external,/area/crew_quarters/fitness)
-"sE" = (/obj/structure/window/basic{dir = 4},/obj/structure/flora/ausbushes/leafybush,/obj/structure/flora/ausbushes/ywflowers,/turf/simulated/floor/outdoors/grass,/area/planets/Geminus/indoor/panicbunker)
+"sE" = (/obj/structure/window/basic{dir = 4},/obj/structure/flora/ausbushes/leafybush,/obj/structure/flora/ausbushes/ywflowers,/turf/simulated/floor/grass,/area/planets/Geminus/indoor/panicbunker)
 "sF" = (/obj/structure/bed/chair/wood{dir = 4; icon_state = "wooden_chair"},/turf/simulated/floor/wood/walnut,/area/lots/office/office_lot_one)
 "sH" = (/obj/effect/floor_decal/corner/beige/border{icon_state = "bordercolor"; dir = 9},/turf/simulated/floor/tiled/external,/area/crew_quarters/fitness)
 "sI" = (/obj/effect/floor_decal/corner/white{dir = 10; icon_state = "corner_white"; tag = "icon-corner_white (NORTH)"},/turf/simulated/floor/tiled/paleblue,/area/planets/Geminus/outdoor/south)
@@ -1020,6 +1020,7 @@
 "ui" = (/obj/machinery/photocopier,/turf/simulated/floor/lino,/area/planets/Geminus/outdoor/north)
 "uk" = (/obj/structure/railing{tag = "icon-railing0 (EAST)"; icon_state = "railing0"; dir = 4},/turf/simulated/floor/tiled/dark,/area/lots/shopping/shopping_lot_eight)
 "um" = (/obj/machinery/light{dir = 1},/turf/simulated/floor/tiled/dark,/area/lots/farm/farm_lot_two)
+"uo" = (/obj/structure/wall_frame,/obj/structure/grille/electric,/obj/structure/window/reinforced/polarized/full{id = "pdsioffice"},/turf/simulated/floor/tiled/dark,/area/pdsi_offices)
 "ur" = (/obj/effect/floor_decal/rust/part_rusted1,/turf/simulated/floor,/area/maintenance/asmaint)
 "us" = (/obj/structure/flora/tree/jungle_small,/obj/structure/flora/ausbushes/sparsegrass,/obj/structure/railing{tag = "icon-railing0 (EAST)"; icon_state = "railing0"; dir = 4},/turf/simulated/floor/outdoors/dirt/pollux/planetuse,/area/planets/Geminus/outdoor/north)
 "ut" = (/obj/effect/wallframe_spawn/basic/blue/hospital,/turf/simulated/floor/tiled,/area/rnd/research_breakroom)
@@ -1115,6 +1116,7 @@
 "wM" = (/obj/structure/table/wooden_reinforced,/obj/item/weapon/folder/blue,/obj/structure/window/reinforced{dir = 1; health = 1e+006},/obj/effect/floor_decal/borderfloor{dir = 1},/turf/simulated/floor/tiled,/area/pdsi_offices)
 "wN" = (/turf/simulated/wall/plastic/hospital{color = ""},/area/medical/psych/psychroom2)
 "wO" = (/obj/structure/window/reinforced/tinted{dir = 8; icon_state = "window"},/obj/structure/window/reinforced/tinted,/obj/structure/sink{dir = 1},/turf/simulated/floor/tiled/white,/area/security/prison)
+"wP" = (/obj/machinery/button/windowtint{id = "pdsifore"; pixel_y = -32},/turf/simulated/floor/tiled,/area/pdsi_offices)
 "wQ" = (/obj/structure/bed/chair/general,/turf/simulated/floor/pavement/brick_paving,/area/planets/Geminus/outdoor/west)
 "wR" = (/obj/structure/toilet,/obj/machinery/light/small{dir = 1; pixel_y = 0},/turf/simulated/floor/tiled/white,/area/security/prison)
 "wS" = (/obj/effect/floor_decal/spline/fancy/wood,/obj/machinery/light{dir = 1; icon_state = "tube1"},/turf/simulated/floor/wood/walnut,/area/crew_quarters)
@@ -1197,7 +1199,7 @@
 "yX" = (/obj/machinery/light{dir = 4; icon_state = "tube1"},/obj/effect/floor_decal/borderfloor{dir = 4; icon_state = "borderfloor"},/turf/simulated/floor/wood/bamboo,/area/planets/Geminus/indoor/panicbunker)
 "yZ" = (/obj/structure/bed/chair/sofa/blue/corner{dir = 8},/turf/simulated/floor/tiled/steel,/area/lots/office/office_lot_one)
 "zc" = (/obj/effect/floor_decal/carpet/blue{dir = 4},/obj/effect/floor_decal/carpet/blue,/obj/effect/floor_decal/carpet/blue{dir = 6},/turf/simulated/floor/carpet/bcarpet,/area/pdsi_offices)
-"ze" = (/obj/machinery/power/apc{cell_type = /obj/item/weapon/cell/super; dir = 8; name = "west bump"; pixel_x = -24},/turf/simulated/floor/tiled,/area/pdsi_offices)
+"ze" = (/obj/machinery/button/windowtint{id = "pdsioffice"; pixel_x = -25},/turf/simulated/floor/tiled,/area/pdsi_offices)
 "zf" = (/obj/machinery/light/colored,/turf/simulated/floor/tiled/steel,/area/lots/business/business_lot_two)
 "zg" = (/obj/machinery/computer/telecomms/monitor{network = "tcommsat"; dir = 4},/turf/simulated/floor/wood/ebony,/area/centcom/president_office)
 "zh" = (/obj/structure/table/standard,/obj/machinery/light/colored/purple{dir = 8; icon_state = "purple1"; tag = "icon-purple1 (WEST)"},/turf/simulated/floor/lino,/area/planets/Geminus/outdoor/north)
@@ -1263,7 +1265,7 @@
 "AZ" = (/obj/structure/flora/naut4,/turf/simulated/floor/wood/ebony,/area/crew_quarters/heads/hor)
 "Ba" = (/turf/simulated/wall/silver,/area/pdsi_offices)
 "Bb" = (/obj/structure/flora/ausbushes/sparsegrass,/turf/simulated/floor/outdoors/grass/pollux/planetuse,/area/planets/Geminus/outdoor/north)
-"Bc" = (/obj/structure/flora/ausbushes/palebush,/obj/structure/flora/ausbushes/brflowers,/obj/structure/window/basic{dir = 8},/turf/simulated/floor/outdoors/grass,/area/planets/Geminus/indoor/panicbunker)
+"Bc" = (/obj/structure/flora/ausbushes/palebush,/obj/structure/flora/ausbushes/brflowers,/obj/structure/window/basic{dir = 8},/turf/simulated/floor/grass,/area/planets/Geminus/indoor/panicbunker)
 "Bd" = (/obj/structure/window/reinforced,/obj/structure/window/reinforced{dir = 8},/turf/simulated/floor/tiled{color = ""; name = "exterior tiles"; outdoors = 1},/area/planets/Geminus/outdoor/west)
 "Be" = (/obj/structure/table/standard,/obj/machinery/photocopier/faxmachine{department = "Warden"},/turf/simulated/floor/tiled/dark,/area/security/main)
 "Bf" = (/turf/simulated/floor/tiled/steel,/area/crew_quarters/heads/cmo)
@@ -1721,7 +1723,7 @@
 "OD" = (/obj/effect/floor_decal/corner/white/border,/obj/structure/bed/chair/sofa/brown{dir = 8},/obj/machinery/light{dir = 4; icon_state = "tube1"},/turf/simulated/floor/tiled/dark,/area/planets/Geminus/outdoor/sky)
 "OE" = (/obj/structure/closet/secure_closet/personal/cabinet{anchored = 1},/obj/item/clothing/accessory/holster/waist{dont_save = 1},/obj/item/device/taperecorder{dont_save = 1},/obj/item/device/tape/random,/obj/item/clothing/gloves/forensic{dont_save = 1},/obj/item/clothing/under/suit_jacket/charcoal,/obj/item/clothing/under/suit_jacket/navy/skirt,/obj/item/clothing/under/suit_jacket/charcoal/skirt,/obj/item/weapon/handcuffs,/obj/item/device/flash,/obj/item/weapon/gun/projectile/p92x/large{dont_save = 1},/obj/item/ammo_magazine/m9mm/large{dont_save = 1},/obj/item/ammo_magazine/m9mm/large{dont_save = 1},/obj/item/clothing/suit/storage/det_trench,/obj/item/clothing/suit/storage/det_trench/grey,/obj/item/weapon/storage/secure/briefcase/pdsi{dont_save = 1},/obj/structure/window/reinforced{dir = 1},/obj/machinery/light/colored{dir = 8; icon_state = "yellow1"; tag = "icon-yellow1 (WEST)"},/turf/simulated/floor/tiled,/area/pdsi_offices)
 "OG" = (/obj/random/trash,/obj/machinery/light/small,/turf/simulated/floor/plating,/area/maintenance/asmaint)
-"OI" = (/obj/structure/flora/ausbushes/leafybush,/obj/structure/flora/ausbushes/ppflowers,/obj/structure/window/basic{dir = 8},/turf/simulated/floor/outdoors/grass,/area/planets/Geminus/indoor/panicbunker)
+"OI" = (/obj/structure/flora/ausbushes/leafybush,/obj/structure/flora/ausbushes/ppflowers,/obj/structure/window/basic{dir = 8},/turf/simulated/floor/grass,/area/planets/Geminus/indoor/panicbunker)
 "OK" = (/turf/simulated/floor/pavement/brick_paving,/area/planets/Geminus/outdoor/park)
 "OM" = (/obj/structure/table/woodentable/maple,/obj/structure/window/reinforced{dir = 4; health = 1e+006},/obj/machinery/computer/skills,/turf/simulated/floor/wood/ebony,/area/centcom/president_office)
 "OO" = (/obj/machinery/light/colored{dir = 4; icon_state = "yellow1"; tag = "icon-yellow1 (EAST)"},/turf/simulated/floor/pavement/empty,/area/planets/Geminus/outdoor/south)
@@ -1755,7 +1757,7 @@
 "PD" = (/obj/machinery/light/colored/purple{dir = 1; icon_state = "purple1"; tag = "icon-purple1 (NORTH)"},/turf/simulated/open,/area/rnd/research_foyer)
 "PE" = (/obj/structure/window/reinforced{dir = 4; health = 1e+006},/obj/structure/flora/ausbushes/sunnybush,/obj/structure/flora/ausbushes/ywflowers,/turf/simulated/floor/outdoors/grass/pollux/planetuse,/area/security/main)
 "PF" = (/obj/structure/reagent_dispensers/watertank/high,/turf/simulated/floor/tiled/kafel_full/gray,/area/rnd/research_breakroom)
-"PJ" = (/obj/structure/flora/ausbushes/leafybush,/obj/structure/flora/ausbushes/ywflowers,/obj/structure/window/basic{dir = 8},/obj/machinery/light/colored/green{tag = "icon-green1 (WEST)"; icon_state = "green1"; dir = 8},/turf/simulated/floor/outdoors/grass,/area/planets/Geminus/indoor/panicbunker)
+"PJ" = (/obj/structure/flora/ausbushes/leafybush,/obj/structure/flora/ausbushes/ywflowers,/obj/structure/window/basic{dir = 8},/obj/machinery/light/colored/green{tag = "icon-green1 (WEST)"; icon_state = "green1"; dir = 8},/turf/simulated/floor/grass,/area/planets/Geminus/indoor/panicbunker)
 "PK" = (/obj/effect/floor_decal/borderfloor{dir = 9; icon_state = "borderfloor"},/turf/simulated/floor/tiled/steel,/area/crew_quarters)
 "PM" = (/obj/structure/flora/tree/jungle_small,/turf/simulated/floor/outdoors/grass,/area/planets/Geminus/outdoor/park)
 "PN" = (/obj/structure/table/wooden_reinforced,/turf/simulated/floor/wood/walnut,/area/lots/office/office_lot_one)
@@ -2233,16 +2235,16 @@ hDJkJkNYrANYNYNYNYXezOXeBhBhBhBhBhBhBhBhauauauBhBhXezOzOXeoCoCoCoCoCoCoCoCoCoCoC
 hDJkYjAGQRgyZENYXeXezOXeBhsbsbumsbsbsbsbsbsbsbsbBhXezOzOXeoCYucmYuYuYuYuYuYuYuYuYucmYuoCJZYuwgYuwgYuoCwgwgwgwgwgoCpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjQNPnPnPnPnQNbEYnYnYnlbQNsCrfOfoRPJBaWNpVpVrLdoIpIMBapjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
 hDJklBZEKEecAGxqzOzOzOzOpesbMAMAMAMAMAMAMAMAMAhzBhzOzOzOXeuLwgwgwgwgwgwgwgwgwgwgwgwgYuoCwgYuwgYuwgYuoCYuYuwgYuYuoCpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjQNPnPnPnPnUjwCYBYBFzVqQNJrBXOfhTBcBakppVpVLocfxwuKgipjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
 hDJkYCZEAGuygkNYXeXeuhXeBhsbMAMAMAMAMAMAMAMAMAsbBhZwzOzOXeoCYuwgwgwgwgwgwgwgwgwgwgwgwgkQwgwgwgwgwgwgoCkRwgwgwgPToCpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjQNPnPnPnPnQNKsKsQNClGwQNQNQNJMhTOIBaDlpVpVnJcfeqeqgipjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
-hDJkNYNYrANYNYBhBhBhBhBhBhsbMAsbsbsbsbMAMAMAMAsbBhXezOzOXeoCYuYuYuYuYuNqYuYuYuYuwgwgYuoCwgYuwgYuwgYuoCYuYuwgYuYuoCpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjQNPnPnPnPnQNwdKsQNClGwQNJrrjOfhTPJBazepVpVbICQeqogBapjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
+hDJkNYNYrANYNYBhBhBhBhBhBhsbMAsbsbsbsbMAMAMAMAsbBhXezOzOXeoCYuYuYuYuYuNqYuYuYuYuwgwgYuoCwgYuwgYuwgYuoCYuYuwgYuYuoCpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjQNPnPnPnPnQNwdKsQNClGwQNJrrjOfhTPJBapVpVwPbICQeqogBapjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
 hDNYZETAxKZENYBhsbsbsbsbBhBhGiBhBhBhsbMAMAMAMAsbBhXezOzOXeoCoCoCoCoCoCoCoCoCoCYuwgwgYuoCwgYuwgYugAYuoCwgwgwgwgwgoCpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjQNQNQNQNQNQNQNQNQNClGwQNRcTtOfhWQNBaBahvBaBaBaBaBaBapjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
 hDNYZEAGTAAGNYBhsbMAMAhzBhQoTdTdQoBhhPMAMAMAMAhzBhXezOzOXeoCYuYuYuYuYucmYuYuoCYuwgwgYuoCoCoCoCoCoCoCoCoCoCIEoCoCoCpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjQNBrBrBrBrBrBrQNQNClGwQNQNQNJMcsBCBaVJpVpVhJEDUlQTBapjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
-hDNYYIAGNYFhNYBhsbMAMAsbBhOyTdTdQoBhsbsbsbMAsbsbBhXezOzOXeoCYuwgwgwgwgwgwgYuoCYuwgwgYuoCYuYucmYuYuYuYuYuYuwgcmYuoCpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjQNBrQNQNQNQNQNQNQNHLVqQNJrrjOfidyXBaSwpVpVVOfEpVpVgipjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
+hDNYYIAGNYFhNYBhsbMAMAsbBhOyTdTdQoBhsbsbsbMAsbsbBhXezOzOXeoCYuwgwgwgwgwgwgYuoCYuwgwgYuoCYuYucmYuYuYuYuYuYuwgcmYuoCpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjQNBrQNQNQNQNQNQNQNHLVqQNJrrjOfidyXBaSwpVpVVOfEpVpVuopjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
 hDNYAGZENYaMNYBhsbMAMAsbBhQoTdTdQoBhBhBhBhGiBhBhBhXezOzOwWoCbMwgwgwgwgwgwgwgkQwgwgwgwgwgwgwgwgwgwgwgwgwgwgwgYuYuoCpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjQNBrQNQNQNQNQNQNsxClGwQNsCzBOfidGWBayfpVpVpVpVpVpBBapjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
 hDNYrANYNYZENYBhhPMAMAMAFkTdTdTdTdTdQoQoVSTdawyKBhXezOzOXeoCYuwgwgwgwgwgwgYuoCYuwgwgwgwgwgwgwgwgwgwgwgwgwgwgYuYuoCpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjQNBrQNQNQNQNQNQNszClGwQNQNQNQNxsQNBahkpVpVpPsPgxOEBapjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
-hDNYTAFhNYgyNYBhsbsbsbsbBhwhTdTdTdTdVBTdTdTdVBTdBhXezOzOXeoCYuYuwgYuYuNqYuYuoCYuYuNqYuoCYuYuNqYuYuwgYuoCYuYuNqYuoCpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjQNBrQNQNQNQNQNQNsBClGwWhjaegdsmvCCBadMpVpVVOfEpVpVgipjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
+hDNYTAFhNYgyNYBhsbsbsbsbBhwhTdTdTdTdVBTdTdTdVBTdBhXezOzOXeoCYuYuwgYuYuNqYuYuoCYuYuNqYuoCYuYuNqYuYuwgYuoCYuYuNqYuoCpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjQNBrQNQNQNQNQNQNsBClGwWhjaegdsmvCCBadMpVpVVOfEpVpVuopjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
 hDNYZEaMNYNYNYBhBhBhBhBhBhBhauauauBhBhExGiBhBhBhBhXezOzOXeoCoCoCIEoWoCoCoCoCoCoCoCoCoCoCoCoCoCoCoCIEoCoCoCoCoCoCoCpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjQNBrQNQNQNQNQNQNsEClEXYnYnYnYnYnlbBaECpVpVpVpVpVpBBapjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
 hDNYWYFhNYXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXezOzOXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeaSpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjQNBrBrBrBrBrBrQNQNHLSCYBYBFzWoWoGwkKpVpVpVpPsPgxsvBapjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
-hDNYAGZENYXezOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOaSpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjQNQNQNQNQNQNQNQNQNClGwmvmvwCYBYBADBapVpVpVpVfEpVpVgipjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
+hDNYAGZENYXezOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOaSpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjQNQNQNQNQNQNQNQNQNClGwmvmvwCYBYBADBazepVpVpVfEpVpVuopjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
 hDNYYjxiNYXezOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOzOaSpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjQNSFmvmviqCCmvmvmvClGwQNhMkrSFmvSFBaDVlDpVbIyrpVpBBapjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
 hDNYAGAGNYXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXezOzONTsysyUEsysysysysysysysysysysysysysysysysysysysysysysydAUnpjpjpjpjpjpjGhGhBmBmBmGhGhGhGhGhGhGhpoQNVQmvmvmvcTYnYnYnvqVqQNBaBaBaBTBaBamsmskPBaBakSBaBapjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
 hDNYrANYNYNYNYhlhllZlZlZhllZlZlZhlhlhlhlhlhlhlhlhlXezOzOizOKOKOKMwDotjyDDoDollyDjFjFDjDodTDjDodTllDodThrDjyDjFllUnUnpjpjpjpjpjGhKUKUKUKUKUGhKUKUKUKUGhpoQNxxxxhMmvwCYBYBYBYBJaQNiAoaBaKvVUHFnLbpKvBaXwLwbuRupjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjpjhD
