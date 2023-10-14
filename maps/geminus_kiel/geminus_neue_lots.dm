@@ -152,7 +152,7 @@
 	id = "stall5"
 	price = 16236
 	desc =" "
-
+/*
 /datum/lot/stall/six
 	name = "Stall 6"
 	id = "stall6"
@@ -164,7 +164,7 @@
 	id = "stall7"
 	price = 8118
 	desc =" "
-
+*/
 
 // shopping lots
 
@@ -251,26 +251,26 @@
 	id = "shoplot13"
 	price = 25461
 	desc =" "
-
+/*
 /datum/lot/shopping/fourteen
 	name = "Shopping Lot 14"
 	id = "shoplot14"
 	price = 48093
 	desc =" "
-
+*/
 
 // office lots
 
 /datum/lot/office
 	price = 40000
 	licenses = list(LICENSE_LANDLORD_OFFICE)
-
+/*
 /datum/lot/office/multi/office_complex_one
 	name = "Office Complex 1"
 	id = "office_complex_1"
 	price = 50922
 	desc =" "
-
+*/
 /datum/lot/office/one
 	name = "Office Lot 1"
 	id = "office1"
