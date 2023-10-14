@@ -71,14 +71,15 @@
 	l_pocket = /obj/item/device/flash
 	id_type = /obj/item/weapon/card/id/security/officer
 	pda_type = /obj/item/device/pda/security
-	r_pocket = /obj/item/weapon/reagent_containers/spray/pepper
+	pda_slot = slot_r_store // puts communicator in right pocket
 	suit = /obj/item/clothing/suit/storage/vest/officer
 	belt = /obj/item/weapon/storage/belt/security
 	backpack_contents = list(/obj/item/weapon/handcuffs = 2,
 	/obj/item/clothing/accessory/permit/gun/tier_four = 1,
 	/obj/item/weapon/gun/energy/taser = 1,
 	/obj/item/weapon/cell/device/weapon = 2,
-	/obj/item/clothing/accessory/holster = 1)
+	/obj/item/clothing/accessory/holster = 1,
+	/obj/item/weapon/reagent_containers/spray/pepper = 1)
 
 /decl/hierarchy/outfit/job/security/traffic
 	name = OUTFIT_JOB_NAME("Traffic Warden")
