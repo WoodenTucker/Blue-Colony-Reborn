@@ -1207,3 +1207,13 @@ var/list/floor_decals = list()
 	name = "flood water"
 	icon = 'icons/turf/outdoors.dmi'
 	icon_state = "water_shallow"
+
+/obj/effect/floor_decal/sign/dark1
+	icon_state = "dark_1"
+
+/obj/effect/floor_decal/sign/dark2
+	icon_state = "dark_2"
+
+/obj/effect/floor_decal/sign/dark3
+	icon_state = "dark_3"
+

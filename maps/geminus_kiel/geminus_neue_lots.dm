@@ -299,3 +299,19 @@
 	name = "Farmlot 2"
 	id = "farmlot2"
 	desc =" "
+
+// evidence storage
+
+/datum/lot/evidence
+	name = "Forensics Storage"
+
+/datum/lot/evidence/archive1
+	name = "Archive 1"
+
+/datum/lot/evidence/archive2
+	name = "Archive 2"
+
+/datum/lot/evidence/archive3
+	name = "Archive 3"
+
+
