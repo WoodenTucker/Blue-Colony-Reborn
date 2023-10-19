@@ -304,14 +304,17 @@
 
 /datum/lot/evidence
 	name = "Forensics Storage"
+	id = "evidence1"
 
 /datum/lot/evidence/archive1
 	name = "Archive 1"
+	id = "evidence2"
 
 /datum/lot/evidence/archive2
 	name = "Archive 2"
+	id = "evidence3"
 
 /datum/lot/evidence/archive3
 	name = "Archive 3"
-
+	id = "evidence4"
 
