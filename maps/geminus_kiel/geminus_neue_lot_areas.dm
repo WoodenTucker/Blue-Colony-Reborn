@@ -175,3 +175,21 @@
 	lot_id = "farmlot2"
 
 // Event Hall
+
+// Evidence Storage Lots
+
+/area/lots/evidence
+	name = "Forensics Storage"
+	lot_id = "evidence1"
+
+/area/lots/evidence/archive1
+	name = "PD Archive 1"
+	lot_id = "evidence2"
+
+/area/lots/evidence/archive2
+	name = "PD Archive 2"
+	lot_id = "evidence3"
+
+/area/lots/evidence/archive3
+	name = "PD Archive 3"
+	lot_id = "evidence4"

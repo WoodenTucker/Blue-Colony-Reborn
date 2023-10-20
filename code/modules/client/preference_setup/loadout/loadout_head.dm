@@ -41,6 +41,21 @@
 	path = /obj/item/clothing/head/medical_beret
 	allowed_roles = list("Chief Medical Officer","Physician","Chemist","Geneticist","Psychiatrist","Paramedic","Medical Intern")
 
+/datum/gear/head/hat/police
+	display_name = "police officer's hat"
+	path = /obj/item/clothing/head/helmet/police/hat
+	allowed_roles = list("Police Officer","Chief of Police","Prison Warden")
+
+/datum/gear/head/hat/warden
+	display_name = "warden's hat"
+	path = /obj/item/clothing/head/helmet/warden/hat
+	allowed_roles = list("Chief of Police","Prison Warden")
+
+/datum/gear/head/hat/hos
+	display_name = "Chief of Police's hat"
+	path = /obj/item/clothing/head/helmet/HoS/hat
+	allowed_roles = list("Chief of Police")
+
 /datum/gear/head/beret/seniorpolice
 	display_name = "Senior Police beret"
 	path = /obj/item/clothing/head/beret/policegold

@@ -103,6 +103,12 @@
 	icon_state = "beret_corporate_warden"
 	item_state_slots = list(slot_r_hand_str = "beret_black", slot_l_hand_str = "beret_black")
 
+/obj/item/clothing/head/helmet/police/hat
+	name = "officer's hat"
+	desc = "It's a special hat issued to an Officer in the police force."
+	icon_state = "policehelm"
+	valid_accessory_slots = null
+
 /obj/item/clothing/head/helmet/warden
 	name = "warden's helmet"
 	desc = "Standard Warden gear. Protects the head from impacts."
@@ -110,7 +116,7 @@
 /obj/item/clothing/head/helmet/warden/hat
 	name = "warden's hat"
 	desc = "It's a special hat issued to the Warden of a police force."
-	icon_state = "policehelm"
+	icon_state = "policehelmblue"
 	valid_accessory_slots = null
 
 /obj/item/clothing/head/helmet/HoS
