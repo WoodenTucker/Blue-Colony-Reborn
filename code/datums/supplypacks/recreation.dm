@@ -92,3 +92,13 @@
 			/obj/item/frame/plastic/punchingbag = 2,
 			/obj/item/frame/weightlifter = 2
 			)
+
+/datum/supply_pack/recreation/music
+	name = "Music Instruments"
+	cost = 1500
+	containername = "music instruments crate"
+	containertype = /obj/structure/closet/crate
+	contains = list(
+			/obj/item/device/violin = 1,
+			/obj/machinery/media/jukebox = 1
+			)
