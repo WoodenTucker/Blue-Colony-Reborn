@@ -1217,3 +1217,11 @@ var/list/floor_decals = list()
 /obj/effect/floor_decal/sign/dark3
 	icon_state = "dark_3"
 
+/obj/effect/floor_decal/sign/dark_blue1
+	icon_state ="dark_blue_c_1"
+
+/obj/effect/floor_decal/sign/dark_blue2
+	icon_state ="dark_blue_c_2"
+
+/obj/effect/floor_decal/sign/dark_blue3
+	icon_state ="dark_blue_c_3"
