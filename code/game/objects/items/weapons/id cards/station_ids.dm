@@ -222,6 +222,10 @@
 	job_access_type = /datum/job/nanotrasen/president
 	rank = "President"
 
+obj/item/weapon/card/id/nanotrasen/president/initialize()
+	. = ..()
+	access |= list(access_president, access_vice_president, access_advisor, access_governor, access_cent_general, access_cent_thunder,	access_cent_medical, access_cent_living, access_cent_storage, access_cent_teleporter, access_cent_general)
+
 /obj/item/weapon/card/id/nanotrasen/advisor
 	name = "\improper Advisor's ID"
 	desc = "The president's advisors wear these, for whatever they actually do?"
