@@ -44,7 +44,7 @@
 /datum/job/nanotrasen/get_job_email()	// whatever this is set to will be the job's communal email. should be persistent.
 	return using_map.rep_email
 
-/datum/job/nanotrasen/governor // Renamed president to "governor"
+/datum/job/nanotrasen/president // Renamed president to "governor"
 	title = "Governor"
 	flag = GOVERNOR
 	department_flag = GOVLAW
@@ -59,7 +59,8 @@
 	access = list(access_president, access_vice_president, access_advisor, access_governor, access_cent_general, access_cent_thunder, \
 	access_cent_medical, access_cent_living, access_cent_storage, access_cent_teleporter)
 
-	minimal_access = list(access_cent_general, access_president, access_vice_president, access_advisor, access_governor)
+	minimal_access = list(access_president, access_vice_president, access_advisor, access_governor, access_cent_general, access_cent_thunder, \
+	access_cent_medical, access_cent_living, access_cent_storage, access_cent_teleporter)
 	minimal_player_age = 14
 
 	wage = 1250
