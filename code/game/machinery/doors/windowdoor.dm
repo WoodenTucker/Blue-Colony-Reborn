@@ -410,6 +410,7 @@
 			if(locked)
 				return
 
+			code = null
 			locked = TRUE
 
 		if(href_list["type"])
