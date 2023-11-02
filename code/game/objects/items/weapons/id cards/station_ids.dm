@@ -233,7 +233,7 @@ obj/item/weapon/card/id/nanotrasen/president/initialize()
 
 /obj/item/weapon/card/id/nanotrasen/vice/initialize()
 	. = ..()
-	access |= list(access_advisor, access_cent_general)
+	access |= list(access_advisor, access_cent_general, access_president, access_vice_president)
 
 /obj/item/weapon/card/id/nanotrasen/advisor
 	name = "\improper Advisor's ID"
