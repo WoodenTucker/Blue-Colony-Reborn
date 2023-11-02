@@ -13,7 +13,7 @@
 	required_access_edit = access_ceo
 
 /datum/persistent_option/select_person/cabinet/president
-	name = "President"
+	name = "Governor"
 	id = "cabinet_president"
 
 	required_access_edit = access_ceo
@@ -22,6 +22,14 @@
 	name = "Supreme Justice"
 	id = "cabinet_supremejustice"
 
+	required_access_edit = access_ceo
+
+/datum/persistent_option/select_person/cabinet/vicegov
+	name = "Vice Governor"
+	id = "cabinet_vice"
+
+
+/*
 /datum/persistent_option/select_person/cabinet/justice
 	name = "Advisor of Justice"
 	id = "cabinet_justice"
@@ -37,3 +45,4 @@
 /datum/persistent_option/select_person/cabinet/finance
 	name = "Advisor of Finance"
 	id = "cabinet_finance"
+*/

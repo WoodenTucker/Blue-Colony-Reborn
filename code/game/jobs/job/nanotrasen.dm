@@ -68,7 +68,7 @@
 
 	minimum_character_age = 30
 	ideal_character_age = 50
-	outfit_type = /decl/hierarchy/outfit/job/nanotrasen/president
+	outfit_type = /decl/hierarchy/outfit/job/nanotrasen/governor
 
 	portal_whitelist = "cabinet_president"
 
@@ -89,9 +89,6 @@
 
 	selection_color = "#0F0F6F"
 	idtype = /obj/item/weapon/card/id/nanotrasen/pdsi
-	alt_titles = list()
-
-
 	outfit_type = /decl/hierarchy/outfit/job/nanotrasen/pdsi
 
 	wage = 250
@@ -110,6 +107,25 @@
 	return using_map.investigation_email
 
 
+/datum/job/nanotrasen/vice
+	title = "Vice Governor"
+	total_positions = 1
+	spawn_positions = 1
+	flag = VICEGOVERNOR
+	wage = 600
+	outfit_type = /decl/hierarchy/outfit/job/nanotrasen/vice
+	idtype = /obj/item/weapon/card/id/nanotrasen/vice
+	access = list(access_advisor, access_cent_general) 			//See get_access()
+	minimal_access = list(access_advisor, access_cent_general)
+	alt_titles = list("Vice Governor")
+
+	description = "As vice governor, your duty is to patiently wait in line for the governor to be killed so you can succeed them. Otherwise you're \
+	there to help governor do his daily tasks."
+	duties = list("Make sure the colony is heard", "Be the paperwork slave you are", "Be the next in line after your boss dies")
+
+	portal_whitelist = "cabinet_vice"
+
+
 /datum/job/nanotrasen/advisor
 	flag = 0
 	faction = null
@@ -120,7 +136,7 @@
 	alt_titles = list()
 	wage = 600
 	description = "As an advisor, your goal is to advise the president. Yep, that's it."
-
+/*
 /datum/job/nanotrasen/advisor/justice
 	title = "Advisor of Justice"
 	total_positions = 1
@@ -162,3 +178,4 @@
 	alt_titles = list("Advisor of Finance")
 
 	portal_whitelist = "cabinet_finance"
+*/
