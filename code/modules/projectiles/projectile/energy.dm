@@ -147,9 +147,9 @@
 /obj/item/projectile/energy/neurotoxin/advanced
 	name = "advanced neurotoxic spit"
 	icon_state = "neurotoxin_a"
-	damage = 55
-	damage_type = TOX
-	agony = 40
+	damage = 35
+	damage_type = BURN
+	agony = 50
 	check_armour = "bio"
 
 /obj/item/projectile/energy/phoron

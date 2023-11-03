@@ -13,9 +13,9 @@
 	melee_damage_upper = 15
 	poison_per_bite = 10
 	poison_type = "pacid"
-	player_msg = "You can fire a deadly acidic ranged attack by clicking on an enemy or tile at a distance."
+	player_msg = "You can fire a deadly corrosive ranged attack by clicking on an enemy or tile at a distance."
 	ai_holder_type = /datum/ai_holder/simple_mob/ranged/kiting
-	movement_cooldown = 0.25
+	movement_cooldown = 3.5
 
 // Check if we should acid, or just shoot the pain ball
 /mob/living/simple_mob/animal/giant_spider/corroder/should_special_attack(atom/A)
