@@ -118,9 +118,9 @@
 
 /datum/map/geminus_neue/get_map_info()
 	. = list()
-	. +=  "[full_name] is a very well-known metropolitan city in Ocral Spax B located on the planet Pollux.<br>"
+	. +=  "[full_name] is a very well-known metropolitan city in Ocral Spax B (Benax} located on the planet Pollux.<br>"
 	. +=  "Pollux exists in the Vetra star system which is entirely monopolized by NanoTrasen acting as a quasi-corporate government."
 	. +=  "Located at the foot of Ocral Spax B's orbital Elevator, Kiel is a city with a long history of trade and commerce, importing goods from all over human space to ship all across Pollux.<br> "
-	. +=  "There's a definite class struggle, as working class Geminians feel pushed out by the richer colonists who wish to further gentrify the city and make it... <i>more profitable, more corporate, more <b>chic</b></i>."
+	. +=  "There's a definite class struggle, as working class Kielites feel pushed out by the richer colonists who wish to further gentrify the city and make it... <i>more profitable, more corporate, more <b>chic</b></i>."
 	return jointext(., "<br>")
 

@@ -374,8 +374,8 @@
 
 /obj/item/weapon/reagent_containers/food/snacks/chocolatebar/New()
 	..()
-	reagents.add_reagent("sugar", 3)
-	reagents.add_reagent("coco", 3)
+	reagents.add_reagent("sugar", 2)
+	reagents.add_reagent("coco", 2)
 	bitesize = 2
 
 /obj/item/weapon/reagent_containers/food/snacks/chocolatepiece

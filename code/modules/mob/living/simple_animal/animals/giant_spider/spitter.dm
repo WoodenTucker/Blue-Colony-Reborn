@@ -15,7 +15,7 @@
 	poison_type = "acid"
 	player_msg = "You can fire a acidic ranged attack by clicking on an enemy or tile at a distance."
 	ai_holder_type = /datum/ai_holder/simple_mob/ranged/kiting
-	movement_cooldown = 0.35
+	movement_cooldown = 2.5
 
 // Check if we should acid, or just shoot the pain ball
 /mob/living/simple_mob/animal/giant_spider/spitter/should_special_attack(atom/A)
