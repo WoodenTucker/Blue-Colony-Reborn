@@ -56,13 +56,15 @@ var/const/MANAGER         	     =(1<<18)
 var/const/GOVLAW				=(1<<3)
 
 var/const/GOVERNOR			    =(1<<0)
+var/const/VICEGOVERNOR			    =(1<<0)
 var/const/NANOTRASEN			=(1<<1)
 var/const/PDSI					=(1<<2)
 var/const/CEO					=(1<<3)
+/*
 var/const/ADVISORJUSTICE		=(1<<8)
 var/const/ADVISORINNOVATION		=(1<<9)
 var/const/ADVISORHEALTH			=(1<<10)
-var/const/ADVISORFINANCE		=(1<<11)
+var/const/ADVISORFINANCE		=(1<<11)*/
 
 var/list/assistant_occupations = list(
 	"Civilian"
@@ -73,10 +75,11 @@ var/list/gov_positions = list(
 	"Government Representative",
 	"PDSI Agent",
 	"Governor",
-	"Advisor of Justice",
+	"Vice Governor"
+/*	"Advisor of Justice",
 	"Advisor of Innovation",
 	"Advisor of Health",
-	"Advisor of Finance"
+	"Advisor of Finance"*/
 
 )
 

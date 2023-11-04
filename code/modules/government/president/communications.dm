@@ -8,8 +8,8 @@
 
 
 /datum/persistent_option/value/president/presidential_broadcast
-	name = "Presidential Broadcast"
-	description = "You can set a general presidential message that will be shown to all citizens."
+	name = "Colonial Broadcast"
+	description = "You can set a general colony message that will be shown to all citizens."
 	id = "president_msg"
 
 	value_text = "Greetings citizens, we hope you have a safe and productive day."

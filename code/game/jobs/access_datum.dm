@@ -404,14 +404,13 @@
 	desc = "Medical Equipment"
 	region = ACCESS_REGION_MEDBAY
 
-
 /var/const/access_bodyguard = 67
 /datum/access/bodyguard
 	id = access_bodyguard
 	desc = "City Hall Guard"
 	region = ACCESS_REGION_COMMAND
 
-/var/const/access_legal = 67
+/var/const/access_legal = 68
 /datum/access/legal
 	id = access_legal
 	desc = "Legal"

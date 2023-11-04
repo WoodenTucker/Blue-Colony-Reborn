@@ -114,11 +114,20 @@
 	id_pda_assignment = "Advisor"
 	id_type = /obj/item/weapon/card/id/nanotrasen/advisor
 
-/decl/hierarchy/outfit/job/nanotrasen/president
-	name = OUTFIT_JOB_NAME("President")
+/decl/hierarchy/outfit/job/nanotrasen/vice
+	name = "Vice Governor"
+	uniform = /obj/item/clothing/under/suit_jacket/really_black
+	gloves = null
+	shoes = /obj/item/clothing/shoes/laceup
+	glasses = /obj/item/clothing/glasses/sunglasses/sechud
+	l_ear = /obj/item/device/radio/headset/government
+	id_pda_assignment = "Vice Governor"
+	id_type = /obj/item/weapon/card/id/nanotrasen/vice
+
+/decl/hierarchy/outfit/job/nanotrasen/governor
+	name = OUTFIT_JOB_NAME("Governor")
 	glasses = /obj/item/clothing/glasses/sunglasses
-	uniform = /obj/item/clothing/under/rank/president
-	suit = /obj/item/clothing/suit/storage/toggle/presidential_jacket
+	uniform = /obj/item/clothing/under/suit_jacket/charcoal
 	l_ear = /obj/item/device/radio/headset/government
 	shoes = /obj/item/clothing/shoes/leather
 	belt = /obj/item/weapon/gun/energy/pulse_rifle/M1911
@@ -128,7 +137,7 @@
 	id_type = /obj/item/weapon/card/id/nanotrasen/president
 	pda_type = /obj/item/device/pda/captain
 
-/decl/hierarchy/outfit/job/nanotrasen/president/post_equip(var/mob/living/carbon/human/H)
+/decl/hierarchy/outfit/job/nanotrasen/governor/post_equip(var/mob/living/carbon/human/H)
 	..()
 	var/obj/item/clothing/uniform = H.w_uniform
 	if(uniform)
