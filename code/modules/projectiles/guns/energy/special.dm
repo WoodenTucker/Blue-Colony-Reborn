@@ -31,6 +31,7 @@
 	icon_state = "phase"
 	item_state = "taser"	//I don't have an in-hand sprite, taser will be fine
 	slot_flags = SLOT_BELT|SLOT_HOLSTER
+	origin_tech = list(TECH_MATERIAL = 3, TECH_BIO = 3, TECH_COMBAT = 4)
 	charge_cost = 300
 	projectile_type = /obj/item/projectile/energy/phase
 
@@ -55,7 +56,7 @@
 	cell_type = /obj/item/weapon/cell/device/weapon/recharge
 	battery_lock = 1
 	var/decl/plantgene/gene = null
-	
+
 	uses = 1000
 
 	firemodes = list(
@@ -152,7 +153,7 @@
 	cell_type = /obj/item/weapon/cell/device/weapon/recharge
 	battery_lock = 1
 	charge_meter = 0
-	
+
 	uses = 500
 
 /obj/item/weapon/gun/energy/staff/special_check(var/mob/user)

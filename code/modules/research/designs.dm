@@ -638,7 +638,7 @@ other types of metals and chemistry for reagents).
 	materials = list(DEFAULT_WALL_MATERIAL = 5000, "glass" = 1000, "uranium" = 500, "copper" = 500)
 	build_path = /obj/item/weapon/gun/energy/gun/nuclear
 	sort_string = "TAAAB"
-	price = 1500
+	price = 1750
 
 /datum/design/item/weapon/lasercannon
 	desc = "The lasing medium of this prototype is enclosed in a tube lined with uranium-235 and subjected to high neutron flux in a nuclear reactor core."
@@ -666,12 +666,21 @@ other types of metals and chemistry for reagents).
 	sort_string = "TAAAE"
 	price = 5000
 
+/datum/design/item/weapon/pistol
+	id = "pistol"
+	req_tech = list(TECH_COMBAT = 4, TECH_MATERIAL = 3)
+	materials = list(DEFAULT_WALL_MATERIAL = 8000, "silver" = 2000, "gold" = 2000)
+	build_path = /obj/item/weapon/gun/projectile/sec
+	sort_string = "TAABA"
+	price = 1200
+
+
 /datum/design/item/weapon/smg
 	id = "smg"
 	req_tech = list(TECH_COMBAT = 4, TECH_MATERIAL = 3)
 	materials = list(DEFAULT_WALL_MATERIAL = 8000, "silver" = 2000, "diamond" = 1000)
 	build_path = /obj/item/weapon/gun/projectile/automatic
-	sort_string = "TAABA"
+	sort_string = "TAABB"
 	price = 1200
 
 /datum/design/item/weapon/ammo_9mm
@@ -686,7 +695,7 @@ other types of metals and chemistry for reagents).
 	desc = "A stunning shell for a shotgun."
 	id = "stunshell"
 	req_tech = list(TECH_COMBAT = 3, TECH_MATERIAL = 3)
-	materials = list(DEFAULT_WALL_MATERIAL = 4000, "plastic" = 500, "copper" = 100)
+	materials = list(DEFAULT_WALL_MATERIAL = 200, "plastic" = 500, "copper" = 100)
 	build_path = /obj/item/ammo_casing/a12g/stunshell
 	sort_string = "TAACB"
 	price = 10
@@ -797,6 +806,14 @@ other types of metals and chemistry for reagents).
 	build_path = /obj/item/weapon/gun/energy/taser/xeno
 	sort_string = "TBAAC"
 	price = 250
+
+/datum/design/item/weapon/phaser
+	id = "phasepistol"
+	req_tech = list(TECH_MATERIAL = 3, TECH_BIO = 4, TECH_POWER = 4, TECH_COMBAT = 4)
+	materials = list(DEFAULT_WALL_MATERIAL = 5000, "copper" = 1000, "silver" = 100, "uranium" = 500)
+	build_path = /obj/item/weapon/gun/energy/phasegun
+	sort_string = "TBAAD"
+	price = 750
 
 /datum/design/item/stock_part/subspace_ansible
 	id = "s-ansible"
