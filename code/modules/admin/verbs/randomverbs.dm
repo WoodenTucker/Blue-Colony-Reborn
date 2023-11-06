@@ -99,6 +99,41 @@
 	message_admins("<font color='blue'><B>SubtleMessage: [key_name_admin(usr)] -> [key_name_admin(M)] : [msg]</B></font>", 1)
 	feedback_add_details("admin_verb","SMS") //If you are copy-pasting this, ensure the 2nd parameter is unique to the new proc!
 
+/client/proc/cmd_admin_headset_message(mob/M as mob in mob_list)
+	set category = "Special Verbs"
+	set name = "Headset Message"
+
+	admin_headset_message(M)
+
+/client/proc/admin_headset_message(mob/M as mob in mob_list, sender = null)
+	var/mob/living/carbon/human/H = M
+
+	if(!check_rights(R_ADMIN))
+		message_admins("[key_name(usr)] tried to use admin_headset_message() without admin perms.")
+		log_admin("INVALID ADMIN PROC ACCESS: [key_name(usr)] tried to use admin_headset_message() without admin perms.")
+		return
+
+	if(!istype(H))
+		to_chat(usr, "This can only be used on instances of type /mob/living/carbon/human")
+		return
+
+	if (!sender)
+		sender = input("Who is the message from?", "Sender") as null|anything in list("Mercenary","Government")
+		if(!sender)
+			return
+
+	message_admins("[key_name(usr)] has started answering [key_name(H)]'s [sender] request.")
+	var/input = input("Please enter a message to reply to [key_name(H)] via their headset.","Outgoing message from [sender]", "") as text|null
+	if(!input)
+		message_admins("[key_name(usr)] decided not to answer [key_name_admin(H)]'s [sender] request.")
+		return
+
+	message_admins("[key_name(usr)] replied to [key_name(H)]'s [sender] message with: \"[input]\"")
+	to_chat(H, "You hear something crackle in your ears for a moment before a voice speaks.  \"Please stand by for a message from [sender == "Mercenary" ? "your benefactor" : "Central Communication"].  Message as follows[sender == "Mercenary" ? ", agent." : ":"] <B>[input].</B> Message ends.\"")
+
+	feedback_add_details("admin_verb", "Headset Message") //If you are copy-pasting this, ensure the 2nd parameter is unique to the new proc!
+
+
 /client/proc/cmd_admin_world_narrate() // Allows administrators to fluff events a little easier -- TLE
 	set category = "Special Verbs"
 	set name = "Global Narrate"
