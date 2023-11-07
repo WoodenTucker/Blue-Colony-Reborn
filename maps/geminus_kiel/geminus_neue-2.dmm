@@ -629,7 +629,7 @@
 "ame" = (/obj/structure/table/reinforced,/obj/item/clothing/head/soft,/obj/item/weapon/stamp{pixel_x = -3; pixel_y = 3},/obj/item/clothing/head/soft,/obj/item/weapon/stamp/cargo,/turf/simulated/floor/tiled,/area/quartermaster/office)
 "amf" = (/obj/structure/table/reinforced,/obj/item/weapon/folder/yellow,/obj/item/device/eftpos{eftpos_name = "Cargo Bay EFTPOS scanner"},/obj/machinery/newscaster{pixel_y = -32},/turf/simulated/floor/tiled/steel_dirty,/area/quartermaster/office)
 "amg" = (/obj/structure/closet,/obj/item/weapon/storage/backpack/dufflebag,/obj/machinery/status_display/money_display/factory{pixel_y = -32},/turf/simulated/floor/tiled/steel_dirty,/area/quartermaster/qm)
-"amh" = (/obj/effect/floor_decal/corner/paleblue/full{dir = 8},/obj/machinery/button/remote/blast_door{name = "Reception Gate Controls"; id = "medgate"; req_access = list(7); pixel_y = 25},/turf/simulated/floor/tiled,/area/medical/medbay)
+"amh" = (/obj/effect/floor_decal/corner/paleblue/full{dir = 8},/obj/machinery/button/remote/blast_door{name = "Reception Gate Controls"; id = "medgate"; req_access = list(7); pixel_y = 25},/obj/machinery/photocopier,/turf/simulated/floor/tiled,/area/medical/medbay)
 "ami" = (/obj/effect/floor_decal/corner/grey/diagonal,/obj/machinery/status_display/money_display/police{pixel_y = 30},/turf/simulated/floor/tiled/dark,/area/security/lobby)
 "amj" = (/obj/effect/floor_decal/corner/white{dir = 5; icon_state = "corner_white"; tag = "icon-corner_white (NORTH)"},/obj/item/device/mic_stand{dir = 4; icon_state = "micstand"},/obj/machinery/status_display/money_display/police{pixel_x = 16; pixel_y = 32},/turf/simulated/floor/tiled/dark,/area/security/briefing_room)
 "amk" = (/obj/effect/floor_decal/spline/fancy{dir = 1; icon_state = "spline_fancy"},/obj/structure/table/woodentable,/obj/machinery/photocopier/faxmachine{department = "Mayor's Office"},/obj/machinery/status_display/money_display/city{pixel_y = -32},/turf/simulated/floor/wood/ebony,/area/crew_quarters/captain)
@@ -1193,7 +1193,7 @@
 "coC" = (/obj/structure/table/woodentable,/turf/simulated/floor/tiled/dark,/area/centcom/residential_area/coffee_shop)
 "coX" = (/obj/effect/floor_decal/corner/yellow/diagonal,/obj/effect/floor_decal/corner/yellow/border{dir = 1; icon_state = "bordercolor"},/obj/structure/closet/radiation,/obj/machinery/light/built{dir = 1},/turf/simulated/floor/tiled/dark,/area/engineering/locker_room)
 "cpn" = (/turf/simulated/floor/pavement/stairs{dir = 4; icon_state = "pave_stairs"},/area/planets/Geminus/outdoor/west)
-"cpH" = (/obj/item/weapon/banner/nt,/turf/simulated/floor/bluegeo_light,/area/planets/Geminus/indoor/city_hall)
+"cpH" = (/obj/item/weapon/banner/nt,/obj/structure/railing{dir = 4; icon_state = "railing0"; tag = "icon-railing0 (EAST)"},/turf/simulated/floor/bluegeo_light,/area/planets/Geminus/indoor/city_hall)
 "cpZ" = (/turf/simulated/floor/pavement/corner,/area/mine/unexplored)
 "cqp" = (/obj/structure/bed/chair/office/dark{dir = 1},/obj/effect/landmark/start{name = "Doctor"},/turf/simulated/floor/tiled/white,/area/crew_quarters/medbreak)
 "cqx" = (/obj/structure/bed/chair/office/light{dir = 8},/turf/simulated/floor/tiled/kafel_full/gray,/area/rnd/lab)
@@ -1270,6 +1270,7 @@
 "cQJ" = (/turf/simulated/floor/tiled/dark,/area/lots/farm/farm_lot_one)
 "cQT" = (/obj/structure/disposalpipe/segment{dir = 4},/turf/simulated/floor/road,/area/planets/Geminus/outdoor/east)
 "cRO" = (/obj/machinery/door/blast/gate,/turf/simulated/floor/pavement,/area/planets/Geminus/outdoor/north)
+"cRY" = (/obj/item/weapon/banner/nt,/obj/structure/railing{dir = 8; icon_state = "railing0"; tag = "icon-railing0 (WEST)"},/turf/simulated/floor/bluegeo_light,/area/planets/Geminus/indoor/city_hall)
 "cSl" = (/obj/machinery/light{dir = 8; icon_state = "tube1"},/turf/simulated/floor/wood/ebony,/area/lots/shopping/shopping_lot_twelve)
 "cTE" = (/obj/structure/closet/l3closet/janitor,/turf/simulated/floor,/area/planets/Geminus/indoor/city_hall)
 "cTO" = (/obj/structure/flora/ausbushes/lavendergrass,/turf/simulated/floor/outdoors/mud/pollux/planetuse,/area/planets/Geminus/outdoor/park)
@@ -1839,7 +1840,7 @@
 "hmi" = (/obj/machinery/light{icon_state = "tube1"; dir = 8},/obj/structure/bed/chair/wood/walnut{dir = 4; icon_state = "wooden_chair"},/turf/simulated/floor/wood/ebony,/area/security/vacantoffice)
 "hmU" = (/obj/machinery/disposal,/obj/structure/disposalpipe/trunk{dir = 8},/turf/simulated/floor,/area/maintenance/asmaint)
 "hns" = (/obj/effect/floor_decal/corner/paleblue/full{dir = 4},/turf/simulated/floor/tiled/white,/area/medical/surgery2)
-"hnO" = (/obj/effect/floor_decal/corner/paleblue{dir = 6},/obj/structure/closet/secure_closet/personal/patient,/turf/simulated/floor/tiled,/area/medical/surgery)
+"hnO" = (/obj/effect/floor_decal/corner/paleblue{dir = 6},/obj/machinery/iv_drip,/turf/simulated/floor/tiled,/area/medical/surgery)
 "hom" = (/obj/structure/closet/crate/secure/bin,/obj/structure/curtain/blinds{pixel_x = -33},/turf/simulated/floor/tiled/white,/area/crew_quarters/medbreak)
 "hoZ" = (/turf/simulated/wall/iron/pink,/area/crew_quarters)
 "hpt" = (/obj/effect/floor_decal/spline/fancy/wood/three_quarters,/obj/structure/flora/ausbushes/grassybush,/obj/structure/flora/pottedplant/flower{pixel_x = -15; pixel_y = -10},/obj/structure/window/reinforced{dir = 4; health = 1e+006},/obj/structure/window/reinforced{dir = 1; health = 1e+006},/turf/simulated/floor/outdoors/dirt/indoors,/area/planets/Geminus/indoor/shoppingarea)
@@ -1974,7 +1975,7 @@
 "imY" = (/obj/effect/wallframe_spawn,/turf/simulated/floor/plating,/area/quartermaster/warehouse)
 "ini" = (/obj/effect/floor_decal/steeldecal/steel_decals_central7,/obj/machinery/light/colored,/obj/structure/stairs/west,/obj/structure/railing{dir = 1; icon_state = "railing0"},/turf/simulated/floor/tiled,/area/planets/Geminus/indoor/city_hall)
 "iny" = (/obj/machinery/recharge_station,/turf/simulated/floor/tiled/steel,/area/lots/business/business_lot_one)
-"inI" = (/obj/effect/floor_decal/corner/paleblue/full{dir = 1},/obj/machinery/iv_drip,/obj/machinery/light/colored/blue{dir = 1},/turf/simulated/floor/tiled,/area/medical/surgery)
+"inI" = (/obj/effect/floor_decal/corner/paleblue/full{dir = 1},/obj/machinery/light/colored/blue{dir = 1},/obj/structure/closet/secure_closet/personal/patient{anchored = 1},/turf/simulated/floor/tiled,/area/medical/surgery)
 "ioH" = (/obj/machinery/door/airlock/glass_civilian{dir = 4},/turf/simulated/floor/lino,/area/lots/shopping/shopping_lot_four)
 "ipf" = (/obj/effect/floor_decal/borderfloor,/obj/effect/floor_decal/corner/purple/border,/obj/structure/disposalpipe/segment{dir = 4},/obj/item/device/radio/intercom{broadcasting = 0; dir = 1; listening = 0; name = "Common Channel"; pixel_y = -32},/turf/simulated/floor/tiled,/area/planets/Geminus/indoor/museum)
 "ipo" = (/turf/simulated/floor/carpet/blackcarpet,/area/lots/business/business_lot_six)
@@ -2084,10 +2085,10 @@
 "jhb" = (/obj/structure/reagent_dispensers/water_cooler/full,/obj/structure/painting/random,/turf/simulated/floor/tiled/white,/area/planets/Geminus/indoor/city_hall)
 "jhh" = (/obj/effect/floor_decal/corner/paleblue{dir = 10},/obj/structure/bed/chair/office/light{dir = 8; icon_state = "officechair_white"; tag = "icon-officechair_white (WEST)"},/obj/machinery/light/colored,/turf/simulated/floor/tiled/white,/area/medical/patient_a)
 "jhY" = (/obj/effect/floor_decal/borderfloorwhite/corner{dir = 4; icon_state = "borderfloorcorner_white"; tag = "icon-borderfloorcorner_white (EAST)"},/turf/simulated/floor/pavement/empty,/area/planets/Geminus/outdoor/south)
-"jin" = (/obj/structure/table/glass,/obj/structure/window/reinforced{dir = 8; health = 1e+006},/obj/machinery/door/blast/gate/thin{dir = 8; id = "medgate"; name = "Hospital Reception Gate"; req_access = list(7)},/turf/simulated/floor/tiled/white,/area/medical/medbay)
+"jin" = (/obj/structure/table/glass,/obj/structure/window/reinforced{dir = 8; health = 1e+006},/obj/machinery/door/blast/gate/thin{dir = 8; id = "medgate"; name = "Hospital Reception Gate"; req_access = list(7)},/obj/item/weapon/paper_bin,/obj/item/weapon/pen,/turf/simulated/floor/tiled/white,/area/medical/medbay)
 "jiq" = (/obj/machinery/door/airlock/glass_civilian,/turf/simulated/floor/tiled/steel,/area/lots/business/business_lot_two)
 "jix" = (/obj/effect/dummy/spell_jaunt,/obj/structure/loot_pile/maint/trash,/obj/item/trash/waffles,/turf/simulated/floor/pavement/empty,/area/planets/Geminus/indoor)
-"jjc" = (/obj/machinery/metal_detector,/obj/effect/floor_decal/carpet/blue{dir = 8},/obj/structure/disposalpipe/segment,/turf/simulated/floor/carpet/blue,/area/planets/Geminus/indoor/city_hall)
+"jjc" = (/obj/effect/floor_decal/carpet/blue{dir = 4},/obj/machinery/metal_detector,/turf/simulated/floor/carpet/blue,/area/planets/Geminus/indoor/city_hall)
 "jje" = (/obj/machinery/door/airlock,/turf/simulated/floor/tiled/dark,/area/centcom/residential_area/coffee_shop)
 "jjs" = (/obj/structure/closet/crate/secure,/obj/machinery/light/small/flicker{dir = 4},/turf/simulated/floor/tiled,/area/quartermaster/warehouse)
 "jjF" = (/turf/simulated/floor/tiled/kafel_full/purple,/area/bridge_hallway)
@@ -2334,7 +2335,7 @@
 "kRW" = (/obj/structure/bed/chair/wood{dir = 4; icon_state = "wooden_chair"},/turf/simulated/floor/wood/walnut,/area/planets/Geminus/indoor/courtroom)
 "kSa" = (/obj/structure/railing,/turf/simulated/floor/tiled/steel,/area/lots/business/business_lot_one)
 "kSg" = (/turf/simulated/floor/wood,/area/planets/Geminus/indoor)
-"kSp" = (/obj/structure/closet/secure_closet/personal/patient,/obj/effect/floor_decal/corner/paleblue{dir = 9},/turf/simulated/floor/tiled,/area/medical/surgery2)
+"kSp" = (/obj/effect/floor_decal/corner/paleblue{dir = 9},/obj/machinery/iv_drip,/turf/simulated/floor/tiled,/area/medical/surgery2)
 "kSQ" = (/obj/structure/flora/tree/pine/xmas,/obj/machinery/light/floor,/turf/snow/snow2,/area/crew_quarters)
 "kSS" = (/obj/machinery/optable,/turf/simulated/floor/tiled/white,/area/medical/surgery2)
 "kTd" = (/turf/simulated/floor/pavement/empty,/area/planets/Geminus/outdoor/north)
@@ -2511,6 +2512,7 @@
 "mfy" = (/obj/machinery/light{dir = 1},/turf/simulated/floor/tiled/yellow,/area/lots/shopping/shopping_lot_eight)
 "mfz" = (/obj/effect/floor_decal/borderfloor{dir = 10; icon_state = "borderfloor"},/turf/simulated/floor/tiled/steel_dirty,/area/crew_quarters)
 "mfF" = (/turf/unsimulated/beach/sand,/area/planets/Geminus/outdoor/park)
+"mfJ" = (/obj/item/weapon/banner/nt,/obj/structure/railing{icon_state = "railing0"; dir = 1},/turf/simulated/floor/bluegeo_light,/area/planets/Geminus/indoor/city_hall)
 "mgS" = (/obj/structure/table/glass,/obj/item/weapon/deskbell,/obj/machinery/door/blast/gate/thin{dir = 8; id = "medgate"; name = "Hospital Reception Gate"; req_access = list(7)},/turf/simulated/floor/tiled/white,/area/medical/medbay)
 "mgY" = (/obj/effect/floor_decal/corner/purple/full{dir = 8; icon_state = "corner_white_full"},/turf/simulated/floor/tiled/dark,/area/rnd/research_foyer)
 "mhd" = (/obj/effect/floor_decal/corner/pink/diagonal,/obj/structure/table/bench/steel,/obj/structure/flora/pottedplant{icon_state = "plant-06"; pixel_y = 10; plane = -25; tag = "icon-plant-06"},/obj/machinery/light/colored{dir = 8; icon_state = "yellow1"; tag = "icon-yellow1 (WEST)"},/turf/simulated/floor/tiled/red,/area/crew_quarters)
@@ -3173,7 +3175,7 @@
 "rcl" = (/turf/simulated/wall/iron,/area/lots/stall/four)
 "rcK" = (/obj/structure/stairs/east,/obj/machinery/light{dir = 4},/turf/simulated/floor/tiled/steel,/area/lots/business/business_lot_five)
 "rdM" = (/obj/structure/disposalpipe/segment{dir = 4; icon_state = "pipe-c"},/turf/simulated/floor/tiled/steel_dirty,/area/quartermaster/office)
-"rej" = (/obj/effect/floor_decal/corner/paleblue/full{dir = 8; icon_state = "corner_white_full"; tag = "icon-corner_white_full (WEST)"},/obj/machinery/iv_drip,/obj/machinery/light/colored/blue{dir = 1},/turf/simulated/floor/tiled,/area/medical/surgery2)
+"rej" = (/obj/effect/floor_decal/corner/paleblue/full{dir = 8; icon_state = "corner_white_full"; tag = "icon-corner_white_full (WEST)"},/obj/machinery/light/colored/blue{dir = 1},/obj/structure/closet/secure_closet/personal/patient{anchored = 1},/turf/simulated/floor/tiled,/area/medical/surgery2)
 "rek" = (/obj/structure/fitness/weightlifter{dont_save = 1},/turf/simulated/floor/tiled/paleblue,/area/security/security_equiptment_storage)
 "ren" = (/obj/structure/catwalk,/obj/machinery/light/small{dir = 4; pixel_y = 8},/turf/simulated/floor/plating,/area/maintenance/arrivals)
 "reT" = (/obj/machinery/light/street,/turf/simulated/floor/pavement/corner{dir = 8; icon_state = "pave_corner"; tag = "icon-pave_corner (WEST)"},/area/mine/unexplored)
@@ -3227,6 +3229,7 @@
 "rAL" = (/obj/effect/floor_decal/corner/yellow/diagonal,/obj/effect/floor_decal/corner/yellow/border,/obj/structure/table/reinforced,/turf/simulated/floor/tiled/dark,/area/engineering/storage)
 "rBd" = (/turf/simulated/floor/carpet/browcarpet,/area/quartermaster/qm)
 "rCW" = (/obj/structure/disposalpipe/segment{dir = 4},/turf/simulated/floor/road/markings{dir = 8; icon_state = "road_marking"; tag = "icon-road_marking (WEST)"},/area/mine/unexplored)
+"rDE" = (/obj/effect/floor_decal/carpet/blue{dir = 1},/obj/machinery/metal_detector{dir = 4; icon_state = "metal_detector"},/turf/simulated/floor/carpet/blue,/area/planets/Geminus/indoor/city_hall)
 "rEk" = (/obj/structure/disposalpipe/segment,/turf/simulated/floor/wood/ebony,/area/lots/shopping/shopping_lot_five)
 "rEt" = (/obj/structure/table/standard,/obj/structure/window/reinforced{dir = 1; health = 1e+006},/obj/machinery/cash_register/command,/turf/simulated/floor/wood/ebony,/area/crew_quarters/heads/hop)
 "rEM" = (/obj/effect/wallframe_spawn/basic/blue/hospital,/turf/simulated/floor/tiled/white,/area/lots/shopping/shopping_lot_eight)
@@ -3500,7 +3503,7 @@
 "tCs" = (/obj/structure/fence/end,/turf/simulated/floor/pavement/empty,/area/planets/Geminus/outdoor/south)
 "tCQ" = (/obj/structure/table/steel,/turf/simulated/floor/plating,/area/maintenance/fpmaint)
 "tDz" = (/obj/structure/disposalpipe/segment{dir = 4},/obj/structure/railing{tag = "icon-railing0 (WEST)"; icon_state = "railing0"; dir = 8},/turf/simulated/floor/tiled/steel,/area/planets/Geminus/outdoor/east)
-"tDF" = (/obj/machinery/metal_detector,/obj/effect/floor_decal/carpet/blue{dir = 4},/turf/simulated/floor/carpet/blue,/area/planets/Geminus/indoor/city_hall)
+"tDF" = (/obj/effect/floor_decal/carpet/blue{dir = 8},/obj/structure/disposalpipe/segment,/obj/machinery/metal_detector,/turf/simulated/floor/carpet/blue,/area/planets/Geminus/indoor/city_hall)
 "tDQ" = (/obj/effect/floor_decal/corner/grey/diagonal,/obj/structure/disposalpipe/segment,/turf/simulated/floor/tiled/dark,/area/security/lobby)
 "tEh" = (/obj/machinery/modular_computer/console/preset/civilian{dir = 4; icon_state = "console"},/turf/simulated/floor/wood/ebony,/area/lots/office/office_lot_one)
 "tEO" = (/turf/simulated/floor/pavement/corner_invert{dir = 8; icon_state = "pave_invert_corner"; tag = "icon-pave_invert_corner (WEST)"},/area/planets/Geminus/outdoor/east)
@@ -3556,7 +3559,7 @@
 "udq" = (/obj/machinery/light/small{dir = 1; pixel_y = 0},/turf/simulated/floor/plating,/area/maintenance/research)
 "udE" = (/obj/effect/floor_decal/corner/yellow/diagonal,/turf/simulated/floor/tiled/dark,/area/engineering/storage)
 "udW" = (/obj/machinery/door/window/southright{dir = 8},/obj/item/device/radio/intercom{broadcasting = 0; dir = 2; listening = 0; name = "Common Channel"; pixel_y = 21},/turf/simulated/floor/carpet,/area/crew_quarters/courtroom/prosecution)
-"udZ" = (/obj/effect/floor_decal/corner/white,/obj/effect/floor_decal/corner/paleblue{dir = 4},/turf/simulated/floor/tiled,/area/medical/cryo)
+"udZ" = (/obj/effect/floor_decal/corner/white,/obj/effect/floor_decal/corner/paleblue{dir = 4},/mob/living/bot/cleanbot{name = "Dr. Scrubs MD"},/turf/simulated/floor/tiled,/area/medical/cryo)
 "uev" = (/obj/structure/table/reinforced,/obj/structure/window/reinforced{dir = 8},/obj/item/weapon/paper_bin,/obj/item/weapon/pen,/turf/simulated/floor/wood/ebony,/area/planets/Geminus/indoor/museum)
 "uez" = (/obj/structure/table/reinforced,/obj/structure/window/reinforced{dir = 8},/obj/structure/window/reinforced{dir = 2; health = 1e+006},/turf/simulated/floor/wood/ebony,/area/planets/Geminus/indoor/museum)
 "ueB" = (/turf/simulated/wall/iron,/area/engineering/engine_monitoring)
@@ -3692,6 +3695,7 @@
 "veq" = (/obj/effect/dummy/spell_jaunt,/obj/structure/loot_pile/maint/trash,/turf/simulated/floor/pavement/empty,/area/planets/Geminus/indoor)
 "vfl" = (/obj/effect/floor_decal/corner/yellow/diagonal,/turf/simulated/floor/tiled/dark,/area/engineering/locker_room)
 "vfz" = (/turf/simulated/floor/tiled/steel,/area/lots/farm/farm_lot_one)
+"vge" = (/obj/effect/floor_decal/carpet/blue,/obj/machinery/metal_detector{dir = 4; icon_state = "metal_detector"},/turf/simulated/floor/carpet/blue,/area/planets/Geminus/indoor/city_hall)
 "vgm" = (/obj/effect/floor_decal/corner/paleblue{dir = 5},/obj/machinery/computer/operating,/turf/simulated/floor/tiled/white,/area/medical/surgery2)
 "vgr" = (/obj/effect/floor_decal/carpet/blue,/obj/effect/floor_decal/carpet/blue{dir = 8},/obj/effect/floor_decal/carpet/blue{dir = 10},/turf/simulated/floor/carpet/sblucarpet,/area/planets/Geminus/indoor/mayor)
 "vgI" = (/obj/effect/overlay/palmtree_r,/obj/structure/window/reinforced{dir = 2; health = 1e+006},/turf/simulated/floor/beach/sand,/area/planets/Geminus/outdoor/east)
@@ -3799,6 +3803,7 @@
 "vRO" = (/obj/effect/floor_decal/corner/lightgrey{dir = 10; icon_state = "corner_white"; tag = "icon-corner_white (SOUTHWEST)"},/turf/simulated/floor/tiled/white,/area/planets/Geminus/indoor/city_hall)
 "vRZ" = (/obj/effect/floor_decal/corner/paleblue{dir = 9},/turf/simulated/floor/tiled/white,/area/medical/medbay)
 "vSN" = (/obj/structure/railing{dir = 8; icon_state = "railing0"; tag = "icon-railing0 (WEST)"},/turf/simulated/floor/pavement/pave_tiling,/area/planets/Geminus/indoor)
+"vSW" = (/obj/item/weapon/banner/nt,/obj/structure/railing,/turf/simulated/floor/bluegeo_light,/area/planets/Geminus/indoor/city_hall)
 "vTw" = (/obj/machinery/light{dir = 8},/turf/simulated/floor/wood/walnut,/area/lots/shopping/shopping_lot_nine)
 "vTZ" = (/turf/simulated/floor/pavement/corner{dir = 1; icon_state = "pave_corner"; tag = "icon-pave_corner (NORTH)"},/area/planets/Geminus/outdoor/central)
 "vUD" = (/obj/effect/dummy/spell_jaunt,/turf/simulated/floor/pavement,/area/planets/Geminus/outdoor/south)
@@ -4118,7 +4123,7 @@
 "ydb" = (/turf/simulated/floor/wood/walnut,/area/lots/shopping/shopping_lot_seven)
 "ydl" = (/obj/structure/sign/neon/sale,/turf/simulated/wall/disco,/area/planets/Geminus/indoor/shoppingarea)
 "ydF" = (/turf/simulated/floor/tiled/dark,/area/engineering/engine_monitoring)
-"ydJ" = (/obj/structure/closet/secure_closet/guncabinet/bodyguard,/turf/simulated/floor/tiled,/area/planets/Geminus/indoor/city_hall)
+"ydJ" = (/obj/structure/closet/secure_closet/guncabinet/bodyguard,/obj/item/clothing/suit/armor/pcarrier/medium/security{dont_save = 1},/turf/simulated/floor/tiled,/area/planets/Geminus/indoor/city_hall)
 "ydO" = (/obj/effect/floor_decal/corner/paleblue{dir = 5},/obj/structure/sign/nosmoking_1{pixel_y = 30},/turf/simulated/floor/tiled/white,/area/medical/medbay)
 "yej" = (/turf/simulated/floor/pavement,/area/planets/Geminus/outdoor/north)
 "yes" = (/obj/structure/table/standard,/obj/structure/flora/pottedplant/redflower{pixel_y = 9},/turf/simulated/floor/tiled/steel,/area/planets/Geminus/outdoor/east)
@@ -4248,14 +4253,14 @@ nrLrSYrSYrSYoKWfTWrZDoKWoABswVvorgMXgMXobMgMXgMXjrdswVswVswVswVswVswVswVswVrtyrt
 nrLrSYrSYrSYoKWqEtrZDoKWoABswVvorgMXgMXobMgMXgMXjrdswVswVswVswVswVswVswVswVswVswVocGjnDjnDjnDjnDjnDmOManRmOMmOMmOMmOMmOMmOMmOMbBHlsLlsLlsLlsLlsLlsLlsLlsLlsLlsLlsLlsLlsLlsLlsLlsLlsLlsLlsLlsLlsLlsLlsLmyglXXlXXlXXlXXcfqlsLlsLlsLlsLlsLlsLlsLlsLlsLlsLlsLlsLlsLlsLlsLlsLlsLlsLlsLlsLczZlsLlsLlsLlsLlsLlsLlsLlsLlsLvbDvbDvbDkjftFktFkuAKtFktFksURvbDvbDdFTgQFgQFgQFgQFgQFgQFgQFgQFgQFdFTpkjpkjdFTgQFgQFgQFgQFgQFgQFgQFgQFdFTbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhnrL
 nrLrSYrSYrSYoKWqEtrZDoKWoABswVuKmeKbeKbcsOeKbeKbafOoABoABxCOxCOxCOxCOxCOxCOxCOswVoKvcVTcVTcVTdJFcVTakJakIirrirrirrirrirrirrirrczZirrirrirrirrirrirrirrirrirrirrgCvirrirrirrirrirrirrlsLlsLwjSuWFqxwqxwvtOcsEcsEcsEcsEgMwqxwqxwuWFxiPirrirrirrirrirrirrirrirrirrirrgCvirrirrirrirrirrakIakJirrakKirrgCvirrirrirrirrtWnvbDvbDkjftFktFkhqktFktFksURvbDvbDtkApOltLDkDkxZbuirxZblNqilixZbtjetvftvfvmMxZbxZbuirxZblqYlNqlqYrnlqQnbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhnrL
 nrLrSYrSYrSYoKWqEtrZDoKWoABswVuKmeKbeKbcsOeKbeKbrSYhIEspospooinspospommrmmrqVPgTKeSAqVPivkvcdvcdivkdaDaqvivkvcdvcdivkaggaggaggbTPaggaggaggaggaggaggeTPjBgjBgjBgjBgjBgeTPeTPirruBFirrlsLlsLoLCcsEcsEcsEcsEcsEcsEcsEcsEcsEcsEcsEcsEfpWsCdsCdaVLaVLsCdsCdwaYwaYwaYwaYafKafKafKwaYwaYwaYafBafCwaYwaYwaYwaYwaYwaYwaYwaYtWnvbDvbDkjftFktFkuAKtFktFksURvbDvbDtkAxZbxZbkbvxZbxZblsglqYlNqfDBxZbtvftvfbNCxZbefklsgxZbhZilqYlNqlqYqQnbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhnrL
-nrLrSYrSYrSYoKWqEtrZDoKWoABswVuKmeKbeKbcsOeKbeKbrSYhIEsporgrhXnhmUsporSYmmrsukgTKeSAsukivkbSEnUrarKqqkaqwaqxaqyaqzivkamHanpakwapDanSafPyfNamsmZlaggaZXxONvhPvhPvhPdZYarLeTPirrnCDirrlsLlsLoLCcsEcsEcsEcsEcsEcsEcsEcsEcsEcsEagncsEfpWsCdwOyoQYoQYaoosCdwaYwaYwaYbgCdpHmbqgVnafLwaYcpHvofnVfcpHwaYskKmFrwaYskKmFrwaYtWnvbDvbDkjftFktFkuAKtFktFksURvbDvbDtkAxZbxZblNqgfExZblqYxZbefklNqpOltvftvfxZbolVxZbxZbewtxZbmfFlNqlNqqQnbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhnrL
+nrLrSYrSYrSYoKWqEtrZDoKWoABswVuKmeKbeKbcsOeKbeKbrSYhIEsporgrhXnhmUsporSYmmrsukgTKeSAsukivkbSEnUrarKqqkaqwaqxaqyaqzivkamHanpakwapDanSafPyfNamsmZlaggaZXxONvhPvhPvhPdZYarLeTPirrnCDirrlsLlsLoLCcsEcsEcsEcsEcsEcsEcsEcsEcsEcsEagncsEfpWsCdwOyoQYoQYaoosCdwaYwaYwaYbgCdpHmbqgVnafLwaYcpHtDFjjccRYwaYskKmFrwaYskKmFrwaYtWnvbDvbDkjftFktFkuAKtFktFksURvbDvbDtkAxZbxZblNqgfExZblqYxZbefklNqpOltvftvfxZbolVxZbxZbewtxZbmfFlNqlNqqQnbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhnrL
 nrLrSYrSYrSYoKWqEtuZXoKWoABswVuKmeKbeKbmUZeKbeKbhIEhIEsporgrrVFrgrsporSYmmrsukgTKeSAsukivkjApapzqqkqqkaqAqqkqqkqqkhHLnsnoKmeFnoKmoKmoKmoKmoKmaqPaohmDdxONjUAvhPvXfdZYvApeTPirrdESirrlsLlsLtfVkGikGikGikGicsEcsEcsEcsEkGikGikGikGifpWsCdhmipyYwOpkNXsCdwaYaqYwaYnPSwxrlLOjOVawfafFgrSvofnVfwDKwaYrETwKmwaYrETwKmwaYtWnvbDvbDkjftFktFkuAKtFktFksURvbDvbDtkAxZbefklqYlqYwXTxZbuVzlqYuirxZbtvftvfxZbpvGlNqxZbxZblsgefklqYlNqqQnbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhnrL
 nrLrSYrSYrSYoKWsQkuZXoKWoABswVuKmeKbeKbmUZeKbeKbhIEhIEsporgrrVFeHfsporSYmmrsukgTKeSAsukivkamymbdqqkqqkaqAqqkmsgqqkivknsnoKmoKmoKmoKmoKmoKmoKmlaQaohmDdxONvhPvhPvhPdZYhFfeTPirrnCDirrlsLlsLoLCcsEcsEcsEcsEcsEcsEcsEcsEcsEcsEcsEcsEfpWsCdlJNpyYmAhddDsCdoIWaqZwaYgLzgYVlLOiQrkVsafGgrSgMVhVcxPkwaYwaYppkwaYppkwaYwaYakLvbDvbDkjftFktFkxfptFktFksURvbDvbDtkAlsgxZbxZbxZblNqpvGxBKlqYxZbkDktvftvfeHYxZbdSNlqYacDkDkpOllqYlNqqQnbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhnrL
-nrLrSYrSYrSYoKWhihrZDoKWoABswVczneKbeKbcsOeKbeKbhIEhIEsporgrrVFkWHsporSYmmrsukgTKeSAcOhpPemJFpPepPesqKaqCpPepPepPepPeoyhamBamCrYXybgamDamEamFamGaggamzqZsqHLqHLqHLocXcQyeTPirrbhmirrlsLlsLoLCcsEagocsEcsEcsEcsEcsEcsEcsEagpcsEcsEfpWsCdsCdxdtsCdsCdsCdaCZnifwaYafMgYVlLOafDawfafFgrSvofnVfhyEafNwTsgrSfyvgrScpHwaYtWnvbDvbDgUYtFktFkxfptFktFkcQhvbDvbDtkAlNqeHYxZblNqlNqlqYxZbpOltvftvfabFnBqtvftvfpOllqYlEtlNqxZbxZblqYqQnbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhnrL
-nrLrSYrSYrSYoKWiWArpFoKWoABswVuKmeKbeKbcsOeKbeKbsposposporgrrVFeHfsporSYmmrsukgTKeSAsukpPeizDcoXoNSeNiaqDfoBusaiqEpPeaggaohaohaggjAdaggaohaohaggaggkgscJCcJCcJCcJCcJCtoReTPirrnCDirrlsLlsLoLCkGikGikGikGicsEcsEcsEcsEkGikGikGikGifpWsCdalUoQouTPshssCdhicnifxuAgYVgYVlLOiQrkVsafHgrSvofcXKuiluiluiluiluiluiluilafEvbDvbDvbDesxjWEjWEhqkjWEjWEortvbDvbDtkAuiplNqxZbxZbxZbsYwsYweLRtvftSWxskxskcvJtvftjesYwsYwpOlxZbefklNqqQnbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhnrL
-nrLrSYrSYrSYoKWhihrZDoKWoABswVuKmeKbeKbbFmvczvczbVAfztfztfztajZeHfsporSYmmrsukgTKeSAsukppFqsZvflvflvflaqEvflvflcozpPeaadenoenobpxbpxbpxtqJeibjylabRuqzudEueBcXbcXbcXbcXbueBirrdESirrlsLlsLoLCcsEcsEcsEcsEcsEcsEcsEcsEcsEcsEcsEcsEfpWlDQrIYoQooQoaopsCdaCZnifwaYydJgYVlLOiQrnNlafFgrSvofitGshJshJshJshJshJshJshJafEvbDvbDvbDesxjWEjWEhqkjWEjWEortvbDvbDtkAxZblqYpOlwXTxZbutvutvtvftvfmtCwCsmzAkiFtvftvfutvutvidxuirlsglNqqQnbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhnrL
-nrLoKWoKWoKWoKWqEtrpFoKWoABswVuKmeKbeKbmUZeKbeKbspomWvrgrrgrrVFfojsporSYmmrsukgTKeSAsukppFrtDvflvflvflaqFaqHaqHaqIaqJaqKaqLaqLaqLaqLaqLaqMudEqWWbpxobludEueBeBZxGDhGDtccfoFirrnCDirrlsLlsLoLCcsEagqcsEcsEcsEcsEcsEcsEcsEcsEcsEcsEfpWlDQaUtvMroQooQouQIaCZnifwaYydJgYVpHruxffjQwaYaghvofnVflspgrSgrSxNDgrSgrScpHwaYtWnvbDvbDdTitFktFkuAKtFktFksURvbDvbDtkAkDkxZbtvVxZblsgsYwsYwtjetvfsFhcAacAadARtvftjesYwsYwxZbxZblqYlNqqQnbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhnrL
-nrLoKWsQkfTWwszqEtrpFoKWoABswVuKmeKbeKbmUZeKbeKbsposposporgrrVFrgrsporSYmmrsukgTKeSAsukppFkCwvflvflvflvflvflvflarNpPeuqzudEudEudEudEudEaqNudEudEudEudEudEnzKydFhGDxDfolWfoFirrbhmirrlsLlsLtfVkGikGikGikGicsEcsEcsEcsEkGikGikGikGifpWsCdvnxptcoQoqpIsCdaCZarawaYwaYjHrwaYwaYwaYwaYrOBjjctDFgrNeQRmtFwaYgrSgrSaUvwaYtWnvbDvbDkjftFktFkxfptFktFksURvbDvbDtkAlNqolVxZbnlGxZbxZbxZbxZbtvftvftvftvftvftvfbAopOlxZbxZbxZblNqefkqQnbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhnrL
+nrLrSYrSYrSYoKWhihrZDoKWoABswVczneKbeKbcsOeKbeKbhIEhIEsporgrrVFkWHsporSYmmrsukgTKeSAcOhpPemJFpPepPesqKaqCpPepPepPepPeoyhamBamCrYXybgamDamEamFamGaggamzqZsqHLqHLqHLocXcQyeTPirrbhmirrlsLlsLoLCcsEagocsEcsEcsEcsEcsEcsEcsEagpcsEcsEfpWsCdsCdxdtsCdsCdsCdaCZnifwaYafMgYVlLOafDawfafFgrSvofnVfhyEafNwTsgrSfyvgrSvSWwaYtWnvbDvbDgUYtFktFkxfptFktFkcQhvbDvbDtkAlNqeHYxZblNqlNqlqYxZbpOltvftvfabFnBqtvftvfpOllqYlEtlNqxZbxZblqYqQnbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhnrL
+nrLrSYrSYrSYoKWiWArpFoKWoABswVuKmeKbeKbcsOeKbeKbsposposporgrrVFeHfsporSYmmrsukgTKeSAsukpPeizDcoXoNSeNiaqDfoBusaiqEpPeaggaohaohaggjAdaggaohaohaggaggkgscJCcJCcJCcJCcJCtoReTPirrnCDirrlsLlsLoLCkGikGikGikGicsEcsEcsEcsEkGikGikGikGifpWsCdalUoQouTPshssCdhicnifxuAgYVgYVlLOiQrkVsafHgrSvofcXKuiluiluiluiluiluilrDEafEvbDvbDvbDesxjWEjWEhqkjWEjWEortvbDvbDtkAuiplNqxZbxZbxZbsYwsYweLRtvftSWxskxskcvJtvftjesYwsYwpOlxZbefklNqqQnbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhnrL
+nrLrSYrSYrSYoKWhihrZDoKWoABswVuKmeKbeKbbFmvczvczbVAfztfztfztajZeHfsporSYmmrsukgTKeSAsukppFqsZvflvflvflaqEvflvflcozpPeaadenoenobpxbpxbpxtqJeibjylabRuqzudEueBcXbcXbcXbcXbueBirrdESirrlsLlsLoLCcsEcsEcsEcsEcsEcsEcsEcsEcsEcsEcsEcsEfpWlDQrIYoQooQoaopsCdaCZnifwaYydJgYVlLOiQrnNlafFgrSvofitGshJshJshJshJshJshJvgeafEvbDvbDvbDesxjWEjWEhqkjWEjWEortvbDvbDtkAxZblqYpOlwXTxZbutvutvtvftvfmtCwCsmzAkiFtvftvfutvutvidxuirlsglNqqQnbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhnrL
+nrLoKWoKWoKWoKWqEtrpFoKWoABswVuKmeKbeKbmUZeKbeKbspomWvrgrrgrrVFfojsporSYmmrsukgTKeSAsukppFrtDvflvflvflaqFaqHaqHaqIaqJaqKaqLaqLaqLaqLaqLaqMudEqWWbpxobludEueBeBZxGDhGDtccfoFirrnCDirrlsLlsLoLCcsEagqcsEcsEcsEcsEcsEcsEcsEcsEcsEcsEfpWlDQaUtvMroQooQouQIaCZnifwaYydJgYVpHruxffjQwaYaghvofnVflspgrSgrSxNDgrSgrSmfJwaYtWnvbDvbDdTitFktFkuAKtFktFksURvbDvbDtkAkDkxZbtvVxZblsgsYwsYwtjetvfsFhcAacAadARtvftjesYwsYwxZbxZblqYlNqqQnbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhnrL
+nrLoKWsQkfTWwszqEtrpFoKWoABswVuKmeKbeKbmUZeKbeKbsposposporgrrVFrgrsporSYmmrsukgTKeSAsukppFkCwvflvflvflvflvflvflarNpPeuqzudEudEudEudEudEaqNudEudEudEudEudEnzKydFhGDxDfolWfoFirrbhmirrlsLlsLtfVkGikGikGikGicsEcsEcsEcsEkGikGikGikGifpWsCdvnxptcoQoqpIsCdaCZarawaYwaYjHrwaYwaYwaYwaYrOBvofnVfgrNeQRmtFwaYgrSgrSaUvwaYtWnvbDvbDkjftFktFkxfptFktFksURvbDvbDtkAlNqolVxZbnlGxZbxZbxZbxZbtvftvftvftvftvftvfbAopOlxZbxZbxZblNqefkqQnbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhnrL
 nrLoKWvyYdJRoKWsQkrZDoKWoABswVuKmeKbeKbcsOeKbeKbmmrhIEsporgrrVFrgrsporSYmmrsukgTKeSAsukpPeeRFpGEqZiqZiqZixAufLWcncpPegvdaWCmjKjBtgrvarOaqOrALrALfiCaWCejqueBanTydFydFdaHfoFirrnCDirrlsLlsLoLCcsEcsEcsEcsEcsEcsEcsEcsEcsEcsEcsEcsEfpWsCdsCdsCdsCdsCdsCdaCZnifwaYcKXaCZakMygwampwaYafcafIafJafcwaYwaYwaYwaYqGpwaYwaYtWnvbDvbDkjftFktFkxfptFktFksURvbDvbDtkAlsglqYbfysYwutvsYwlsgxZblNqqnMtvftvftjepOllqYlNqxZbxZblqYlNqlqYqQnbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhnrL
 nrLoKWoKWoKWoKWqEtuZXoKWoABswVuKmeKbeKbcsOeKbeKbmmrhIEspoeHfrVFrgrsporSYmmrsukgTKeSAsukpPepPepPeppFppFppFppFpPepPepPelTBlTBlTBlTBlTBlTBlTBlTBlTBlTBlTBlTBueBueBfoFfoFueBueBirruqpirrlsLlsLoLCcsEcsEcsEcsEcsEcsEcsEcsEcsEcsEcsEcsEfpWwaYcTEafYafZagawaYaCZnifarFnifaCZaCZaCZaCZjmHaCZvofnVfygwwaYfGQeYsojsojsmKjwaYtWnvbDvbDkjftFktFkuAKtFktFksURvbDvbDtkAuirmHMlNqsYwutvsYwxZbolVililqYtvftvfxZbxBKuVzlqYxZbwXTpOllqYlqYqQnbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhnrL
 nrLhIErSYrSYoKWqEtrZDoKWoABswVuKmeKbeKbcsOeKbeKbmmrhIEspowJNrVFrgrsporSYmmrsukgTKeSAsuksuksuksuksuksuksuksuksukpICsuksuksuksuksuksuksuksuksuksuksuksuksukewasuksuksuksukqVPirrirrirrlsLlsLaUSiFeqAzqAziFeqkViFeiFeqkViFeqAzqAziFecLXwaYcydvDygQwgQwmGCrxOarbvsdaiVtwWvsdvsdvsdvqHvsduIsnVfdKAwaYwaYwaYojsojsqgBwaYtWnvbDvbDkjftFktFkuAKtFktFksURvbDaeQdFTtjexZbcTOxZbtvfpOllqYtjeoXTilitvftvfuirxZbtjelNqefkxZblqYlNqlNqqQnbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhbNhnrL

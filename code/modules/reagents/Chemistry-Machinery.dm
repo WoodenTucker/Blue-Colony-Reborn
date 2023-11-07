@@ -284,6 +284,7 @@
 			P.name = "[name] patch"
 			P.pixel_x = rand(-7, 7) //random position
 			P.pixel_y = rand(-7, 7)
+			P.icon_state = "patch"
 
 			reagents.trans_to_obj(P, 60)
 			if(src.loaded_pill_bottle)
