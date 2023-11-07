@@ -7,7 +7,7 @@
 	name = "patch"
 	desc = "A patch."
 	icon = 'icons/obj/chemical.dmi'
-	icon_state = null
+	icon_state = "patch"
 	item_state = "pill"
 
 	base_state = "patch"
