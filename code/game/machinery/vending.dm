@@ -1327,6 +1327,7 @@
 	/obj/item/clothing/under/det/skirt = 2,
 	/obj/item/clothing/suit/storage/toggle/hazardvest/brightgreen = 4,
 	)
+	charge_free_department = DEPT_POLICE
 
 /obj/machinery/vending/security/warden
 	name = "Warden Equipment Vendotron"
@@ -1366,6 +1367,7 @@
 	/obj/item/clothing/mask/gas/half = 2,
 	/obj/item/weapon/grenade/flashbang/clusterbang/geminus = 2)
 
+	charge_free_department = DEPT_POLICE
 
 /obj/machinery/vending/security/prisoner
 	name = "Prisoner Equipment"
@@ -2359,6 +2361,7 @@
 	icon_deny = "gunrack-deny"
 	vend_reply = "Thank you for using BlastTech's automated vending service, happy hunting."
 	block_persistence = TRUE
+	charge_free_department = DEPT_POLICE
 
 /obj/machinery/vending/armory/gcpd/ballistics
 	name = "BlastTech Defense Solutions Ballistics Vendor"
