@@ -1243,7 +1243,7 @@
 	req_log_access = access_armory
 	has_logs = 1
 
-	charge_free_department = DEPT_POLICE
+	//charge_free_department = DEPT_POLICE
 	block_persistence = TRUE
 
 /obj/machinery/vending/security/gcpd
