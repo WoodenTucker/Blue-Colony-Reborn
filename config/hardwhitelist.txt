@@ -17,5 +17,6 @@ MarcusKlein - Medical Director
 Tango with my Mango - Medical Director
 hako01 - PDSI Agent
 selu - Judge
-Fucus - Maintenance Director
+Fucus - Chief Engineer
 selu - Chief Of Police
+Urist McInternetUser - Govenor
