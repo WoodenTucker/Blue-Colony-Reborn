@@ -1247,7 +1247,7 @@
 	block_persistence = TRUE
 
 /obj/machinery/vending/security/gcpd
-	name = "GCPD Equipment Vendotron"
+	name = "KCPD Equipment Vendotron"
 	desc = "A government refurbished SecTech vendor, recent additions include an overwhelming amount of red tape and a critical lack of funding."
 	icon_state = "secequip"
 	icon_deny = "secequip-deny"
@@ -1261,14 +1261,18 @@
 	/obj/item/clothing/under/rank/policeofficeralt = 6,
 	/obj/item/clothing/under/rank/policecadetalt = 6,
 	/obj/item/clothing/under/rank/policetrafficalt = 6,
+	/obj/item/clothing/under/rank/policedetectivealt = 4,
 	/obj/item/clothing/head/police/policeofficercap = 6,
 	/obj/item/clothing/head/police/policecadetcap = 6,
 	/obj/item/clothing/head/police/policetrafficcap = 6,
+	/obj/item/clothing/head/police/policedetectivecap = 4,
 	/obj/item/clothing/shoes/boots/jackboots = 6,
 	/obj/item/clothing/head/soft/police = 6,
 	/obj/item/clothing/head/soft/policecadet = 6,
 	/obj/item/clothing/head/soft/policetraffic = 6,
+	/obj/item/clothing/head/soft/policecdetective = 4,
 	/obj/item/clothing/head/beret/police = 6,
+	/obj/item/clothing/head/beret/policered = 4,
 	/obj/item/clothing/suit/armor/pcarrier/medium/police = 6,
 	/obj/item/clothing/head/helmet/police = 6,
 	/obj/item/clothing/suit/storage/hooded/wintercoat/security = 6,
