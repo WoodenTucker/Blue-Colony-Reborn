@@ -19,4 +19,4 @@ hako01 - PDSI Agent
 selu - Judge
 Fucus - Chief Engineer
 selu - Chief Of Police
-Urist McInternetUser - Govenor
+Urist McInternetUser - Governor
