@@ -20,3 +20,4 @@ selu - Judge
 Fucus - Chief Engineer
 selu - Chief Of Police
 Urist McInternetUser - Governor
+IXIAragon - Medical Director
