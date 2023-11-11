@@ -3,6 +3,7 @@
 *	related to security tasks live
 */
 
+/*
 
 /datum/supply_pack/security
 	group = "Security"
@@ -391,3 +392,7 @@
 	containertype = /obj/structure/closet/crate/secure
 	containername = "Security biohazard gear"
 	access = access_security
+
+	*/
+
+	/* Commented out 11/11/23 awaiting rebalance and consideration of private security */

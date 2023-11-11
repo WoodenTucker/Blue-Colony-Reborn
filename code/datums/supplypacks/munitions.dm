@@ -3,6 +3,8 @@
 *	related to weapons live.
 */
 
+/*
+
 /datum/supply_pack/munitions
 	group = "Munitions"
 	spend_type = SPEND_WEAPONS
@@ -211,3 +213,5 @@
 	containertype = /obj/structure/closet/crate/secure
 	containername = "Energy ammunition crate"
 	access = access_security
+
+*/
