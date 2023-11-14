@@ -318,3 +318,8 @@
 	name = "Archive 3"
 	id = "evidence4"
 
+// city hall storage
+
+datum/lot/city_hall
+	name = "City Hall Archive"
+	id = "archive1"
