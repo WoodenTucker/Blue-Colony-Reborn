@@ -165,7 +165,7 @@
 	recipes += new/datum/stack_recipe("reagent dispenser cartridge (small)", /obj/item/weapon/reagent_containers/chem_disp_cartridge/small,  1, on_floor=0) // 100u
 	recipes += new/datum/stack_recipe("white floor tile", /obj/item/stack/tile/floor/white, 1, 4, 20)
 	recipes += new/datum/stack_recipe("freezer floor tile", /obj/item/stack/tile/floor/freezer, 1, 4, 20)
-	recipes += new/datum/stack_recipe("shower curtain", /obj/structure/curtain, 4, time = 15, one_per_turf = 1, on_floor = 1, apply_material_color = TRUE)
+	recipes += new/datum/stack_recipe("shower curtain", /obj/structure/curtain/open/shower, 4, time = 15, one_per_turf = 1, on_floor = 1)
 	recipes += new/datum/stack_recipe("plastic flaps", /obj/structure/plasticflaps, 4, time = 25, one_per_turf = 1, on_floor = 1, apply_material_color = TRUE)
 	recipes += new/datum/stack_recipe("airtight plastic flaps", /obj/structure/plasticflaps/mining, 5, time = 25, one_per_turf = 1, on_floor = 1)
 	recipes += new/datum/stack_recipe("water-cooler", /obj/structure/reagent_dispensers/water_cooler, 4, time = 10, one_per_turf = 1, on_floor = 1)
@@ -381,6 +381,8 @@
 	recipes += new/datum/stack_recipe("[display_name] rag", /obj/item/weapon/reagent_containers/glass/rag, 2, time = 2, one_per_turf = 0, on_floor = 1, apply_material_color = TRUE, prefix = TRUE)
 	recipes += new/datum/stack_recipe("[display_name] towel", /obj/item/clothing/suit/towel, 10, time = 20, one_per_turf = 0, on_floor = 1, apply_material_color = TRUE, prefix = TRUE)
 	recipes += new/datum/stack_recipe("woven net", /obj/item/weapon/material/fishing_net, 10, time = 30 SECONDS, one_per_turf = 0, on_floor = 1, apply_material_color = TRUE)
+	recipes += new/datum/stack_recipe("curtain", /obj/structure/curtain, 4, time = 15, one_per_turf = 1, on_floor = 1, apply_material_color = TRUE)
+	recipes += new/datum/stack_recipe("small curtain", /obj/structure/curtain/small, 4, time = 15, one_per_turf = 0, on_floor = 1, apply_material_color = TRUE)
 
 
 /material/silk/generate_recipes()

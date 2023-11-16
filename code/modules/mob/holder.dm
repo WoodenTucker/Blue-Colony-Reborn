@@ -109,6 +109,8 @@ var/list/holder_mob_icon_cache = list()
 	slot_flags = SLOT_HOLSTER
 	origin_tech = list(TECH_BIO = 3)
 
+/obj/item/weapon/holder/pai
+
 /obj/item/weapon/holder/fish/afterattack(var/atom/target, var/mob/living/user, proximity)
 	if(!target)
 		return

@@ -176,6 +176,84 @@
 	layer = SHOWER_CLOSED_LAYER
 	open = TRUE
 
+/obj/structure/curtain/small
+	name = "small curtains"
+	desc = "What goes on behind these? Who knows. All people have secrets."
+	icon_state = "short_closed"
+	open_state = "short_open"
+	closed_state = "short_closed"
+	sheet_material = /obj/item/stack/material/cotton
+
+/obj/structure/curtain/small/open
+	open = TRUE
+
+/obj/structure/curtain/small/color/beige
+	color = COLOR_BEIGE
+/obj/structure/curtain/small/open/color/small/beige
+	color = COLOR_BEIGE
+
+/obj/structure/curtain/small/color/red
+	color = COLOR_RED_GRAY
+/obj/structure/curtain/small/open/color/red
+	color = COLOR_RED_GRAY
+
+/obj/structure/curtain/small/color/pale_blue
+	color = COLOR_PALE_BLUE_GRAY
+/obj/structure/curtain/small/open/color/pale_blue
+	color = COLOR_PALE_BLUE_GRAY
+
+/obj/structure/curtain/small/color/green
+	color = COLOR_GREEN_GRAY
+/obj/structure/curtain/small/open/color/green
+	color = COLOR_GREEN_GRAY
+
+/obj/structure/curtain/small/color/lime
+	color = COLOR_PALE_GREEN_GRAY
+/obj/structure/curtain/small/open/color/lime
+	color = COLOR_PALE_GREEN_GRAY
+
+/obj/structure/curtain/small/color/pink
+	color = COLOR_PALE_RED_GRAY
+/obj/structure/curtain/small/open/color/pink
+	color = COLOR_PALE_RED_GRAY
+
+/obj/structure/curtain/small/color/purple
+	color = COLOR_PURPLE_GRAY
+/obj/structure/curtain/small/open/color/purple
+	color = COLOR_PURPLE_GRAY
+
+/obj/structure/curtain/small/color/orange
+	color = COLOR_DARK_ORANGE
+/obj/structure/curtain/small/open/color/orange
+	color = COLOR_DARK_ORANGE
+
+/obj/structure/curtain/small/color/yellow
+	color = COLOR_BROWN
+/obj/structure/curtain/small/open/color/yellow
+	color = COLOR_BROWN
+
+/obj/structure/curtain/small/color/brown
+	color = COLOR_DARK_BROWN
+/obj/structure/curtain/small/open/color/brown
+	color = COLOR_DARK_BROWN
+
+/obj/structure/curtain/small/color/burgandy
+	color = "#4C0000"
+/obj/structure/curtain/small/open/color/burgandy
+	color = "#4C0000"
+
+/obj/structure/curtain/small/color/forest
+	color = "#204f13"
+/obj/structure/curtain/small/open/color/forest
+	color = "#204f13"
+
+/obj/structure/curtain/small/black
+	name = "black curtain"
+	color = "#222222"
+/obj/structure/curtain/small/open/black
+	name = "black curtain"
+	color = "#222222"
+
 
 #undef SHOWER_OPEN_LAYER
 #undef SHOWER_CLOSED_LAYER
