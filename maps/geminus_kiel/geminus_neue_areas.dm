@@ -394,3 +394,10 @@
 /area/abandoned_lab/bridge
 	name = "\improper NSS Abendrot - Bridge"
 	icon_state = "bridge"
+
+//This is a WIP Kiel Areas Rework
+
+/area/planets/Geminus/indoor/city_hall_archive_office
+	name = "\improper City Hall Archive Office"
+	icon_state = "dk_yellow"
+	holomap_color = HOLOMAP_AREACOLOR_COMMAND

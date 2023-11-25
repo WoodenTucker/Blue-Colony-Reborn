@@ -193,3 +193,9 @@
 /area/lots/evidence/archive3
 	name = "PD Archive 3"
 	lot_id = "evidence4"
+
+// City Hall Storage Lots
+
+/area/lots/city_hall_archive
+	name = "City Hall Archive"
+	lot_id = "archive1"
