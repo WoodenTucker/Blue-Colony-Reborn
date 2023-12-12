@@ -47,8 +47,8 @@
 	wage = 270
 	allows_synths = FALSE
 
-	access = list(access_prosecutor, access_sec_doors, access_maint_tunnels, access_heads, access_legal, access_warrant)
-	minimal_access = list(access_prosecutor, access_sec_doors, access_heads, access_legal, access_warrant)
+	access = list(access_prosecutor, access_sec_doors, access_maint_tunnels, access_heads, access_legal, access_warrant, access_security)
+	minimal_access = list(access_prosecutor, access_sec_doors, access_heads, access_legal, access_warrant, access_security)
 	minimal_player_age = 14
 	minimum_character_age = 28
 
