@@ -13,8 +13,7 @@
 	src.equip_to_slot_or_del(new /obj/item/clothing/shoes/sandal(src), slot_shoes)
 	src.equip_to_slot_or_del(new /obj/item/clothing/under/pants/baggy/white(src), slot_w_uniform)
 	src.equip_to_slot_or_del(new /obj/item/clothing/suit/kimono(src), slot_wear_suit)
-	src.equip_to_slot_or_del(new /obj/item/weapon/storage/bible/booze(src), slot_r_hand)
-	src.equip_to_slot_or_del(new /obj/item/weapon/reagent_containers/food/drinks/bottle/holywater(src), slot_l_hand)
+	src.equip_to_slot_or_del(new /obj/item/weapon/card/id/centcom/station(src), slot_wear_id)
 	name = "Jesus Christ"
 	real_name = "Jesus Christ"
 
@@ -26,4 +25,4 @@
 	src.see_in_dark = 8
 	src.see_invisible = SEE_INVISIBLE_LEVEL_TWO
 	src.update_mutations()
-	src.mind.special_role = "Jesus"
+	//src.mind.special_role = "Jesus" // it appears this is causing New() to stop running due to jesus not having a mind on spawn - wolf
