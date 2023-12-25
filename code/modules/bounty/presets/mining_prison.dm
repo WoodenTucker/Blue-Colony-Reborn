@@ -1,7 +1,7 @@
 /datum/bounty/prison_mining
 	category = CAT_PRISON_MINING
 	author_department = DEPT_FACTORY	// Yes, the factory buys their raw materials from prison labour, just like many irl factories do. :)
-	author = "Geminus City Factory"
+	author = "Geminus City Port"
 
 	individual_reward = 0
 	bounty_expires = FALSE

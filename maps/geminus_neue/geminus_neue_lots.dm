@@ -59,7 +59,7 @@
 	name = "Business Lot 8"
 	id = "bizlot8"
 	price = 190000
-	desc = "A large sized lot located across the road (east) of the police station, it is closer to the factory."
+	desc = "A large sized lot located across the road (east) of the police station, it is closer to the Port."
 	max_tenants = 5
 	licenses = list(LICENSE_LANDLORD_COMMERCIAL, LICENSE_LANDLORD_OFFICE)
 
@@ -104,32 +104,32 @@
 /datum/lot/stall/one
 	name = "Stall 1"
 	id = "stall1"
-	desc = "A tiny stall next to the factory. It is located on the upper top right."
+	desc = "A tiny stall next to the Port. It is located on the upper top right."
 
 /datum/lot/stall/two
 	name = "Stall 2"
 	id = "stall2"
-	desc = "A tiny stall next to the factory. It is located on the upper top left."
+	desc = "A tiny stall next to the Port. It is located on the upper top left."
 
 /datum/lot/stall/three
 	name = "Stall 3"
 	id = "stall3"
-	desc = "A tiny stall next to the factory. It is located on the middle left."
+	desc = "A tiny stall next to the Port. It is located on the middle left."
 
 /datum/lot/stall/four
 	name = "Stall 4"
 	id = "stall4"
-	desc = "A tiny stall next to the factory. It is located on the middle right."
+	desc = "A tiny stall next to the Port. It is located on the middle right."
 
 /datum/lot/stall/five
 	name = "Stall 5"
 	id = "stall5"
-	desc = "A tiny stall next to the factory. It is located on the bottom left."
+	desc = "A tiny stall next to the Port. It is located on the bottom left."
 
 /datum/lot/stall/six
 	name = "Stall 6"
 	id = "stall6"
-	desc = "A tiny stall next to the factory. It is located on the bottom right."
+	desc = "A tiny stall next to the Port. It is located on the bottom right."
 
 /datum/lot/stall/seven
 	name = "Stall 7"

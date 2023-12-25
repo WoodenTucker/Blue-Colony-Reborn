@@ -250,7 +250,7 @@ var/datum/controller/supply/supply_controller = new()
 		to_chat(user, "<span class='warning'>ERROR: Associated order bank account is suspended. Payment can not continue.</span>")
 		return FALSE
 
-	if(!charge_to_account(O.bank_id, "Supply Systems[DC ? " (via [DC])" : ""]", "[O.object.name]", "Factory Computer" , -O.object.cost))
+	if(!charge_to_account(O.bank_id, "Supply Systems[DC ? " (via [DC])" : ""]", "[O.object.name]", "Port Computer" , -O.object.cost))
 		to_chat(user, "<span class='warning'>ERROR: Unable to charge bank account associated with provided order bank details.</span>")
 		return FALSE
 

@@ -123,8 +123,8 @@ var/list/science_positions = list(
 
 //BS12 EDIT
 var/list/cargo_positions = list(
-	"Factory Manager",
-	"Factory Worker",
+	"Port Manager",
+	"Port Operator",
 	"Miner"
 )
 

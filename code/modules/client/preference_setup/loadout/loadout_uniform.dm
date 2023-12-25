@@ -157,12 +157,12 @@
 /datum/gear/uniform/job_skirt/cargo
 	display_name = "skirt, cargo"
 	path = /obj/item/clothing/under/rank/cargotech/skirt
-	allowed_roles = list("Factory Manager","Factory Worker")
+	allowed_roles = list("Port Manager","Port Operator")
 
 /datum/gear/uniform/job_skirt/qm
 	display_name = "skirt, QM"
 	path = /obj/item/clothing/under/rank/cargo/skirt
-	allowed_roles = list("Factory Manager")
+	allowed_roles = list("Port Manager")
 
 /datum/gear/uniform/job_skirt/head_of_security
 	display_name = "skirt, hos"
@@ -172,22 +172,22 @@
 /datum/gear/uniform/jeans_qm
 	display_name = "jeans, QM"
 	path = /obj/item/clothing/under/rank/cargo/jeans
-	allowed_roles = list("Factory Manager")
+	allowed_roles = list("Port Manager")
 
 /datum/gear/uniform/jeans_qmf
 	display_name = "female jeans, QM"
 	path = /obj/item/clothing/under/rank/cargo/jeans/female
-	allowed_roles = list("Factory Manager")
+	allowed_roles = list("Port Manager")
 
 /datum/gear/uniform/jeans_cargo
 	display_name = "jeans, cargo"
 	path = /obj/item/clothing/under/rank/cargotech/jeans
-	allowed_roles = list("Factory Manager","Factory Worker")
+	allowed_roles = list("Port Manager","Port Operator")
 
 /datum/gear/uniform/jeans_cargof
 	display_name = "female jeans, cargo"
 	path = /obj/item/clothing/under/rank/cargotech/jeans/female
-	allowed_roles = list("Factory Manager","Factory Worker")
+	allowed_roles = list("Port Manager","Port Operator")
 
 /datum/gear/uniform/suit/lawyer
 	display_name = "suit, one-piece selection"
@@ -453,7 +453,7 @@
 /datum/gear/uniform/mbill
 	display_name = "outfit, major bill's (Cargo)"
 	path = /obj/item/clothing/under/mbill
-	allowed_roles = list("Factory Manager","Factory Worker")
+	allowed_roles = list("Port Manager","Port Operator")
 
 /datum/gear/uniform/brandsuit/grayson
 	display_name = "outfit, grayson"

@@ -69,8 +69,8 @@ var/datum/antagonist/faction/factionists
 	"Sanitation Technician",\
 	"Librarian",\
 	"Botanist",\
-	"Factory Worker",\
-	"Factory Manager",\
+	"Port Operator",\
+	"Port Manager",\
 	"Bartender",\
 	"Chef",\
 	"Police Officer",\

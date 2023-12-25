@@ -226,7 +226,7 @@
 /datum/gear/shoes/boots/winter/supply
 	display_name = "supply winter boots"
 	path = /obj/item/clothing/shoes/boots/winter/supply
-	allowed_roles = list("Factory Manager","Factory Worker")
+	allowed_roles = list("Port Manager","Port Operator")
 
 /datum/gear/shoes/boots/winter/hydro
 	display_name = "hydroponics winter boots"

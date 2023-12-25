@@ -150,8 +150,8 @@
 	item_state = "rdcloak"
 
 /obj/item/clothing/accessory/poncho/roles/cloak/qm
-	name = "factory manager's cloak"
-	desc = "An elaborate cloak meant to be worn by the factory manager."
+	name = "Port manager's cloak"
+	desc = "An elaborate cloak meant to be worn by the Port manager."
 	icon_state = "qmcloak"
 	item_state = "qmcloak"
 

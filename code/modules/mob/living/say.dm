@@ -12,7 +12,7 @@ var/list/department_radio_keys = list(
 	  ":w" = "whisper",			".w" = "whisper",
 	  ":t" = "Mercenary",		".t" = "Mercenary",
 	  ":x" = "Raider",			".x" = "Raider",
-	  ":u" = "Factory",			".u" = "Factory",
+	  ":u" = "Port",			".u" = "Port",
 	  ":d" = "Diner",			".d" = "Diner",
 	  ":o" = "Legal",			".o" = "Legal",
 	  ":v" = "Government",		".v" = "Government",
@@ -33,7 +33,7 @@ var/list/department_radio_keys = list(
 	  ":W" = "whisper",		".W" = "whisper",
 	  ":T" = "Mercenary",	".T" = "Mercenary",
 	  ":X" = "Raider",		".X" = "Raider",
-	  ":U" = "Factory",		".U" = "Factory",
+	  ":U" = "Port",		".U" = "Port",
 	  ":D" = "Diner",		".D" = "Diner",
 	  ":O" = "Legal",		".O" = "Legal",
 	  ":V" = "Government",	".V" = "Government",
@@ -54,7 +54,7 @@ var/list/department_radio_keys = list(
 	  ":û" = "Police",		".û" = "Police",
 	  ":ö" = "whisper",		".ö" = "whisper",
 	  ":å" = "Mercenary",	".å" = "Mercenary",
-	  ":é" = "Factory",		".é" = "Factory",
+	  ":é" = "Port",		".é" = "Port",
 )
 
 
