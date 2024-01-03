@@ -254,7 +254,7 @@
 /var/const/access_qm = 41
 /datum/access/qm
 	id = access_qm
-	desc = "Factory Manager"
+	desc = "Port Manager"
 	region = ACCESS_REGION_SUPPLY
 
 /var/const/access_judge = 42
@@ -308,7 +308,7 @@
 /var/const/access_mailsorting = 50
 /datum/access/mailsorting
 	id = access_mailsorting
-	desc = "Factory Office"
+	desc = "Port Office"
 	region = ACCESS_REGION_SUPPLY
 
 /var/const/access_warrant = 51

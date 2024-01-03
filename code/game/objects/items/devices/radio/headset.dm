@@ -288,14 +288,14 @@
 	ks2type = /obj/item/device/encryptionkey/headset_cargo
 
 /obj/item/device/radio/headset/headset_cargo
-	name = "factory manager's radio headset"
-	desc = "A headset used by the factory manager and his slaves."
+	name = "Port manager's radio headset"
+	desc = "A headset used by the Port manager and his slaves."
 	icon_state = "cargo_headset"
 	ks2type = /obj/item/device/encryptionkey/headset_cargo
 
 /obj/item/device/radio/headset/headset_cargo/alt
-	name = "factory manager's bowman headset"
-	desc = "A bowman headset used by the factory manager and his slaves."
+	name = "Port manager's bowman headset"
+	desc = "A bowman headset used by the Port manager and his slaves."
 	icon_state = "cargo_headset_alt"
 	ks2type = /obj/item/device/encryptionkey/headset_cargo
 

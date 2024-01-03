@@ -71,7 +71,7 @@
 	value = 8000
 
 /datum/persistent_option/number_value/budgetcard/factory
-	name = "Factory Budgetcard Limit"
-	description = "This is limit that factory budgetcards currently utilise."
-	id = "budgetcard_factory"
+	name = "Port Budgetcard Limit"
+	description = "This is limit that Port budgetcards currently utilise."
+	id = "budgetcard_Port"
 	value = 8000

@@ -134,7 +134,7 @@
 	icon_state = "stamp-qm"
 
 /obj/item/weapon/stamp/cargo
-	name = "factory rubber stamp"
+	name = "Port rubber stamp"
 	icon_state = "stamp-cargo"
 
 /obj/item/weapon/stamp/solgov

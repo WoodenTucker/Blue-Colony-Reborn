@@ -94,9 +94,9 @@
 
 // Factory is now a public department.
 /datum/department/factory
-	name = "Factory"
+	name = "Port"
 	id = DEPT_FACTORY
-	desc = "The factory and its employees are paid from this account."
+	desc = "The Port and its employees are paid from this account."
 	starting_money = 500
 //	dept_type = PRIVATE_DEPARTMENT
 	allowed_buy_types = list(SPEND_OFFICE)

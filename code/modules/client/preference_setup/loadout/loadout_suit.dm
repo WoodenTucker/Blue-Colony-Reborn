@@ -243,7 +243,7 @@
 /datum/gear/suit/roles/poncho/cloak/qm
 	display_name = "cloak, quartermaster"
 	path = /obj/item/clothing/accessory/poncho/roles/cloak/qm
-	allowed_roles = list("Factory Manager")
+	allowed_roles = list("Port Manager")
 
 /datum/gear/suit/roles/poncho/cloak/captain
 	display_name = "cloak, mayor"
@@ -343,7 +343,7 @@
 /datum/gear/suit/wintercoat/cargo
 	display_name = "winter coat, cargo"
 	path = /obj/item/clothing/suit/storage/hooded/wintercoat/cargo
-	allowed_roles = list("Factory Manager","Factory Worker")
+	allowed_roles = list("Port Manager","Port Operator")
 
 /datum/gear/suit/wintercoat/miner
 	display_name = "winter coat, mining"
@@ -474,7 +474,7 @@
 /datum/gear/suit/snowsuit/cargo
 	display_name = "snowsuit, supply"
 	path = /obj/item/clothing/suit/storage/snowsuit/cargo
-	allowed_roles = list("Factory Manager","shaft Miner","Factory Worker","City Clerk")
+	allowed_roles = list("Port Manager","shaft Miner","Port Operator","City Clerk")
 
 /datum/gear/suit/miscellaneous/kamishimo
 	display_name = "kamishimo"

@@ -31,7 +31,7 @@
 
 // Private Departments
 #define DEPT_BOTANY "botany"
-#define DEPT_FACTORY "factory"
+#define DEPT_FACTORY "port"
 #define DEPT_BAR "bar"
 
 // External Departments

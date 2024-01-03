@@ -407,8 +407,8 @@ obj/item/weapon/card/id/nanotrasen/president/initialize()
 	secondary_color = rgb(191,159,95)
 
 /obj/item/weapon/card/id/cargo/cargo_tech
-	assignment = "Factory Worker"
-	rank = "Factory Worker"
+	assignment = "Port Operator"
+	rank = "Port Operator"
 	job_access_type = /datum/job/cargo_tech
 
 /obj/item/weapon/card/id/cargo/mining
@@ -422,8 +422,8 @@ obj/item/weapon/card/id/nanotrasen/president/initialize()
 	icon_state = "cargoGold"
 	primary_color = rgb(142,94,0)
 	secondary_color = rgb(255,223,127)
-	assignment = "Factory Manager"
-	rank = "Factory Manager"
+	assignment = "Port Manager"
+	rank = "Port Manager"
 	job_access_type = /datum/job/qm
 
 /obj/item/weapon/card/id/assistant

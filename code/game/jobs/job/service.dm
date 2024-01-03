@@ -144,15 +144,15 @@
 
 //Cargo
 /datum/job/qm
-	title = "Factory Manager"
+	title = "Port Manager"
 	flag = QUARTERMASTER
 	department = DEPT_FACTORY
 	department_flag = CIVILIAN
 	faction = "City"
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the factory owners"
-	subordinates = "the factory workers"
+	supervisors = "the city council and government"
+	subordinates = "the port workers"
 	selection_color = "#7a4f33"
 	idtype = /obj/item/weapon/card/id/cargo/head
 	wage = 150
@@ -165,10 +165,10 @@
 	allows_synths = FALSE
 
 	outfit_type = /decl/hierarchy/outfit/job/cargo/qm
-	alt_titles = list("Supply Chief", "Factory Foreman")
+	alt_titles = list("Supply Chief", "Postal Manager")
 
 /datum/job/cargo_tech
-	title = "Factory Worker"
+	title = "Port Operator"
 	flag = CARGOTECH
 	faction = "City"
 	department = DEPT_FACTORY
@@ -176,7 +176,7 @@
 	total_positions = 4
 
 	spawn_positions = 4
-	supervisors = "the factory manager"
+	supervisors = "the port manager"
 	selection_color = "#9b633e"
 	idtype = /obj/item/weapon/card/id/cargo/cargo_tech
 	wage = 70
@@ -187,7 +187,7 @@
 	minimum_character_age = 13
 
 	outfit_type = /decl/hierarchy/outfit/job/cargo/cargo_tech
-	alt_titles = list("Delivery Assistant")
+	alt_titles = list("Delivery Assistant", "Supply Assistant")
 
 /datum/job/mining
 	title = "Miner"
@@ -197,7 +197,7 @@
 	department_flag = CIVILIAN
 	total_positions = 3
 	spawn_positions = 3
-	supervisors = "the factory manager"
+	supervisors = "the port manager"
 
 	selection_color = "#9b633e"
 	idtype = /obj/item/weapon/card/id/cargo/mining

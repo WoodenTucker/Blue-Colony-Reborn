@@ -19,7 +19,7 @@
 /datum/gear/head/cargo_beret
 	display_name = "cargo beret"
 	path = /obj/item/clothing/head/cargo_beret
-	allowed_roles = list("Factory Worker","Shaft Miner","Factory Manager")
+	allowed_roles = list("Port Operator","Shaft Miner","Port Manager")
 
 /datum/gear/head/engineering_beret
 	display_name = "engineering beret"

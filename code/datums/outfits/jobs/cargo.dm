@@ -14,7 +14,7 @@
 	/obj/item/weapon/card/department/factory = 1)
 
 /decl/hierarchy/outfit/job/cargo/cargo_tech
-	name = OUTFIT_JOB_NAME("Factory Worker")
+	name = OUTFIT_JOB_NAME("Port Operator")
 	uniform = /obj/item/clothing/under/rank/cargotech
 	id_type = /obj/item/weapon/card/id/cargo/cargo_tech
 	pda_type = /obj/item/device/pda/cargo

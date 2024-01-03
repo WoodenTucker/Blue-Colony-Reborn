@@ -23,39 +23,39 @@
 	icon_state = "mayorf"
 
 /obj/item/clothing/under/rank/cargo
-	name = "factory manager's jumpsuit"
+	name = "Port manager's jumpsuit"
 	desc = "It's a jumpsuit worn by the quartermaster. It's specially designed to prevent back injuries caused by pushing paper."
 	icon_state = "qm"
 	item_state_slots = list(slot_r_hand_str = "cargo", slot_l_hand_str = "cargo")
 	rolled_sleeves = 0
 
 /obj/item/clothing/under/rank/cargo/jeans
-	name = "factory manager's jumpjeans"
+	name = "Port manager's jumpjeans"
 	desc = "Jeeeaaans! They're comfy!"
 	icon_state = "qmj"
 
 /obj/item/clothing/under/rank/cargo/jeans/female
-	name = "factory manager's jumpjeans"
+	name = "Port manager's jumpjeans"
 	desc = "Jeeeaaans! They're comfy!"
 	icon_state = "qmjf"
 	rolled_sleeves = -1
 
 /obj/item/clothing/under/rank/cargotech
-	name = "factory worker's jumpsuit"
+	name = "Port Operator's jumpsuit"
 	desc = "Shooooorts! They're comfy and easy to wear!"
 	icon_state = "cargo"
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS
 	rolled_sleeves = 0
 
 /obj/item/clothing/under/rank/cargotech/jeans
-	name = "factory worker's jumpjeans"
+	name = "Port Operator's jumpjeans"
 	desc = "Jeeeaaans! They're comfy!"
 	icon_state = "cargoj"
 	item_state_slots = list(slot_r_hand_str = "cargo", slot_l_hand_str = "cargo")
 	rolled_sleeves = -1
 
 /obj/item/clothing/under/rank/cargotech/jeans/female
-	name = "factory worker's jumpjeans"
+	name = "Port Operator's jumpjeans"
 	desc = "Jeeeaaans! They're comfy!"
 	icon_state = "cargojf"
 

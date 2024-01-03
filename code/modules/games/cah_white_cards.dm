@@ -62,7 +62,7 @@
 	"Waking up naked in the maintenance tunnels",
 	"Horrible cloning accidents",
 	"Licking the supermatter due to a dare",
-	"A factory manager who WON'T STOP ordering guns",
+	"A Port manager who WON'T STOP ordering guns",
 	"Teaching a synthetic the Birds and the Bees",
 	"Unnecessary surgery",
 	"My addiction to spiders",

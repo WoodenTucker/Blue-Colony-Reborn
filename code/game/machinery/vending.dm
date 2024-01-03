@@ -1576,7 +1576,7 @@
 					)
 
 /obj/machinery/vending/materials/factory
-	name = "Factory Materials Supply Vendor"
+	name = "Port Materials Supply Vendor"
 	req_access = list(access_mailsorting)
 	req_log_access = access_qm
 	block_persistence = TRUE
